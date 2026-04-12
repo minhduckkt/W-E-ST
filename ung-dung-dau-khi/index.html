@@ -343,7 +343,113 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 }
 @media (max-width: 768px) {
   .wh-nav { display: none; }
-  .wh-main-inner { justify-content: center; }
+  .wh-main-inner { justify-content: space-between; }
+  .wh-hamburger { display: flex; }
+}
+
+/* HAMBURGER BUTTON */
+.wh-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  margin-left: 12px;
+}
+.wh-hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #0f2347;
+  border-radius: 2px;
+  transition: all .25s;
+}
+.wh-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.wh-hamburger.open span:nth-child(2) { opacity: 0; }
+.wh-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* MOBILE MENU PANEL */
+.wh-mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #fff;
+  border-top: 3px solid #cc0000;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  padding: 12px 0 20px;
+}
+.wh-mobile-menu.open { display: flex; }
+.wh-mob-link {
+  display: block;
+  padding: 13px 24px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f2347;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #f0f0f0;
+}
+.wh-mob-link:hover { color: #cc0000; background: #fafafa; }
+.wh-mob-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 24px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f2347;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  user-select: none;
+}
+.wh-mob-toggle:hover { color: #cc0000; background: #fafafa; }
+.wh-mob-toggle svg { width: 14px; height: 14px; fill: #aaa; transition: transform .2s; }
+.wh-mob-toggle.open svg { transform: rotate(180deg); fill: #cc0000; }
+.wh-mob-submenu {
+  display: none;
+  flex-direction: column;
+  background: #f8faff;
+  border-bottom: 1px solid #f0f0f0;
+}
+.wh-mob-submenu.open { display: flex; }
+.wh-mob-sublink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 36px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #eef2f8;
+}
+.wh-mob-sublink::before { content: ""; width: 5px; height: 5px; background: #cc0000; border-radius: 50%; flex-shrink: 0; }
+.wh-mob-sublink:hover { color: #cc0000; }
+.wh-mob-cta {
+  margin: 16px 24px 0;
+  background: #cc0000;
+  color: #fff;
+  padding: 13px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: block;
 }
 </style>
 
@@ -391,7 +497,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         </div>
       </a>
 
-      <!-- NAV -->
+      <!-- NAV (desktop) -->
       <nav class="wh-nav">
         <div class="wh-nav-item">
           <a class="wh-nav-link" href="https://w-e-st.com.vn/">Trang chủ</a>
@@ -403,21 +509,13 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             <svg viewbox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></svg>
           </a>
           <div class="wh-dropdown">
-                            <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-ap-suat/">
-                  Bộ điều khiển áp suất                </a>
-                              <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-dong-bo/">
-                  Bộ điều khiển Đồng bộ                </a>
-                              <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-vi-tri/">
-                  Bộ điều khiển vị trí                </a>
-                              <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-khuech-dai-cong-suat/">
-                  Bộ khuếch đại công suất                </a>
-                              <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/module-chuc-nang-chung-xu-ly-tin-hieu/">
-                  Module Chức năng chung &amp; Xử lý tín hiệu                </a>
-                              <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">
-                  Nhóm Module Giao tiếp &amp; Chuyển đổi mạng                </a>
-                              <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/phu-kien/">
-                  phu-kien                </a>
-                        </div>
+            <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-khuech-dai-cong-suat/">Bộ khuếch đại công suất</a>
+            <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-vi-tri/">Bộ điều khiển vị trí</a>
+            <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+            <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-ap-suat/">Bộ điều khiển áp suất</a>
+            <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/module-chuc-nang-chung/">Module chức năng chung</a>
+            <a class="wh-dd-item" href="https://w-e-st.com.vn/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+          </div>
         </div>
 
         <div class="wh-nav-item">
@@ -433,11 +531,55 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
           <a class="wh-nav-link" href="https://w-e-st.com.vn/ve-chung-toi/">Về chúng tôi</a>
         </div>
 
-        <a class="wh-cta" href="https://w-e-st.com.vn/lien-he/">Báo giá ngay</a>
+        <a class="wh-cta" href="https://w-e-st.com.vn/#request-quote-form">Báo giá ngay</a>
       </nav>
+
+      <!-- HAMBURGER (mobile/tablet) -->
+      <button class="wh-hamburger" id="wh-hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
 
     </div>
   </div>
+
+  <!-- MOBILE MENU PANEL -->
+  <div class="wh-mobile-menu" id="wh-mobile-menu">
+    <a class="wh-mob-link" href="https://w-e-st.com.vn/">Trang chủ</a>
+    <div class="wh-mob-toggle" id="wh-mob-products">
+      Sản phẩm
+      <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </div>
+    <div class="wh-mob-submenu" id="wh-mob-products-sub">
+      <a class="wh-mob-sublink" href="https://w-e-st.com.vn/nhom-san-pham/bo-khuech-dai-cong-suat/">Bộ khuếch đại công suất</a>
+      <a class="wh-mob-sublink" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-vi-tri/">Bộ điều khiển vị trí</a>
+      <a class="wh-mob-sublink" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+      <a class="wh-mob-sublink" href="https://w-e-st.com.vn/nhom-san-pham/bo-dieu-khien-ap-suat/">Bộ điều khiển áp suất</a>
+      <a class="wh-mob-sublink" href="https://w-e-st.com.vn/nhom-san-pham/module-chuc-nang-chung/">Module chức năng chung</a>
+      <a class="wh-mob-sublink" href="https://w-e-st.com.vn/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+    </div>
+    <a class="wh-mob-link" href="https://w-e-st.com.vn/ung-dung-dau-khi/">Ứng dụng dầu khí</a>
+    <a class="wh-mob-link" href="https://w-e-st.com.vn/tai-lieu-ky-thuat/">Tài liệu</a>
+    <a class="wh-mob-link" href="https://w-e-st.com.vn/blog/">Blog</a>
+    <a class="wh-mob-link" href="https://w-e-st.com.vn/ve-chung-toi/">Về chúng tôi</a>
+    <a class="wh-mob-cta" href="https://w-e-st.com.vn/#request-quote-form">Báo giá ngay</a>
+  </div>
+
+  <script>
+  (function(){
+    var btn = document.getElementById('wh-hamburger');
+    var menu = document.getElementById('wh-mobile-menu');
+    var prodToggle = document.getElementById('wh-mob-products');
+    var prodSub = document.getElementById('wh-mob-products-sub');
+    btn.addEventListener('click', function(){
+      btn.classList.toggle('open');
+      menu.classList.toggle('open');
+    });
+    prodToggle.addEventListener('click', function(){
+      prodToggle.classList.toggle('open');
+      prodSub.classList.toggle('open');
+    });
+  })();
+  </script>
 
 </div><!-- .wh-wrap -->
 
@@ -1033,10 +1175,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         <ul>
           <li><a href="https://w-e-st.com.vn/tai-lieu-ky-thuat/">Tài liệu &amp; Datasheet</a></li>
           <li><a href="https://w-e-st.com.vn/blog/">Blog kỹ thuật</a></li>
-          <li><a href="https://w-e-st.com.vn/ung-dung-dau-khi/">Ứng dụng dầu khí</a></li>
-          <li><a href="https://w-e-st.com.vn/atex-ex-zone/">ATEX / Vùng nổ</a></li>
+          <li><a href="https://w-e-st.com.vn/ung-dung-dau-khi/">Ứng dụng dầu khí &amp; ATEX</a></li>
           <li><a href="https://w-e-st.com.vn/ve-chung-toi/">Về chúng tôi</a></li>
-          <li><a href="https://w-e-st.com.vn/lien-he/">Liên hệ &amp; Báo giá</a></li>
+          <li><a href="https://w-e-st.com.vn/#request-quote-form">Liên hệ &amp; Báo giá</a></li>
         </ul>
       </div>
 
