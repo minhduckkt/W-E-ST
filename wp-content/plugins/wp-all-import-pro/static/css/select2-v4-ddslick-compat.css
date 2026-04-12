@@ -256,7 +256,7 @@
 
 /* Gravity Forms icon - special background image handling */
 .wpallimport-plugin #custom_type_selector + .select2-container .select2-selection__rendered .dashicon-gf_entries {
-    background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/gf-selected.svg") !important;
+    background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/gf-selected.svg") !important;
     background-repeat: no-repeat !important;
     background-position: 3px 0 !important;
     padding-left: 30px !important;
@@ -320,7 +320,7 @@
     vertical-align: middle !important;
     float: left !important;
     margin: 0 5px 2px 2px !important;
-    background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/gf.svg") !important;
+    background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/gf.svg") !important;
     background-repeat: no-repeat !important;
     background-position: 1px 2px !important;
     padding-left: 24px !important;

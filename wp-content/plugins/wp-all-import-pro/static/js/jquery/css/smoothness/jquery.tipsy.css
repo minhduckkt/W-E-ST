@@ -16,7 +16,7 @@
     word-break: normal;
     line-height: 1.4;
   }
-  .tipsy-arrow { position: absolute; background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/js/jquery/css/smoothness/images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+  .tipsy-arrow { position: absolute; background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/js/jquery/css/smoothness/images/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
   .tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -4px; }
     .tipsy-nw .tipsy-arrow { top: 0; left: 10px; }
     .tipsy-ne .tipsy-arrow { top: 0; right: 10px; }

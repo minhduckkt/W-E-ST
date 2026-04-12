@@ -24,7 +24,7 @@ body.wpallimport-plugin {
 	width: 16px;
 	height: 16px;
 	background-repeat: no-repeat;
-	background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/help.png");
+	background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/help.png");
 	vertical-align: middle;
 	margin-left: 5px;
 	position: relative;
@@ -40,7 +40,7 @@ body.wpallimport-plugin {
 	width: 25px;
 	height: 17px;
 	background-repeat: no-repeat;
-	background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/video.png");
+	background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/video.png");
 	vertical-align: middle;
 	margin-left: 5px;
 	position: relative;
@@ -86,7 +86,7 @@ body.wpallimport-plugin {
 	width: 10em;
 }
 .wpallimport-plugin button.ui-datepicker-trigger {
-	background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/date-picker.gif");
+	background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/date-picker.gif");
 	background-repeat: no-repeat;
 	cursor: pointer;
 	border: none;
@@ -121,19 +121,19 @@ body.wpallimport-plugin {
 	background-position: center;
 }
 .wpallimport-plugin .preload {
-	background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/loading-step-2.gif");
+	background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/loading-step-2.gif");
 	background-repeat: no-repeat;
 	background-position: 50% 10px;
 	min-height: 35px;
 }
 .wpallimport-plugin .wpallimport-preview-preload {
-	background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/loading-step-2.gif");
+	background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/loading-step-2.gif");
 	background-repeat: no-repeat;
 	background-position: 50% 20px;
 	height: 80px;
 }
 .wpallimport-plugin .back{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/back.png") no-repeat scroll 8% 50% #e4e6e6;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/back.png") no-repeat scroll 8% 50% #e4e6e6;
 	color: #777;
 	display: inline-block;
 	font-size: 14px;
@@ -150,20 +150,20 @@ body.wpallimport-plugin {
 	height: 40px;
 	line-height: 39px;
 	/*margin-left: 10px;*/
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/continue.png') no-repeat 93% 50% #425f9a;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/continue.png') no-repeat 93% 50% #425f9a;
 	border: none;
 }
 .wpallimport-plugin .wpallimport-large-button:hover,
 .wpallimport-plugin .wpallimport-large-button:active,
 .wpallimport-plugin .wpallimport-large-button:focus{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/continue.png') no-repeat 93% 50% #425f9a;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/continue.png') no-repeat 93% 50% #425f9a;
 	border: none;
 	box-shadow: none;
 }
 
 /*@+ header */
 .wpallimport-plugin .wpallimport-logo{
-  background: url(https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/logo.svg) no-repeat;
+  background: url(https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/logo.svg) no-repeat;
   background-size: 55px 55px;
   width: 55px;
   height: 55px;
@@ -176,7 +176,7 @@ body.wpallimport-plugin {
 .wpallimport-plugin .wpallimport-title > h2:before,
 .wpallimport-plugin .wpallimport-title > h3:before {
 	content: '';
-  background: url(https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/wpallimport.svg) no-repeat;
+  background: url(https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/wpallimport.svg) no-repeat;
   background-size: 134px 14px;
   width: 134px;
   height: 25px;
@@ -220,7 +220,7 @@ body.wpallimport-plugin {
 	color: #777;
 	float: right;
 	text-decoration: none;
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/support.png') 33px 12px no-repeat #fff;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/support.png') 33px 12px no-repeat #fff;
 	display: block;
 	text-align: center;
 	border: 1px solid #ddd;
@@ -246,22 +246,22 @@ body.wpallimport-plugin {
 	height: 76px;
 }
 .wpallimport-plugin .wpallimport-step-1 .pmxi_progress{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_1_bar.png") no-repeat scroll center center / contain #f1f2f2;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_1_bar.png") no-repeat scroll center center / contain #f1f2f2;
 }
 .wpallimport-plugin .wpallimport-step-2 .pmxi_progress{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_2_bar.png") no-repeat scroll center center / contain #f1f2f2;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_2_bar.png") no-repeat scroll center center / contain #f1f2f2;
 }
 .wpallimport-plugin .wpallimport-step-3 .pmxi_progress{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_3_bar.png") no-repeat scroll center center / contain #f1f2f2;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_3_bar.png") no-repeat scroll center center / contain #f1f2f2;
 }
 .wpallimport-plugin .wpallimport-step-4 .pmxi_progress{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_4_bar.png") no-repeat scroll center center / contain #f1f2f2;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_4_bar.png") no-repeat scroll center center / contain #f1f2f2;
 }
 .wpallimport-plugin .wpallimport-step-5 .pmxi_progress{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_5_bar.png") no-repeat scroll center center / contain #f1f2f2;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_5_bar.png") no-repeat scroll center center / contain #f1f2f2;
 }
 .wpallimport-plugin .wpallimport-step-6 .pmxi_progress{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_6_bar.png") no-repeat scroll center center / contain #f1f2f2;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/step_6_bar.png") no-repeat scroll center center / contain #f1f2f2;
 }
 
 .wpallimport-plugin .wpallimport-file-upload-result{
@@ -281,18 +281,18 @@ body.wpallimport-plugin {
 		height: 31px;
 	}
 	.wpallimport-plugin .wpallimport-file-upload-result[rel=upload_type] h2{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/cloud.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/cloud.png') no-repeat;
 		padding-left: 45px !important;
 	}
 	.wpallimport-plugin .wpallimport-file-upload-result[rel=url_type] h2{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/cloud_url.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/cloud_url.png') no-repeat;
 		padding-left: 45px !important;
 		font-size: 14px;
 		line-height: 35px;
 		height: 35px;
 	}
 	.wpallimport-plugin .wpallimport-file-upload-result[rel=file_type] h2{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/use_existing_green.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/use_existing_green.png') no-repeat;
 		padding-left: 45px !important;
 		height: 35px;
 	}
@@ -378,7 +378,7 @@ body.wpallimport-plugin {
 /*@+*/
 
 .wpallimport-plugin .wpallimport-collapsed .wpallimport-collapsed-header{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/collapser.png') no-repeat 98% 0;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/collapser.png') no-repeat 98% 0;
 	height: 30px;
 	padding-left: 30px;
 	cursor: pointer;
@@ -406,7 +406,7 @@ body.wpallimport-plugin {
 		display: none;
 	}
 .wpallimport-plugin .wpallimport-collapsed.closed .wpallimport-collapsed-header{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/collapser.png') no-repeat 98% -30px;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/collapser.png') no-repeat 98% -30px;
 }
 	.wpallimport-plugin .wpallimport-collapsed.closed .wpallimport-collapsed-header h3{
 		color:#777;
@@ -589,7 +589,7 @@ body.wpallimport-plugin {
 }
 
 .wpallimport-plugin .remove-ico{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/trash.png") no-repeat;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/trash.png") no-repeat;
 	top: 5px;
 	right: 0;
 	position: absolute;
@@ -607,7 +607,7 @@ body.wpallimport-plugin {
 	position: relative;
 }
 	.wpallimport-plugin .action.remove a{
-		background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/trash.png") no-repeat scroll 0 0 transparent;
+		background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/trash.png") no-repeat scroll 0 0 transparent;
 		height: 22px;
 		position: absolute;
 		right: 20px;
@@ -615,7 +615,7 @@ body.wpallimport-plugin {
 		width: 19px;
 	}
 .wpallimport-plugin .drag-element{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/drag.png") top right no-repeat;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/drag.png") top right no-repeat;
 	cursor: pointer;
 	padding-left: 25px;
 	background-position: 0px 1px;
@@ -673,7 +673,7 @@ body.wpallimport-plugin {
   overflow-x: auto;
 }*/
 .wpallimport-plugin .wp_all_import_functions_preloader{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/preloader.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/preloader.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	margin-top: 6px;
 	margin-left: 6px;
 	height: 16px;
@@ -727,7 +727,7 @@ body.wpallimport-plugin {
 	margin-top: 20px !important;
 }
 .wpallimport-plugin .wpallimport-notify-wrapper .error-headers{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') 0 50% no-repeat;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') 0 50% no-repeat;
 	padding-left: 80px;
 	margin-bottom: 0;
 	margin-left: 40px;
@@ -938,7 +938,7 @@ body.wpallimport-plugin {
 	font-size: 12px;
 }
 .wpallimport-plugin .wpallimport-created-by span{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/soflyy-logo.svg') no-repeat;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/soflyy-logo.svg') no-repeat;
 	display: block;
 	float: right;
 	width: 72px;
@@ -1134,7 +1134,7 @@ body.wpallimport-plugin {
 .wpallimport-plugin .wpallimport-content-section.wpallimport-complete-statistics p {
 	font-size: 21px !important;
 	color: #777;
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/s-check.png") no-repeat;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/s-check.png") no-repeat;
 	background-size: 30px;
 	padding-left: 50px;
 }
@@ -1279,7 +1279,7 @@ body.wpallimport-plugin {
 	z-index: 0;
 	text-decoration: none;
 	color: #888;
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/select_files.png') no-repeat 0 2px;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/select_files.png') no-repeat 0 2px;
 	padding-left: 45px;
 }
 .wpallimport-plugin .wpallimport-progress{
@@ -1429,37 +1429,37 @@ body.wpallimport-plugin {
 	.wpallimport-fullscreen-drag-overlay .wpallimport-drag-icon {
 		width: 40px;
 		height: 30px;
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/upload_sprite.png') 0 0 no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/upload_sprite.png') 0 0 no-repeat;
 		display: inline-block;
 		flex-shrink: 0;
 	}
 	.wpallimport-plugin a.wpallimport-import-from.wpallimport-upload-type span.wpallimport-icon{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/upload_sprite.png') 0 -30px no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/upload_sprite.png') 0 -30px no-repeat;
 		width: 40px;
 		height: 30px;
 	}
 	.wpallimport-plugin a.wpallimport-import-from.wpallimport-upload-type.selected span.wpallimport-icon{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/upload_sprite.png') 0 0 no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/upload_sprite.png') 0 0 no-repeat;
 		width: 40px;
 		height: 30px;
 	}
 	.wpallimport-plugin a.wpallimport-import-from.wpallimport-url-type span.wpallimport-icon{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/url_sprite.png') 0 -34px no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/url_sprite.png') 0 -34px no-repeat;
 		width: 40px;
 		height: 34px;
 	}
 	.wpallimport-plugin a.wpallimport-import-from.wpallimport-url-type.selected span.wpallimport-icon{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/url_sprite.png') 0 0 no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/url_sprite.png') 0 0 no-repeat;
 		width: 40px;
 		height: 34px;
 	}
 	.wpallimport-plugin a.wpallimport-import-from.wpallimport-file-type span.wpallimport-icon{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/file_sprite.png') 0 -34px no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/file_sprite.png') 0 -34px no-repeat;
 		width: 32px;
 		height: 34px;
 	}
 	.wpallimport-plugin a.wpallimport-import-from.wpallimport-file-type.selected span.wpallimport-icon{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/file_sprite.png') 0 0 no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/file_sprite.png') 0 0 no-repeat;
 		width: 32px;
 		height: 34px;
 	}
@@ -1607,7 +1607,7 @@ body.wpallimport-plugin {
 		display: none;
 	}
 	.wpallimport-plugin .wpallimport-import-to.wpallimport-import-to-checked span.wpallimport-import-to-arrow{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/bottom_arrow.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/bottom_arrow.png') no-repeat;
 		position: absolute;
 		bottom: -12px;
 		left: 48%;
@@ -1663,7 +1663,7 @@ body.wpallimport-plugin {
 	display: none;
 }
 .wpallimport-plugin .wpallimport-download-from.wpallimport-download-from-checked span.wpallimport-download-from-arrow{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/bottom_arrow.png') no-repeat;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/bottom_arrow.png') no-repeat;
 	position: absolute;
 	bottom: -12px;
 	left: 48%;
@@ -1913,12 +1913,12 @@ body.wpallimport-plugin {
 		width: 13px;
 	}
 	.wpallimport-plugin .action_buttons #prev_element{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/left_btn.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/left_btn.png') no-repeat;
 		margin-left: 15px;
 		float: left;
 	}
 	.wpallimport-plugin .action_buttons #next_element{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/right_btn.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/right_btn.png') no-repeat;
 		margin-right: 15px;
 		float: right;
 	}
@@ -1965,7 +1965,7 @@ body.wpallimport-plugin {
 }
 .wpallimport-plugin #pmxi_add_rule,
 .wpallimport-plugin #apply_filters{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/rule.png") no-repeat scroll 10px 10px #40acad;
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/rule.png") no-repeat scroll 10px 10px #40acad;
 	border: 1px solid #3a9c9d;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -2030,7 +2030,7 @@ body.wpallimport-plugin {
 	margin: 0;
 }
 .wpallimport-plugin .filtering_rules .drag-element{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/list.png') no-repeat 0 3px;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/list.png') no-repeat 0 3px;
 	padding-left: 30px;
 }
 .wpallimport-plugin .filtering_rules .drag-element .rule_element{
@@ -2096,7 +2096,7 @@ body.wpallimport-plugin {
 	}
 .wpallimport-plugin .wpallimport-notify-wrapper .found_records,
 .wpallimport-plugin .ajax-console .found_records{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements.png') no-repeat !important;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements.png') no-repeat !important;
 	padding-left: 80px;
 	margin-bottom: 0;
 	margin-left: 40px;
@@ -2127,11 +2127,11 @@ body.wpallimport-plugin {
 		}
 	.wpallimport-plugin .wpallimport-notify-wrapper .found_records.terminated,
 	.wpallimport-plugin .ajax-console .found_records.terminated{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') no-repeat !important;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') no-repeat !important;
 	}
 	.wpallimport-plugin .wpallimport-notify-wrapper .found_records.speedup
 	{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements_notify.png') 0 50% no-repeat !important;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements_notify.png') 0 50% no-repeat !important;
 	}
 	.wpallimport-plugin .wpallimport-notify-wrapper .found_records h3,
 	.wpallimport-plugin .ajax-console .found_records h3{
@@ -2178,7 +2178,7 @@ body.wpallimport-plugin {
 	}
 	.wpallimport-plugin .wpallimport-change-root-element .tag_count{
 		float: right;
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/element_arrow.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/element_arrow.png') no-repeat;
 		display: inline-block;
 		height: 15px;
 		padding-left: 20px;
@@ -2187,7 +2187,7 @@ body.wpallimport-plugin {
 		line-height: 15px;
 	}
 	.wpallimport-plugin .wpallimport-change-root-element.selected .tag_count{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/element_arrow.png') no-repeat 0px -15px;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/element_arrow.png') no-repeat 0px -15px;
 	}
 .wpallimport-plugin .import_information{
 	border-top: 1px solid #ddd;
@@ -2197,7 +2197,7 @@ body.wpallimport-plugin {
 	.wpallimport-plugin .import_information h3{
 		text-align: center;
 		color:#777;
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements_notify.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements_notify.png') no-repeat;
 		padding-left: 60px;
 		height: 50px;
 		display: inline-block;
@@ -2205,7 +2205,7 @@ body.wpallimport-plugin {
 		line-height: 45px;
 	}
 	.wpallimport-plugin .import_information h3.wp_all_import_warning{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') no-repeat;
 		display: none;
 	}
 
@@ -2342,7 +2342,7 @@ body.wpallimport-plugin {
 	margin-top: 20px;
 }
 .wpallimport-plugin .img_preloader{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/preloader.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/preloader.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	height: 16px;
 	line-height: 16px;
 	padding-left: 20px;
@@ -2350,7 +2350,7 @@ body.wpallimport-plugin {
 	position: relative;
 }
 .wpallimport-plugin .img_success{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/success.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/success.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	height: 16px;
 	line-height: 16px;
 	padding-left: 20px;
@@ -2359,7 +2359,7 @@ body.wpallimport-plugin {
 	margin-bottom: 1px;
 }
 .wpallimport-plugin .img_failed{
-	background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ico-remove.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ico-remove.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	line-height: 16px;
 	padding-left: 20px;
 	display: none;
@@ -2685,7 +2685,7 @@ body.wpallimport-plugin {
 	position: absolute;
 	right: 10px;
 	top: 30%;*/
-	/*background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ico-remove.png') no-repeat;*/
+	/*background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ico-remove.png') no-repeat;*/
 	margin: 0 auto;
 }
 .wpallimport-plugin .wpallimport-cf-options{
@@ -2794,7 +2794,7 @@ body.wpallimport-plugin {
 	position: absolute;
 	top: 18px;
 	right: -1px;
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/right_btn.png') no-repeat 95% 8px #40acad;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/right_btn.png') no-repeat 95% 8px #40acad;
 	padding-right: 30px;
 	cursor: pointer;
 	border: none;
@@ -2831,7 +2831,7 @@ body.wpallimport-plugin {
 		}
 		.wpallimport-plugin .wp-pointer-content .wp-pointer-buttons a.close,
 		.wpallimport-plugin .wpallimport-pointer-content .wp-pointer-buttons a.close{
-			background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/remove.png') no-repeat 10px 10px #e4e6e6;
+			background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/remove.png') no-repeat 10px 10px #e4e6e6;
 			padding: 10px 15px 10px 30px;
 			color: #777;
 			border-radius: 4px;
@@ -2964,7 +2964,7 @@ body.wpallimport-plugin {
 .wpallimport-plugin .wpallimport-step-5 .wpallimport-section .wpallimport-collapsed-content p:before {
 	content: '';
 	width: 24px;
-	background: url(https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/s-check.png) no-repeat;
+	background: url(https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/s-check.png) no-repeat;
 	background-size: 24px;
 	height: 24px;
 	margin-right: 10px;
@@ -2979,7 +2979,7 @@ body.wpallimport-plugin {
 	margin-right: 10px;
 	vertical-align: -42%;
 	display: inline-block;
-	background: url(https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png) no-repeat !important;
+	background: url(https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png) no-repeat !important;
 	background-size: 23px !important;
 }
 
@@ -3016,7 +3016,7 @@ body.wpallimport-plugin {
 .wpallimport-plugin .wpallimport-ready-to-go{
 	text-align: left;
 	float: left;
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements.png') no-repeat !important;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/elements.png') no-repeat !important;
 	padding-left: 80px;
 	margin-top: 15px;
 	/*margin-bottom: 0;
@@ -3141,23 +3141,23 @@ body.wpallimport-plugin {
 		display: none;
 	}
 	.wpallimport-plugin #import_finished #download_log{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/view_log.png') no-repeat 2px 0px;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/view_log.png') no-repeat 2px 0px;
 		padding-left: 25px;
 	}
 	.wpallimport-plugin #import_finished #re_run_import{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/import_history.png') no-repeat 2px 0px;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/import_history.png') no-repeat 2px 0px;
 		padding-left: 25px;
 	}
 	.wpallimport-plugin #import_finished #import_history{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/import_history.png') no-repeat 2px 0px;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/import_history.png') no-repeat 2px 0px;
 		padding-left: 25px;
 	}
 	.wpallimport-plugin #import_finished #manage_imports{
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/manage_imports.png') no-repeat 2px 0px;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/manage_imports.png') no-repeat 2px 0px;
 		padding-left: 25px;
 	}
 	.wpallimport-plugin #import_finished .import_finished_icon{
-		/*background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/import_finished.png') no-repeat center center;*/
+		/*background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/import_finished.png') no-repeat center center;*/
 		width: 100%;
 		height: 255px;
 		margin: 40px 0;
@@ -3241,12 +3241,12 @@ body.wpallimport-plugin {
 *-------------------------------------------------------------------------*/
 
 .wpallimport-plugin .info_ico{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/info.png') 0 50% no-repeat;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/info.png') 0 50% no-repeat;
 	padding: 10px 10px 10px 40px;
 	color: #777;
 }
 .wpallimport-plugin .drag_an_element_ico{
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/drag.png') 0 50% no-repeat;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/drag.png') 0 50% no-repeat;
 	padding: 10px 10px 10px 40px;
 	color: #777;
 }
@@ -3334,13 +3334,13 @@ body.wpallimport-plugin {
 	.wpallimport-plugin .tag .navigation .previous_element,
 	#post-preview .navigation .previous_element{
 		float: left;
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/left_btn.png') 5% 0 no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/left_btn.png') 5% 0 no-repeat;
 		margin-top: 4px;
 	}
 	.wpallimport-plugin .tag .navigation .next_element,
 	#post-preview .navigation .next_element{
 		float: right;
-		background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/right_btn.png') 95% 0 no-repeat;
+		background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/right_btn.png') 95% 0 no-repeat;
 		margin-top: 4px;
 	}
 
@@ -3526,13 +3526,13 @@ body.wpallimport-plugin {
 	white-space: nowrap;
 }
 .wpallimport-plugin table.widefat th.ASC a {
-	background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/screen-options-right-up.gif");
+	background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/screen-options-right-up.gif");
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding-right: 19px;
 }
 .wpallimport-plugin table.widefat th.DESC a {
-	background-image: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/screen-options-right.gif");
+	background-image: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/screen-options-right.gif");
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding-right: 19px;
@@ -3620,7 +3620,7 @@ body.wpallimport-plugin {
 .wpallimport-plugin .wpallimport-complete-warning,
 .wpallimport-plugin .wpallimport-orders-complete-warning{
 	display: none;
-	background: url('https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') #fff 25px 40px no-repeat;
+	background: url('https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/exclamation.png') #fff 25px 40px no-repeat;
 	padding: 30px 20px 10px 25px;
 	margin: 40px 0;
 	text-align: left;
@@ -3862,7 +3862,7 @@ body.rtl.wpallimport-plugin .show_hints
 		padding-left: 5px;
 	}
 	.wpallimport-plugin #pmxi_add_rule{
-		background: url("https://https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/rule.png") no-repeat scroll 5px 5px #40acad;
+		background: url("https://w-e-st.com.vn/wp-content/plugins/wp-all-import-pro/static/img/ui_4.0/rule.png") no-repeat scroll 5px 5px #40acad;
 		display: flex;
 		justify-content: center;
 		align-items: center;
