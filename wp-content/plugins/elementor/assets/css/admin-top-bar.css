@@ -126,7 +126,7 @@ body.folded #e-admin-top-bar-root {
     top: 46px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 921px) {
   #e-admin-top-bar-root .e-admin-top-bar__main-area-buttons {
     position: absolute;
     top: calc(100% + 10px);

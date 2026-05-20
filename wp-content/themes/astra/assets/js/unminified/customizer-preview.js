@@ -80,7 +80,7 @@ function astra_color_responsive_css( addon, control, css_property, selector ) {
 				jQuery( 'head' ).append(
 					'<style id="' + control + '-' + addon + '">'
 					+ selector + '	{ ' + DeskVal + ' }'
-					+ '@media (max-width: 768px) {' + selector + '	{ ' + TabletFontVal + ' } }'
+					+ '@media (max-width: 921px) {' + selector + '	{ ' + TabletFontVal + ' } }'
 					+ '@media (max-width: 544px) {' + selector + '	{ ' + MobileVal + ' } }'
 					+ '</style>'
 				);
@@ -128,7 +128,7 @@ function astra_responsive_font_size( control, selector, dispatchCustomEvent = fa
 				jQuery( 'head' ).append(
 					'<style id="' + control + '-' + css_property + '">'
 					+ selector + '	{ ' + fontSize + ' }'
-					+ '@media (max-width: 768px) {' + selector + '	{ ' + tabletFontSize + ' } }'
+					+ '@media (max-width: 921px) {' + selector + '	{ ' + tabletFontSize + ' } }'
 					+ '@media (max-width: 544px) {' + selector + '	{ ' + mobileFontSize + ' } }'
 					+ '</style>'
 				);
@@ -236,7 +236,7 @@ function astra_responsive_spacing( control, selector, type, side ) {
 				jQuery( 'head' ).append(
 					'<style id="' + control + '-' + spacingType + '-' + sidesString + '">'
 					+ selector + '	{ ' + desktopPadding +' }'
-					+ '@media (max-width: 768px) {' + selector + '	{ ' + tabletPadding + ' } }'
+					+ '@media (max-width: 921px) {' + selector + '	{ ' + tabletPadding + ' } }'
 					+ '@media (max-width: 544px) {' + selector + '	{ ' + mobilePadding + ' } }'
 					+ '</style>'
 				);
@@ -800,7 +800,7 @@ function astra_apply_responsive_background_css( control, selector, device, singl
 			}
 			if ( 'tablet' == device ) {
 				var dynamicStyle = '<style id="' + control + '-' + device + '-' + addon + '">'
-					+ '@media (max-width: 768px) {' + selector + '	{ ' + gen_bg_css + ' } }'
+					+ '@media (max-width: 921px) {' + selector + '	{ ' + gen_bg_css + ' } }'
 				+ '</style>'
 			}
 			if ( 'mobile' == device ) {
