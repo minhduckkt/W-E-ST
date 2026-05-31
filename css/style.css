@@ -138,6 +138,7 @@ svg{flex-shrink:0}
             align-items: center;
             text-decoration: none;
             flex-shrink: 0;
+            max-height: 50px;
         }
 
         .wh-logo-group {
