@@ -7,15 +7,502 @@
 <meta name="description" content="Tải datasheet, hướng dẫn sử dụng và phần mềm WPC-300 cho tất cả sản phẩm W.E.St. Elektronik.">
 <meta name="keywords" content="datasheet, tài liệu kỹ thuật, W.E.St., WPC-300, hướng dẫn sử dụng">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-<link rel="canonical" href="/tai-lieu-ky-thuat/">
+<link rel="canonical" href="https://w-e-st.com.vn/tai-lieu-ky-thuat/">
 <meta property="og:locale" content="vi_VN">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Tài liệu kỹ thuật &amp; Datasheet — W.E.St. Vietnam">
+<meta property="og:description" content="Tải datasheet, hướng dẫn sử dụng và phần mềm WPC-300 cho tất cả sản phẩm W.E.St. Elektronik.">
 <meta property="og:url" content="https://w-e-st.com.vn/tai-lieu-ky-thuat/">
 <meta property="og:site_name" content="W.E.St. Vietnam">
+<meta property="og:image" content="https://w-e-st.com.vn/wp-content/uploads/2026/04/west-transparent.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tài liệu kỹ thuật &amp; Datasheet — W.E.St. Vietnam">
+<meta name="twitter:description" content="Tải datasheet, hướng dẫn sử dụng và phần mềm WPC-300 cho tất cả sản phẩm W.E.St. Elektronik.">
+<meta name="twitter:image" content="https://w-e-st.com.vn/wp-content/uploads/2026/04/west-transparent.png">
 <link rel="icon" href="/wp-content/uploads/2026/04/cropped-West-32x32.png" sizes="32x32">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style.css?v=20260708-balanced2">
+<style>
+    /* ── Reset Astra ── */
+    .entry-title,
+    .page-title,
+    .ast-page-title,
+    .site-main .entry-header,
+    .page-header {
+      display: none !important
+    }
 
+    .site-main,
+    #primary,
+    #content,
+    .content-area,
+    .ast-article-single,
+    .entry-content,
+    .ast-container {
+      max-width: 100% !important;
+      width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important
+    }
+
+    /* ── Page styles ── */
+    * {
+      box-sizing: border-box
+    }
+
+    .tl-wrap {
+      font-family: Arial, sans-serif;
+      color: #333;
+      width: 100%
+    }
+
+    /* HERO */
+    .tl-hero {
+      background: linear-gradient(135deg, #0f2347 0%, #1a3a6b 60%, #0f2347 100%);
+      padding: 60px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden
+    }
+
+    .tl-hero::before {
+      content: "";
+      position: absolute;
+      right: -60px;
+      top: -60px;
+      width: 300px;
+      height: 300px;
+      border: 50px solid rgba(204, 0, 0, 0.07);
+      border-radius: 50%
+    }
+
+    .tl-hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 640px;
+      margin: 0 auto
+    }
+
+    .tl-hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(204, 0, 0, 0.2);
+      border: 1px solid rgba(204, 0, 0, 0.4);
+      padding: 6px 16px;
+      border-radius: 4px;
+      margin-bottom: 20px
+    }
+
+    .tl-hero-tag span {
+      font-size: 11px;
+      font-weight: 700;
+      color: #ff9999;
+      letter-spacing: 1.5px;
+      text-transform: uppercase
+    }
+
+    .tl-hero-tag .dot {
+      width: 6px;
+      height: 6px;
+      background: #cc0000;
+      border-radius: 50%
+    }
+
+    .tl-hero h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 12px;
+      line-height: 1.3
+    }
+
+    .tl-hero p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.8
+    }
+
+    /* SEARCH BAR */
+    .tl-search {
+      background: #fff;
+      padding: 24px 48px;
+      border-bottom: 1px solid #e0e8f0;
+      display: flex;
+      align-items: center;
+      gap: 12px
+    }
+
+    .tl-search input {
+      flex: 1;
+      padding: 10px 16px;
+      border: 1.5px solid #d0daea;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #333;
+      font-family: Arial, sans-serif;
+      max-width: 400px
+    }
+
+    .tl-search input:focus {
+      outline: none;
+      border-color: #1a3a6b
+    }
+
+    .tl-search-label {
+      font-size: 13px;
+      color: #888;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px
+    }
+
+    /* MAIN */
+    .tl-main {
+      padding: 48px 48px 72px;
+      background: #f5f8ff
+    }
+
+    /* SECTION GROUP */
+    .tl-section {
+      margin-bottom: 48px
+    }
+
+    .tl-section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid #e0e8f0
+    }
+
+    .tl-section-icon {
+      width: 44px;
+      height: 44px;
+      background: #0f2347;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0
+    }
+
+    .tl-section-icon svg {
+      width: 22px;
+      height: 22px;
+      stroke: #fff;
+      fill: none
+    }
+
+    .tl-section-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f2347;
+      text-transform: uppercase;
+      letter-spacing: 0.8px
+    }
+
+    .tl-section-count {
+      font-size: 12px;
+      color: #888;
+      margin-left: auto;
+      font-weight: 600
+    }
+
+    /* TABLE */
+    .tl-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #e0e8f0
+    }
+
+    .tl-table thead tr {
+      background: #0f2347
+    }
+
+    .tl-table thead th {
+      padding: 12px 16px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #7eb3e8;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: left
+    }
+
+    .tl-table tbody tr {
+      border-bottom: 1px solid #f0f4fa;
+      transition: background 0.15s
+    }
+
+    .tl-table tbody tr:hover {
+      background: #f8faff
+    }
+
+    .tl-table tbody tr:last-child {
+      border-bottom: none
+    }
+
+    .tl-table td {
+      padding: 14px 16px;
+      font-size: 13px;
+      vertical-align: middle
+    }
+
+    .tl-model {
+      font-weight: 700;
+      color: #0f2347;
+      font-size: 14px
+    }
+
+    .tl-desc {
+      color: #555;
+      font-size: 12px;
+      line-height: 1.5
+    }
+
+    .tl-badge {
+      display: inline-block;
+      background: #f0f4fa;
+      border: 1px solid #c5d5e8;
+      border-radius: 3px;
+      padding: 2px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #1a3a6b;
+      margin-right: 4px
+    }
+
+    .tl-badge.red {
+      background: rgba(204, 0, 0, 0.07);
+      color: #cc0000;
+      border-color: rgba(204, 0, 0, 0.2)
+    }
+
+    .tl-btn-dl {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #cc0000;
+      color: #fff;
+      padding: 7px 14px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      transition: background 0.2s;
+      white-space: nowrap
+    }
+
+    .tl-btn-dl:hover {
+      background: #0f2347;
+      color: #fff
+    }
+
+    .tl-btn-dl svg {
+      width: 13px;
+      height: 13px;
+      stroke: #fff;
+      fill: none
+    }
+
+    .tl-btn-view {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #f0f4fa;
+      color: #1a3a6b;
+      padding: 7px 14px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      white-space: nowrap;
+      border: 1px solid #c5d5e8;
+      margin-right: 6px
+    }
+
+    .tl-btn-view:hover {
+      background: #1a3a6b;
+      color: #fff
+    }
+
+    .tl-btn-view svg {
+      width: 13px;
+      height: 13px;
+      stroke: currentColor;
+      fill: none
+    }
+
+    .tl-action {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap
+    }
+
+    /* SOFTWARE SECTION */
+    .tl-software {
+      background: #0f2347;
+      border-radius: 8px;
+      padding: 28px 32px;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-top: 16px
+    }
+
+    .tl-software-icon {
+      width: 60px;
+      height: 60px;
+      background: rgba(204, 0, 0, 0.2);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0
+    }
+
+    .tl-software-icon svg {
+      width: 30px;
+      height: 30px;
+      stroke: #ff9999;
+      fill: none
+    }
+
+    .tl-software-text {
+      flex: 1
+    }
+
+    .tl-software-text h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px
+    }
+
+    .tl-software-text p {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.65);
+      line-height: 1.7;
+      margin: 0
+    }
+
+    .tl-software-btns {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex-shrink: 0
+    }
+
+    .tl-btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #cc0000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      transition: background 0.2s;
+      white-space: nowrap
+    }
+
+    .tl-btn-primary:hover {
+      background: #fff;
+      color: #cc0000
+    }
+
+    .tl-btn-primary svg {
+      width: 14px;
+      height: 14px;
+      stroke: #fff;
+      fill: none
+    }
+
+    .tl-btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      white-space: nowrap
+    }
+
+    .tl-btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.2)
+    }
+
+    /* NOTE */
+    .tl-note {
+      background: #fff;
+      border: 1px solid #e0e8f0;
+      border-left: 4px solid #1a3a6b;
+      border-radius: 0 6px 6px 0;
+      padding: 14px 20px;
+      margin-top: 32px;
+      font-size: 13px;
+      color: #555;
+      line-height: 1.7
+    }
+
+    .tl-note strong {
+      color: #0f2347
+    }
+
+    @media(max-width:900px) {
+
+      .tl-hero,
+      .tl-main,
+      .tl-search {
+        padding-left: 20px;
+        padding-right: 20px
+      }
+
+      .tl-table thead {
+        display: none
+      }
+
+      .tl-table td {
+        display: block;
+        padding: 8px 12px
+      }
+
+      .tl-software {
+        flex-direction: column;
+        gap: 20px
+      }
+
+      .tl-software-btns {
+        flex-direction: row;
+        flex-wrap: wrap
+      }
+    }
+  </style>
+<link rel="stylesheet" href="/css/template-standard.css?v=20260708-template8">
+<script src="/js/site.js?v=20260708-template8" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang chủ","item":"https://w-e-st.com.vn/"},{"@type":"ListItem","position":2,"name":"Tài liệu kỹ thuật &amp; Datasheet","item":"https://w-e-st.com.vn/tai-lieu-ky-thuat/"}]},{"@type":"WebPage","name":"Tài liệu kỹ thuật &amp; Datasheet","description":"Tải datasheet, hướng dẫn sử dụng và phần mềm WPC-300 cho tất cả sản phẩm W.E.St. Elektronik.","inLanguage":"vi-VN","url":"https://w-e-st.com.vn/tai-lieu-ky-thuat/"}]}
+</script>
 </head>
 <body>
 <div class="wh-wrap">
@@ -45,12 +532,14 @@
   </div>
   <div class="wh-main">
     <div class="wh-main-inner">
-      <a href="/" class="wh-logo-group">
-        <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="W.E.St. Logo" class="wh-logo">
-        <div>
-          <div class="wh-logo-text">W.E.St. Vietnam</div>
-          <div class="wh-logo-sub">Hydraulics meets electronics</div>
-        </div>
+      <a href="/" class="wh-logo-group west-brand-lockup" aria-label="W.E.St. Vietnam - Hydraulics meets electronics">
+        <span class="west-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="" class="wh-logo">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wh-logo-text">W.E.St. Vietnam</span>
+          <span class="wh-logo-sub">Hydraulics meets electronics</span>
+        </span>
       </a>
       <nav class="wh-nav">
         <a class="wh-nav-link" href="/">Trang chủ</a>
@@ -67,19 +556,19 @@
             <a class="wh-dd-item" href="/nhom-san-pham/universal-function-modules/">Mô-đun đa năng</a>
           </div>
         </div>
-        <a class="wh-nav-link" href="/ung-dung-dau-khi/">Ứng dụng dầu khí</a>
+        <a class="wh-nav-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
         <a class="wh-nav-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
         <a class="wh-nav-link" href="/blog/">Blog</a>
         <a class="wh-nav-link" href="/ve-chung-toi/">Về chúng tôi</a>
       </nav>
       <a class="wh-cta" href="/#request-quote-form">Báo giá ngay</a>
-      <button class="wh-hamburger" onclick="document.getElementById('wh-mobile-menu').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span>
+      <button class="wh-hamburger" type="button" aria-label="Menu" aria-controls="wh-mobile-menu" aria-expanded="false"><span></span><span></span><span></span>
       </button>
     </div>
   </div>
   <div class="wh-mobile-menu" id="wh-mobile-menu">
     <a class="wh-mob-link" href="/">Trang chủ</a>
-    <div class="wh-mob-toggle" onclick="this.nextElementSibling.classList.toggle('open');this.classList.toggle('open')">
+    <div class="wh-mob-toggle" role="button" tabindex="0" aria-expanded="false">
       Sản phẩm
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
     </div>
@@ -92,7 +581,7 @@
       <a class="wh-mob-sublink" href="/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
       <a class="wh-mob-sublink" href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
     </div>
-    <a class="wh-mob-link" href="/ung-dung-dau-khi/">Ứng dụng dầu khí</a>
+    <a class="wh-mob-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
     <a class="wh-mob-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
     <a class="wh-mob-link" href="/blog/">Blog</a>
     <a class="wh-mob-link" href="/ve-chung-toi/">Về chúng tôi</a>
@@ -108,8 +597,8 @@
           <div class="dot"></div><span>W.E.St. Elektronik GmbH</span>
         </div>
         <h1>Tài liệu kỹ thuật &amp; Datasheet</h1>
-        <p>Tải trực tiếp datasheet, hướng dẫn sử dụng và phần mềm cài đặt cho tất cả sản phẩm W.E.St. Elektronik — chính
-          hãng từ w-e-st.de</p>
+        <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. tại Việt Nam, hỗ trợ tải datasheet, hướng dẫn
+          sử dụng và phần mềm cài đặt chính hãng cho các module W.E.St. Elektronik.</p>
       </div>
     </div>
 
@@ -723,1216 +1212,30 @@
 
     </div>
   </div>
-
-  <script>
-    function filterTable() {
-      const q = document.getElementById("tl-search-input").value.toLowerCase();
-      document.querySelectorAll(".tl-row").forEach(row => {
-        row.style.display = row.textContent.toLowerCase().includes(q) ? "" : "none";
-      });
-      // Ẩn/hiện section nếu không có kết quả
-      document.querySelectorAll(".tl-section").forEach(section => {
-        const visible = [...section.querySelectorAll(".tl-row")].some(r => r.style.display !== "none");
-        section.style.display = q && !visible ? "none" : "";
-      });
-    }
-  </script>
-
-
-  
-
-  <div class="
-<script>
-      (function () {
-        var btn = document.getElementById('wh-hamburger');
-        var menu = document.getElementById('wh-mobile-menu');
-        var prodToggle = document.getElementById('wh-mob-products');
-        var prodSub = document.getElementById('wh-mob-products-sub');
-        btn.addEventListener('click', function () {
-          btn.classList.toggle('open');
-          menu.classList.toggle('open');
-        });
-        prodToggle.addEventListener('click', function () {
-          prodToggle.classList.toggle('open');
-          prodSub.classList.toggle('open');
-        });
-      })();
-    </script>
-<script>
-    function filterTable() {
-      const q = document.getElementById("tl-search-input").value.toLowerCase();
-      document.querySelectorAll(".tl-row").forEach(row => {
-        row.style.display = row.textContent.toLowerCase().includes(q) ? "" : "none";
-      });
-      // Ẩn/hiện section nếu không có kết quả
-      document.querySelectorAll(".tl-section").forEach(section => {
-        const visible = [...section.querySelectorAll(".tl-row")].some(r => r.style.display !== "none");
-        section.style.display = q && !visible ? "none" : "";
-      });
-    }
-  </script>
-<script>
-    /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }, !1);
-  </script>
-<script>
-      (function () {
-        var btn = document.getElementById('wh-hamburger');
-        var menu = document.getElementById('wh-mobile-menu');
-        var prodToggle = document.getElementById('wh-mob-products');
-        var prodSub = document.getElementById('wh-mob-products-sub');
-        btn.addEventListener('click', function () {
-          btn.classList.toggle('open');
-          menu.classList.toggle('open');
-        });
-        prodToggle.addEventListener('click', function () {
-          prodToggle.classList.toggle('open');
-          prodSub.classList.toggle('open');
-        });
-      })();
-    </script>
-
-  </div><!-- .wh-wrap -->
-
-  <style>
-    /* ── Reset Astra ── */
-    .entry-title,
-    .page-title,
-    .ast-page-title,
-    .site-main .entry-header,
-    .page-header {
-      display: none !important
-    }
-
-    .site-main,
-    #primary,
-    #content,
-    .content-area,
-    .ast-article-single,
-    .entry-content,
-    .ast-container {
-      max-width: 100% !important;
-      width: 100% !important;
-      padding: 0 !important;
-      margin: 0 !important
-    }
-
-    /* ── Page styles ── */
-    * {
-      box-sizing: border-box
-    }
-
-    .tl-wrap {
-      font-family: Arial, sans-serif;
-      color: #333;
-      width: 100%
-    }
-
-    /* HERO */
-    .tl-hero {
-      background: linear-gradient(135deg, #0f2347 0%, #1a3a6b 60%, #0f2347 100%);
-      padding: 60px 48px;
-      text-align: center;
-      position: relative;
-      overflow: hidden
-    }
-
-    .tl-hero::before {
-      content: "";
-      position: absolute;
-      right: -60px;
-      top: -60px;
-      width: 300px;
-      height: 300px;
-      border: 50px solid rgba(204, 0, 0, 0.07);
-      border-radius: 50%
-    }
-
-    .tl-hero-inner {
-      position: relative;
-      z-index: 1;
-      max-width: 640px;
-      margin: 0 auto
-    }
-
-    .tl-hero-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(204, 0, 0, 0.2);
-      border: 1px solid rgba(204, 0, 0, 0.4);
-      padding: 6px 16px;
-      border-radius: 4px;
-      margin-bottom: 20px
-    }
-
-    .tl-hero-tag span {
-      font-size: 11px;
-      font-weight: 700;
-      color: #ff9999;
-      letter-spacing: 1.5px;
-      text-transform: uppercase
-    }
-
-    .tl-hero-tag .dot {
-      width: 6px;
-      height: 6px;
-      background: #cc0000;
-      border-radius: 50%
-    }
-
-    .tl-hero h1 {
-      font-size: 32px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-      line-height: 1.3
-    }
-
-    .tl-hero p {
-      font-size: 14px;
-      color: rgba(255, 255, 255, 0.7);
-      line-height: 1.8
-    }
-
-    /* SEARCH BAR */
-    .tl-search {
-      background: #fff;
-      padding: 24px 48px;
-      border-bottom: 1px solid #e0e8f0;
-      display: flex;
-      align-items: center;
-      gap: 12px
-    }
-
-    .tl-search input {
-      flex: 1;
-      padding: 10px 16px;
-      border: 1.5px solid #d0daea;
-      border-radius: 4px;
-      font-size: 14px;
-      color: #333;
-      font-family: Arial, sans-serif;
-      max-width: 400px
-    }
-
-    .tl-search input:focus {
-      outline: none;
-      border-color: #1a3a6b
-    }
-
-    .tl-search-label {
-      font-size: 13px;
-      color: #888;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px
-    }
-
-    /* MAIN */
-    .tl-main {
-      padding: 48px 48px 72px;
-      background: #f5f8ff
-    }
-
-    /* SECTION GROUP */
-    .tl-section {
-      margin-bottom: 48px
-    }
-
-    .tl-section-header {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 24px;
-      padding-bottom: 14px;
-      border-bottom: 2px solid #e0e8f0
-    }
-
-    .tl-section-icon {
-      width: 44px;
-      height: 44px;
-      background: #0f2347;
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0
-    }
-
-    .tl-section-icon svg {
-      width: 22px;
-      height: 22px;
-      stroke: #fff;
-      fill: none
-    }
-
-    .tl-section-title {
-      font-size: 16px;
-      font-weight: 700;
-      color: #0f2347;
-      text-transform: uppercase;
-      letter-spacing: 0.8px
-    }
-
-    .tl-section-count {
-      font-size: 12px;
-      color: #888;
-      margin-left: auto;
-      font-weight: 600
-    }
-
-    /* TABLE */
-    .tl-table {
-      width: 100%;
-      border-collapse: collapse;
-      background: #fff;
-      border-radius: 8px;
-      overflow: hidden;
-      border: 1px solid #e0e8f0
-    }
-
-    .tl-table thead tr {
-      background: #0f2347
-    }
-
-    .tl-table thead th {
-      padding: 12px 16px;
-      font-size: 11px;
-      font-weight: 700;
-      color: #7eb3e8;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      text-align: left
-    }
-
-    .tl-table tbody tr {
-      border-bottom: 1px solid #f0f4fa;
-      transition: background 0.15s
-    }
-
-    .tl-table tbody tr:hover {
-      background: #f8faff
-    }
-
-    .tl-table tbody tr:last-child {
-      border-bottom: none
-    }
-
-    .tl-table td {
-      padding: 14px 16px;
-      font-size: 13px;
-      vertical-align: middle
-    }
-
-    .tl-model {
-      font-weight: 700;
-      color: #0f2347;
-      font-size: 14px
-    }
-
-    .tl-desc {
-      color: #555;
-      font-size: 12px;
-      line-height: 1.5
-    }
-
-    .tl-badge {
-      display: inline-block;
-      background: #f0f4fa;
-      border: 1px solid #c5d5e8;
-      border-radius: 3px;
-      padding: 2px 8px;
-      font-size: 10px;
-      font-weight: 700;
-      color: #1a3a6b;
-      margin-right: 4px
-    }
-
-    .tl-badge.red {
-      background: rgba(204, 0, 0, 0.07);
-      color: #cc0000;
-      border-color: rgba(204, 0, 0, 0.2)
-    }
-
-    .tl-btn-dl {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #cc0000;
-      color: #fff;
-      padding: 7px 14px;
-      border-radius: 4px;
-      font-size: 11px;
-      font-weight: 700;
-      text-decoration: none;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      transition: background 0.2s;
-      white-space: nowrap
-    }
-
-    .tl-btn-dl:hover {
-      background: #0f2347;
-      color: #fff
-    }
-
-    .tl-btn-dl svg {
-      width: 13px;
-      height: 13px;
-      stroke: #fff;
-      fill: none
-    }
-
-    .tl-btn-view {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #f0f4fa;
-      color: #1a3a6b;
-      padding: 7px 14px;
-      border-radius: 4px;
-      font-size: 11px;
-      font-weight: 700;
-      text-decoration: none;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      transition: all 0.2s;
-      white-space: nowrap;
-      border: 1px solid #c5d5e8;
-      margin-right: 6px
-    }
-
-    .tl-btn-view:hover {
-      background: #1a3a6b;
-      color: #fff
-    }
-
-    .tl-btn-view svg {
-      width: 13px;
-      height: 13px;
-      stroke: currentColor;
-      fill: none
-    }
-
-    .tl-action {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap
-    }
-
-    /* SOFTWARE SECTION */
-    .tl-software {
-      background: #0f2347;
-      border-radius: 8px;
-      padding: 28px 32px;
-      display: flex;
-      align-items: center;
-      gap: 32px;
-      margin-top: 16px
-    }
-
-    .tl-software-icon {
-      width: 60px;
-      height: 60px;
-      background: rgba(204, 0, 0, 0.2);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0
-    }
-
-    .tl-software-icon svg {
-      width: 30px;
-      height: 30px;
-      stroke: #ff9999;
-      fill: none
-    }
-
-    .tl-software-text {
-      flex: 1
-    }
-
-    .tl-software-text h3 {
-      font-size: 16px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 6px
-    }
-
-    .tl-software-text p {
-      font-size: 13px;
-      color: rgba(255, 255, 255, 0.65);
-      line-height: 1.7;
-      margin: 0
-    }
-
-    .tl-software-btns {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      flex-shrink: 0
-    }
-
-    .tl-btn-primary {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: #cc0000;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 4px;
-      font-size: 12px;
-      font-weight: 700;
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      transition: background 0.2s;
-      white-space: nowrap
-    }
-
-    .tl-btn-primary:hover {
-      background: #fff;
-      color: #cc0000
-    }
-
-    .tl-btn-primary svg {
-      width: 14px;
-      height: 14px;
-      stroke: #fff;
-      fill: none
-    }
-
-    .tl-btn-secondary {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(255, 255, 255, 0.1);
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 4px;
-      font-size: 12px;
-      font-weight: 700;
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      white-space: nowrap
-    }
-
-    .tl-btn-secondary:hover {
-      background: rgba(255, 255, 255, 0.2)
-    }
-
-    /* NOTE */
-    .tl-note {
-      background: #fff;
-      border: 1px solid #e0e8f0;
-      border-left: 4px solid #1a3a6b;
-      border-radius: 0 6px 6px 0;
-      padding: 14px 20px;
-      margin-top: 32px;
-      font-size: 13px;
-      color: #555;
-      line-height: 1.7
-    }
-
-    .tl-note strong {
-      color: #0f2347
-    }
-
-    @media(max-width:900px) {
-
-      .tl-hero,
-      .tl-main,
-      .tl-search {
-        padding-left: 20px;
-        padding-right: 20px
-      }
-
-      .tl-table thead {
-        display: none
-      }
-
-      .tl-table td {
-        display: block;
-        padding: 8px 12px
-      }
-
-      .tl-software {
-        flex-direction: column;
-        gap: 20px
-      }
-
-      .tl-software-btns {
-        flex-direction: row;
-        flex-wrap: wrap
-      }
-    }
-  </style>
-
-  <div class="tl-wrap">
-
-    <!-- HERO -->
-    <div class="tl-hero">
-      <div class="tl-hero-inner">
-        <div class="tl-hero-tag">
-          <div class="dot"></div><span>W.E.St. Elektronik GmbH</span>
-        </div>
-        <h1>Tài liệu kỹ thuật &amp; Datasheet</h1>
-        <p>Tải trực tiếp datasheet, hướng dẫn sử dụng và phần mềm cài đặt cho tất cả sản phẩm W.E.St. Elektronik — chính
-          hãng từ w-e-st.de</p>
-      </div>
-    </div>
-
-    <!-- SEARCH -->
-    <div class="tl-search">
-      <span class="tl-search-label">Tìm nhanh:</span>
-      <input type="text" id="tl-search-input" placeholder="Nhập mã sản phẩm... (PAM-199-P, POS-123-P...)"
-        onkeyup="filterTable()">
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div class="tl-main">
-
-      <!-- ══ NHÓM 1: BỘ KHUẾCH ĐẠI CÔNG SUẤT ══ -->
-      <div class="tl-section" data-group="pam">
-        <div class="tl-section-header">
-          <div class="tl-section-icon">
-            <svg width="16" height="16" viewbox="0 0 24 24" stroke-width="1.5">
-              <rect x="2" y="7" width="20" height="14" rx="2"></rect>
-              <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"></path>
-            </svg>
-          </div>
-          <div>
-            <div class="tl-section-title">Bộ khuếch đại công suất — PAM Series</div>
-          </div>
-          <span class="tl-section-count">6 tài liệu</span>
-        </div>
-        <table class="tl-table">
-          <thead>
-            <tr>
-              <th style="width:150px">Mã sản phẩm</th>
-              <th>Mô tả</th>
-              <th style="width:80px">Phiên bản</th>
-              <th style="width:200px">Tải xuống</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PAM-199-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Bộ khuếch đại công suất vạn năng, cấu hình qua WPC-300</div><span
-                  class="tl-badge red">ATEX</span><span class="tl-badge">IO-Link</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action">
-                  <a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/PAM-199-P-EN.pdf" target="_blank"><svg width="16" height="16"
-                      viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a>
-                  <a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PAM-199-P-EN.pdf" target="_blank"
-                    download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a>
-                </div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PAM-198-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Khuếch đại công suất có điều khiển vị trí spool (closed-loop)</div><span
-                  class="tl-badge red">ATEX</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action">
-                  <a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/PAM-198-P-EN.pdf" target="_blank"><svg width="16" height="16"
-                      viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a>
-                  <a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PAM-198-P-EN.pdf" target="_blank"
-                    download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a>
-                </div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PAM-193-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Khuếch đại công suất điều chỉnh bằng chiết áp, không cần phần mềm</div><span
-                  class="tl-badge red">ATEX</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action">
-                  <a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/PAM-193-P-EN.pdf" target="_blank"><svg width="16" height="16"
-                      viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a>
-                  <a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PAM-193-P-EN.pdf" target="_blank"
-                    download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a>
-                </div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PAM-190-P-IO</div>
-              </td>
-              <td>
-                <div class="tl-desc">Khuếch đại gắn van, hỗ trợ IO-Link Class B</div><span
-                  class="tl-badge">IO-Link</span><span class="tl-badge">Industry 4.0</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action">
-                  <a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/PAM-190-P-IO-EN.pdf" target="_blank"><svg width="16" height="16"
-                      viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a>
-                  <a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PAM-190-P-IO-EN.pdf" target="_blank"
-                    download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a>
-                </div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PAM-190-X-S9</div>
-              </td>
-              <td>
-                <div class="tl-desc">Phiên bản gắn van với đế xoay 180° — mới 2025</div><span class="tl-badge">Mới
-                  2025</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action">
-                  <a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/PAM-190-X-S9-EN.pdf" target="_blank"><svg width="16" height="16"
-                      viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a>
-                  <a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PAM-190-X-S9-EN.pdf" target="_blank"
-                    download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- ══ NHÓM 2: BỘ ĐIỀU KHIỂN VỊ TRÍ ══ -->
-      <div class="tl-section" data-group="pos">
-        <div class="tl-section-header">
-          <div class="tl-section-icon">
-            <svg width="16" height="16" viewbox="0 0 24 24" stroke-width="1.5">
-              <circle cx="12" cy="12" r="10"></circle>
-              <path d="M12 8v4l3 3"></path>
-            </svg>
-          </div>
-          <div>
-            <div class="tl-section-title">Bộ điều khiển vị trí — POS / UHC Series</div>
-          </div>
-          <span class="tl-section-count">5 tài liệu</span>
-        </div>
-        <table class="tl-table">
-          <thead>
-            <tr>
-              <th style="width:160px">Mã sản phẩm</th>
-              <th>Mô tả</th>
-              <th style="width:80px">Phiên bản</th>
-              <th style="width:200px">Tải xuống</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">POS-123-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển vị trí xi lanh thủy lực, hỗ trợ SSI và analog</div><span
-                  class="tl-badge red">ATEX</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/POS-123-P-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/POS-123-P-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">POS-124-U-PFN</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển 2 trục độc lập với Profinet</div><span class="tl-badge">Profinet</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view"
-                    href="https://www.w-e-st.de/files/pdf/POS-124-U-PFN-EN.pdf" target="_blank"><svg width="16" height="16" viewbox="0 0 24 24"
-                      stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/POS-124-U-PFN-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">POS-324-U-PFN</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển 2 trục với FlexiMod scripting — mới 2025</div><span class="tl-badge">Mới
-                  2025</span><span class="tl-badge">Profinet</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view"
-                    href="https://www.w-e-st.de/files/pdf/POS-324-U-PFN-EN.pdf" target="_blank"><svg width="16" height="16" viewbox="0 0 24 24"
-                      stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/POS-324-U-PFN-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">UHC-126-U-PFN</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển thủy lực vạn năng — vị trí và áp suất</div><span
-                  class="tl-badge">Profinet</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view"
-                    href="https://www.w-e-st.de/files/pdf/UHC-126-U-PFN-EN.pdf" target="_blank"><svg width="16" height="16" viewbox="0 0 24 24"
-                      stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/UHC-126-U-PFN-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">UHC-326-U-PFN</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển vị trí + áp suất đồng thời, FlexiMod — mới 2025</div><span
-                  class="tl-badge">Mới 2025</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view"
-                    href="https://www.w-e-st.de/files/pdf/UHC-326-U-PFN-EN.pdf" target="_blank"><svg width="16" height="16" viewbox="0 0 24 24"
-                      stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/UHC-326-U-PFN-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- ══ NHÓM 3: ĐỒNG BỘ ══ -->
-      <div class="tl-section" data-group="csc">
-        <div class="tl-section-header">
-          <div class="tl-section-icon"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="1.5">
-              <path d="M18 20V10M12 20V4M6 20v-6"></path>
-            </svg></div>
-          <div>
-            <div class="tl-section-title">Bộ điều khiển đồng bộ — CSC Series</div>
-          </div>
-          <span class="tl-section-count">4 tài liệu</span>
-        </div>
-        <table class="tl-table">
-          <thead>
-            <tr>
-              <th style="width:160px">Mã sản phẩm</th>
-              <th>Mô tả</th>
-              <th style="width:80px">Phiên bản</th>
-              <th style="width:200px">Tải xuống</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">CSC-151-U</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển đồng bộ 2 xi lanh, ngõ ra analog ±10V</div>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/CSC-151-U-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/CSC-151-U-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">CSC-151-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển đồng bộ 2 xi lanh, tích hợp bộ khuếch đại 2.6A</div>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/CSC-151-P-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/CSC-151-P-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">CSC-152-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển đồng bộ 2 xi lanh, hỗ trợ SSI và analog</div>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/CSC-152-P-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/CSC-152-P-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">CSC-156-U-SSIC</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển đồng bộ 4 xi lanh với cảm biến SSI</div>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view"
-                    href="https://www.w-e-st.de/files/pdf/CSC-156-U-SSIC-EN.pdf" target="_blank"><svg width="16" height="16"
-                      viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/CSC-156-U-SSIC-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- ══ NHÓM 4: ÁP SUẤT ══ -->
-      <div class="tl-section" data-group="mdr">
-        <div class="tl-section-header">
-          <div class="tl-section-icon"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="1.5">
-              <path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"></path>
-            </svg></div>
-          <div>
-            <div class="tl-section-title">Bộ điều khiển áp suất — MDR / PQ Series</div>
-          </div>
-          <span class="tl-section-count">3 tài liệu</span>
-        </div>
-        <table class="tl-table">
-          <thead>
-            <tr>
-              <th style="width:160px">Mã sản phẩm</th>
-              <th>Mô tả</th>
-              <th style="width:80px">Phiên bản</th>
-              <th style="width:200px">Tải xuống</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">MDR-133-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển áp suất thủy lực ổn định, thuật toán PID số</div>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/MDR-133-P-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/MDR-133-P-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">MDR-337-P</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển áp suất với commissioning assistant tự động</div>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/MDR-337-P-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/MDR-337-P-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PQ-132-U</div>
-              </td>
-              <td>
-                <div class="tl-desc">Điều khiển đồng thời áp suất và lưu lượng thủy lực</div>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/PQ-132-U-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PQ-132-U-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- ══ NHÓM 5: MODULE GIAO TIẾP ══ -->
-      <div class="tl-section" data-group="pck">
-        <div class="tl-section-header">
-          <div class="tl-section-icon"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="1.5">
-              <path
-                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z">
-              </path>
-            </svg></div>
-          <div>
-            <div class="tl-section-title">Module giao tiếp &amp; Phụ kiện — PCK / IOA Series</div>
-          </div>
-          <span class="tl-section-count">3 tài liệu</span>
-        </div>
-        <table class="tl-table">
-          <thead>
-            <tr>
-              <th style="width:160px">Mã sản phẩm</th>
-              <th>Mô tả</th>
-              <th style="width:80px">Phiên bản</th>
-              <th style="width:200px">Tải xuống</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PCK-308-C-PFN</div>
-              </td>
-              <td>
-                <div class="tl-desc">Module giao tiếp Profinet cho các module W.E.St.</div><span
-                  class="tl-badge">Profinet</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view"
-                    href="https://www.w-e-st.de/files/pdf/PCK-308-C-PFN-EN.pdf" target="_blank"><svg width="16" height="16" viewbox="0 0 24 24"
-                      stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PCK-308-C-PFN-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">PCK-306-C-PDP</div>
-              </td>
-              <td>
-                <div class="tl-desc">Module giao tiếp Profibus DP cho các module W.E.St.</div><span
-                  class="tl-badge">Profibus</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view"
-                    href="https://www.w-e-st.de/files/pdf/PCK-306-C-PDP-EN.pdf" target="_blank"><svg width="16" height="16" viewbox="0 0 24 24"
-                      stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/PCK-306-C-PDP-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-            <tr class="tl-row">
-              <td>
-                <div class="tl-model">IOA-312</div>
-              </td>
-              <td>
-                <div class="tl-desc">Adapter IO-Link Class A sang Class B cho PAM-190-P-IO</div><span
-                  class="tl-badge">IO-Link</span>
-              </td>
-              <td><span class="tl-badge">EN</span></td>
-              <td>
-                <div class="tl-action"><a class="tl-btn-view" href="https://www.w-e-st.de/files/pdf/IOA-312-EN.pdf"
-                    target="_blank"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>Xem</a><a class="tl-btn-dl" href="https://www.w-e-st.de/files/pdf/IOA-312-EN.pdf"
-                    target="_blank" download><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-                    </svg>PDF</a></div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- ══ PHẦN MỀM WPC-300 ══ -->
-      <div class="tl-section">
-        <div class="tl-section-header">
-          <div class="tl-section-icon"><svg width="16" height="16" viewbox="0 0 24 24" stroke-width="1.5">
-              <rect x="2" y="3" width="20" height="14" rx="2"></rect>
-              <path d="M8 21h8M12 17v4"></path>
-            </svg></div>
-          <div>
-            <div class="tl-section-title">Phần mềm cài đặt — WPC-300</div>
-          </div>
-        </div>
-        <div class="tl-software">
-          <div class="tl-software-icon">
-            <svg width="16" height="16" viewbox="0 0 24 24" stroke-width="1.5">
-              <rect x="2" y="3" width="20" height="14" rx="2"></rect>
-              <path d="M8 21h8M12 17v4"></path>
-              <path d="M9 8l2 2-2 2M13 12h2"></path>
-            </svg>
-          </div>
-          <div class="tl-software-text">
-            <h3>WPC-300 — Phần mềm cấu hình W.E.St.</h3>
-            <p>Phần mềm cài đặt và cấu hình toàn bộ module W.E.St. qua cổng USB. Hỗ trợ Windows 7/10/11. Miễn phí tải về
-              từ website chính hãng. Bao gồm hướng dẫn sử dụng và file IODD cho IO-Link.</p>
-          </div>
-          <div class="tl-software-btns">
-            <a class="tl-btn-primary" href="https://www.w-e-st.de/en/service/downloads/" target="_blank">
-              <svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
-              </svg>
-              Tải WPC-300
-            </a>
-            <a class="tl-btn-secondary" href="https://www.w-e-st.de/en/service/downloads/" target="_blank">
-              <svg width="16" height="16" viewbox="0 0 24 24" stroke-width="2">
-                <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"></path>
-                <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"></path>
-              </svg>
-              Trang Downloads
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- GHI CHÚ -->
-      <div class="tl-note">
-        <strong>📌 Lưu ý:</strong> Tất cả tài liệu được liên kết trực tiếp từ website chính hãng
-        <strong>w-e-st.de</strong>. Để đảm bảo có tài liệu mới nhất, vui lòng kiểm tra thêm tại <a
-          href="https://www.w-e-st.de/en/service/downloads/" target="_blank"
-          style="color:#cc0000;font-weight:700">www.w-e-st.de/en/service/downloads/</a>. Cần hỗ trợ kỹ thuật? <a
-          href="/lien-he/" style="color:#cc0000;font-weight:700">Liên hệ ngay với chúng tôi</a>.
-      </div>
-
-    </div>
-  </div>
-
-  <script>
-    function filterTable() {
-      const q = document.getElementById("tl-search-input").value.toLowerCase();
-      document.querySelectorAll(".tl-row").forEach(row => {
-        row.style.display = row.textContent.toLowerCase().includes(q) ? "" : "none";
-      });
-      // Ẩn/hiện section nếu không có kết quả
-      document.querySelectorAll(".tl-section").forEach(section => {
-        const visible = [...section.querySelectorAll(".tl-row")].some(r => r.style.display !== "none");
-        section.style.display = q && !visible ? "none" : "";
-      });
-    }
-  </script>
 <footer class="wf">
+  <div class="wf-colorbar" aria-hidden="true"><span></span><span></span></div>
   <div class="wf-inner">
     <div class="wf-top">
-      <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap">
-        <div class="wf-brand">
-          <span class="name">W</span><span class="dot">.</span>
-          <span class="name">E</span><span class="dot">.</span>
-          <span class="name">St</span><span class="dot">.</span>
-        </div>
-        <div style="width:1px;height:30px;background:rgba(255,255,255,0.15)"></div>
-        <div>
-          <div class="wf-tagline">Hydraulics meets electronics</div>
-          <div style="font-size:11px;color:rgba(255,255,255,0.35)">W.E.St. Elektronik GmbH — Germany</div>
-        </div>
+      <div class="wf-brand-lockup">
+        <span class="west-logo-mark wf-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wf-logo-name">W.E.St. Vietnam</span>
+          <span class="wf-tagline">Hydraulics meets electronics</span>
+          <span class="wf-origin">Hydraulics meets electronics — W.E.St. Elektronik GmbH, Germany</span>
+        </span>
       </div>
       <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
-        <span style="font-size:15px;font-weight:700;color:#fff;letter-spacing:1px">AUTHORIZED DISTRIBUTOR — VIETNAM</span>
+        <span class="wf-auth-text">Authorized Distributor — Vietnam</span>
         <div class="wf-since">Est. 1999</div>
       </div>
     </div>
     <div class="wf-grid">
       <div>
         <h4>Về chúng tôi</h4>
-        <p>Nhà phân phối chính thức W.E.St. Elektronik GmbH tại Việt Nam — chuyên cung cấp module điều khiển van tỷ lệ thủy lực cho ngành dầu khí, công nghiệp nặng và tự động hóa.</p>
+        <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. Elektronik GmbH tại Việt Nam — chuyên cung cấp module điều khiển van tỷ lệ thủy lực cho ngành dầu khí, công nghiệp nặng và tự động hóa.</p>
+        <p style="margin-top:10px;font-size:12.5px;font-weight:650;color:#8b97a8">MST: 0315555189</p>
         <div class="cert-row">
           <span class="cert-badge">ATEX / EX Zone</span>
           <span class="cert-badge">ISO Certified</span>
@@ -1954,7 +1257,7 @@
         <ul>
           <li><a href="/tai-lieu-ky-thuat/">Tài liệu &amp; Datasheet</a></li>
           <li><a href="/blog/">Blog kỹ thuật</a></li>
-          <li><a href="/ung-dung-dau-khi/">Ứng dụng dầu khí</a></li>
+          <li><a href="/ung-dung-dau-khi/">Ứng dụng</a></li>
           <li><a href="/ve-chung-toi/">Về chúng tôi</a></li>
         </ul>
       </div>
@@ -1962,7 +1265,11 @@
         <h4>Liên hệ</h4>
         <div class="contact-item">
           <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-          <div class="contact-text"><span class="contact-label">Văn phòng</span>150/41 Nguyễn Cư Trinh, Q.1, TP. Hồ Chí Minh</div>
+          <div class="contact-text"><span class="contact-label">Văn phòng TP.HCM</span>150/41 Nguyễn Cư Trinh, P. Cầu Ông Lãnh, Q.1, TP. Hồ Chí Minh</div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-text"><span class="contact-label">Văn phòng Vũng Tàu</span>51 Lê Văn Lộc, TP. Vũng Tàu, Việt Nam</div>
         </div>
         <div class="contact-item">
           <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.62a16 16 0 006.29 6.29l1.14-1.14a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
