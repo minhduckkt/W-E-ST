@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Điều khiển vòng kín (closed-loop) trong thủy lực: vị trí, áp suất &amp; đồng bộ | W.E.St. Vietnam</title>
+<meta name="description" content="Điều khiển vòng kín trong thủy lực là gì? PID, feedback, ổn định vòng lặp cho vị trí, áp suất, đồng bộ. Ví dụ module W.E.St (WEST) POS-123, PID-131-U, CSC-151.">
+<meta name="keywords" content="điều khiển vòng kín thủy lực, closed loop control, PID thủy lực, điều khiển áp suất, đồng bộ trục, feedback sensor, control module WEST, Fast Group Engineering, W.E.St. Vietnam">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://w-e-st.com.vn/blog/dieu-khien-vong-kin-thuy-luc/">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Điều khiển vòng kín (closed-loop) trong thủy lực: vị trí, áp suất &amp; đồng bộ | W.E.St. Vietnam">
+<meta property="og:description" content="Điều khiển vòng kín trong thủy lực là gì? PID, feedback, ổn định vòng lặp cho vị trí, áp suất, đồng bộ. Ví dụ module W.E.St (WEST) POS-123, PID-131-U, CSC-151.">
+<meta property="og:url" content="https://w-e-st.com.vn/blog/dieu-khien-vong-kin-thuy-luc/">
+<meta property="og:site_name" content="W.E.St. Vietnam">
+<meta property="og:image" content="https://w-e-st.com.vn/wp-content/uploads/2026/04/pos-123-p.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Điều khiển vòng kín (closed-loop) trong thủy lực: vị trí, áp suất &amp; đồng bộ | W.E.St. Vietnam">
+<meta name="twitter:description" content="Điều khiển vòng kín trong thủy lực là gì? PID, feedback, ổn định vòng lặp cho vị trí, áp suất, đồng bộ. Ví dụ module W.E.St (WEST) POS-123, PID-131-U, CSC-151.">
+<meta name="twitter:image" content="https://w-e-st.com.vn/wp-content/uploads/2026/04/pos-123-p.png">
+<link rel="icon" href="/wp-content/uploads/2026/04/cropped-West-32x32.png" sizes="32x32">
+<link rel="stylesheet" href="/css/style.css?v=20260708-balanced2">
+<link rel="stylesheet" href="/css/template-standard.css?v=20260708-template10">
+<script src="/js/site.js?v=20260708-template10" defer></script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://w-e-st.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Blog kỹ thuật", "item": "https://w-e-st.com.vn/blog/"}, {"@type": "ListItem", "position": 3, "name": "Điều khiển vòng kín (closed-loop) trong thủy lực: nền tảng của vị trí, áp suất và đồng bộ chính xác", "item": "https://w-e-st.com.vn/blog/dieu-khien-vong-kin-thuy-luc/"}]}, {"@type": "BlogPosting", "headline": "Điều khiển vòng kín (closed-loop) trong thủy lực: nền tảng của vị trí, áp suất và đồng bộ chính xác", "description": "Điều khiển vòng kín trong thủy lực là gì? PID, feedback, ổn định vòng lặp cho vị trí, áp suất, đồng bộ. Ví dụ module W.E.St (WEST) POS-123, PID-131-U, CSC-151.", "image": "https://w-e-st.com.vn/wp-content/uploads/2026/04/pos-123-p.png", "datePublished": "2026-06-10", "dateModified": "2026-07-08", "inLanguage": "vi-VN", "author": {"@type": "Organization", "name": "Fast Group Engineering"}, "publisher": {"@type": "Organization", "name": "W.E.St. Vietnam", "url": "https://w-e-st.com.vn"}, "mainEntityOfPage": "https://w-e-st.com.vn/blog/dieu-khien-vong-kin-thuy-luc/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "1. Mọi module WEST đều là vòng kín?", "acceptedAnswer": {"@type": "Answer", "text": "Phần lớn module điều khiển (position, pressure, sync) là vòng kín. Một số module tín hiệu/amplifier cơ bản làm nhiệm vụ khác (tạo tín hiệu, khuếch đại dòng — bản thân vòng dòng cũng là closed-loop)."}}, {"@type": "Question", "name": "2. Tôi cần cảm biến gì cho vòng kín?", "acceptedAnswer": {"@type": "Answer", "text": "Tùy bài toán: cảm biến vị trí (analog/SSI) cho định vị, cảm biến áp suất cho điều khiển áp suất. Đối chiếu datasheet module."}}, {"@type": "Question", "name": "3. PID có khó chỉnh không?", "acceptedAnswer": {"@type": "Answer", "text": "WEST hỗ trợ tham số hóa đơn giản qua WPC-300, nhiều dòng có Start-Up Assistant. Fast Group hỗ trợ tư vấn."}}, {"@type": "Question", "name": "4. Chu kỳ 1 ms có đủ nhanh không?", "acceptedAnswer": {"@type": "Answer", "text": "Với hầu hết ứng dụng thủy lực công nghiệp, chu kỳ 1 ms (và vòng dòng nhanh hơn, tới 125 µs) là đủ cho đáp ứng động học tốt."}}]}]}
+</script>
+</head>
+<body>
+<div class="wh-wrap">
+  <div class="wh-topbar">
+    <div class="wh-topbar-inner">
+      <div class="wh-topbar-left">
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.62a16 16 0 006.29 6.29l1.14-1.14a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          <a href="tel:+84938888958">+84 938 888 958</a>
+        </div>
+        <div class="wh-tb-divider"></div>
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <a href="mailto:sales@w-e-st.com.vn">sales@w-e-st.com.vn</a>
+        </div>
+        <div class="wh-tb-divider"></div>
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Vũng Tàu, Việt Nam</span>
+        </div>
+      </div>
+      <div class="wh-topbar-right">
+        <div class="wh-dot"></div>
+        <span class="wh-auth-tag">Authorized Distributor</span>
+      </div>
+    </div>
+  </div>
+  <div class="wh-main">
+    <div class="wh-main-inner">
+      <a href="/" class="wh-logo-group west-brand-lockup" aria-label="W.E.St. Vietnam - Hydraulics meets electronics">
+        <span class="west-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="" class="wh-logo">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wh-logo-text">W.E.St. Vietnam</span>
+          <span class="wh-logo-sub">Hydraulics meets electronics</span>
+        </span>
+      </a>
+      <nav class="wh-nav">
+        <a class="wh-nav-link" href="/">Trang chủ</a>
+        <div class="wh-nav-item">
+          <a class="wh-nav-link" href="/san-pham/">Sản phẩm</a>
+          <div class="wh-dropdown">
+            <a class="wh-dd-item" href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/position-controls/">Điều khiển vị trí</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/pid-/-pressure-controls/">Điều khiển PID / áp suất</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/synchronization/">Đồng bộ hóa</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/pump-control-modules/">Mô-đun Điều Khiển Bơm</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/universal-function-modules/">Mô-đun đa năng</a>
+          </div>
+        </div>
+        <a class="wh-nav-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
+        <a class="wh-nav-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
+        <a class="wh-nav-link" href="/blog/">Blog</a>
+        <a class="wh-nav-link" href="/ve-chung-toi/">Về chúng tôi</a>
+      </nav>
+      <a class="wh-cta" href="/#request-quote-form">Báo giá ngay</a>
+      <button class="wh-hamburger" type="button" aria-label="Menu" aria-controls="wh-mobile-menu" aria-expanded="false"><span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="wh-mobile-menu" id="wh-mobile-menu">
+    <a class="wh-mob-link" href="/">Trang chủ</a>
+    <div class="wh-mob-toggle" role="button" tabindex="0" aria-expanded="false">
+      Sản phẩm
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </div>
+    <div class="wh-mob-submenu">
+      <a class="wh-mob-sublink" href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/position-controls/">Điều khiển vị trí</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/pid-/-pressure-controls/">Điều khiển PID / áp suất</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/synchronization/">Đồng bộ hóa</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/pump-control-modules/">Mô-đun Điều Khiển Bơm</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+    </div>
+    <a class="wh-mob-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
+    <a class="wh-mob-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
+    <a class="wh-mob-link" href="/blog/">Blog</a>
+    <a class="wh-mob-link" href="/ve-chung-toi/">Về chúng tôi</a>
+    <a class="wh-mob-cta" href="/#request-quote-form">Báo giá ngay</a>
+  </div>
+</div>
+<div class="blog-breadcrumb">
+  <a href="/">Trang chủ</a><span>›</span><a href="/blog/">Blog kỹ thuật</a><span>›</span><span>Điều khiển vòng kín (closed-loop) trong thủy lực: nền tảng của vị trí, áp suất và đồng bộ chính xác</span>
+</div>
+<article class="blog-article blog-article-clean">
+  <header class="blog-post-hero">
+    <div class="blog-post-hero-copy">
+      <div class="blog-meta">
+        <span>Fast Group Engineering</span>
+        <span>10/06/2026</span>
+        <span>Kỹ thuật</span>
+      </div>
+      <h1>Điều khiển vòng kín (closed-loop) trong thủy lực: nền tảng của vị trí, áp suất và đồng bộ chính xác</h1>
+      <p class="blog-post-lead">Điều khiển vòng kín trong thủy lực là gì? PID, feedback, ổn định vòng lặp cho vị trí, áp suất, đồng bộ. Ví dụ module W.E.St (WEST) POS-123, PID-131-U, CSC-151.</p>
+    </div>
+    <figure class="blog-featured-img">
+      <img src="/wp-content/uploads/2026/04/pos-123-p.png" alt="Điều khiển vòng kín (closed-loop) trong thủy lực: nền tảng của vị trí, áp suất và đồng bộ chính xác - W.E.St. Vietnam" loading="lazy">
+    </figure>
+  </header>
+  <div class="blog-post-body">
+    <p>Điểm khác biệt giữa một hệ thủy lực "chạy được" và một hệ thủy lực "chạy chính xác, lặp lại được" nằm ở hai chữ: <strong>vòng kín</strong> (closed-loop). Bài viết giải thích khái niệm điều khiển vòng kín trong thủy lực, vai trò của bộ điều khiển PID và cảm biến phản hồi, và cách dòng module <strong>W.E.St. Elektronik (WEST)</strong> hiện thực hóa điều này cho ba bài toán phổ biến: vị trí, áp suất và đồng bộ.</p>
+<h2>Vòng hở vs vòng kín: khác biệt cốt lõi</h2>
+<ul><li><strong>Vòng hở (open-loop):</strong> cấp một tín hiệu và "hy vọng" kết quả đúng. Không có phản hồi, nên sai lệch do nhiệt độ, tải, hao mòn không được sửa.</li><li><strong>Vòng kín (closed-loop):</strong> đo kết quả thực bằng cảm biến, so sánh với giá trị đặt, và <strong>liên tục điều chỉnh</strong> để triệt tiêu sai lệch.</li></ul>
+<p>Trong thủy lực — nơi dầu chịu nén, tải thay đổi, van phi tuyến — vòng kín là điều kiện cần để đạt độ chính xác và ổn định.</p>
+<h2>Ba thành phần của một vòng điều khiển</h2>
+<ol><li><strong>Giá trị đặt (setpoint):</strong> vị trí (mm), áp suất (bar), hoặc sai lệch đồng bộ mong muốn.</li><li><strong>Cảm biến phản hồi (feedback):</strong> analog (0…10V/4…20mA) hoặc số (SSI).</li><li><strong>Bộ điều khiển (compensator):</strong> thường là <strong>PID</strong> — tính toán tín hiệu ra để đưa sai lệch về 0.</li></ol>
+<p>Dòng WEST xử lý số với <strong>chu kỳ 1 ms</strong> điển hình, cho đáp ứng nhanh và ổn định.</p>
+<h2>PID trong module WEST hoạt động ra sao?</h2>
+<p>Bộ điều khiển PID gồm ba thành phần: <strong>P</strong> (tỷ lệ — phản ứng theo sai lệch hiện tại), <strong>I</strong> (tích phân — triệt tiêu sai lệch tồn dư), <strong>D</strong> (vi phân — chống dao động, tăng ổn định). Các module WEST bổ sung nhiều kỹ thuật nâng cao:</p>
+<ul><li><strong>PT1 filter</strong> (lọc nhiễu), <strong>feed-forward</strong> (bù trước để đáp ứng nhanh).</li><li><strong>Kích hoạt tích phân theo ngưỡng</strong> (PID-131-U tự chuyển cấu trúc điều khiển theo giá trị phản hồi).</li><li><strong>Hai bộ tham số</strong> chuyển đổi được cho các điểm vận hành khác nhau (PQ-132-U).</li><li><strong>Drift compensation, acceleration feedback</strong> (UHC-126-U).</li></ul>
+<h2>Ba bài toán vòng kín điển hình &amp; module WEST tương ứng</h2>
+<div class="blog-table-wrap"><table><thead><tr><th>Bài toán</th><th>Đại lượng điều khiển</th><th>Module WEST</th></tr></thead><tbody><tr><td><strong>Định vị</strong></td><td>Vị trí xi-lanh (mm)</td><td>POS-123, UHC-126-U, POS-321-P</td></tr><tr><td><strong>Áp suất / lực</strong></td><td>Áp suất (bar), lực</td><td>PID-131-U, PQ-132-U, MDR-133</td></tr><tr><td><strong>Đồng bộ</strong></td><td>Sai lệch vị trí giữa các trục</td><td>CSC-151, CSC-152</td></tr></tbody></table></div>
+<h2>Vì sao điều khiển vòng kín quan trọng với chất lượng sản phẩm?</h2>
+<p>Trong máy ép, sai lệch lực/vị trí ảnh hưởng trực tiếp đến chất lượng chi tiết. Trong đồng bộ bàn nâng, mất đồng bộ gây kẹt cơ khí. Trong điều khiển áp suất, vọt áp gây hỏng khuôn hoặc rò rỉ. Vòng kín — với PID và cảm biến tốt — giữ các đại lượng này trong dung sai, đảm bảo chất lượng và an toàn.</p>
+<h2>Câu hỏi thường gặp (FAQ)</h2>
+<p><strong>1. Mọi module WEST đều là vòng kín?</strong> Phần lớn module điều khiển (position, pressure, sync) là vòng kín. Một số module tín hiệu/amplifier cơ bản làm nhiệm vụ khác (tạo tín hiệu, khuếch đại dòng — bản thân vòng dòng cũng là closed-loop).</p>
+<p><strong>2. Tôi cần cảm biến gì cho vòng kín?</strong> Tùy bài toán: cảm biến vị trí (analog/SSI) cho định vị, cảm biến áp suất cho điều khiển áp suất. Đối chiếu datasheet module.</p>
+<p><strong>3. PID có khó chỉnh không?</strong> WEST hỗ trợ tham số hóa đơn giản qua WPC-300, nhiều dòng có Start-Up Assistant. Fast Group hỗ trợ tư vấn.</p>
+<p><strong>4. Chu kỳ 1 ms có đủ nhanh không?</strong> Với hầu hết ứng dụng thủy lực công nghiệp, chu kỳ 1 ms (và vòng dòng nhanh hơn, tới 125 µs) là đủ cho đáp ứng động học tốt.</p>
+<h2>Liên hệ tư vấn</h2>
+<p>Fast Group Engineering cung cấp module <strong>điều khiển vòng kín W.E.St (WEST)</strong> chính hãng — vị trí, áp suất, đồng bộ — kèm tư vấn cấu hình PID qua WPC-300.</p>
+<p>📞 0938 888 958 · ✉️ sales@w-e-st.com.vn</p>
+<p><strong>Xem thêm:</strong> <a href="/blog/bo-dieu-khien-vi-tri-thuy-luc/">Bộ điều khiển vị trí thủy lực</a> · <a href="/blog/bo-dieu-khien-ap-suat-thuy-luc/">Bộ điều khiển áp suất thủy lực</a> · <a href="/blog/dong-bo-xi-lanh-thuy-luc/">Đồng bộ xi-lanh thủy lực</a></p>
+  </div>
+  <section class="blog-product-links">
+  <div class="blog-related-kicker">Sản phẩm được nhắc đến</div>
+  <div class="blog-product-link-list">
+    <a href="/san-pham/pos-321-p/">POS-321-P</a>
+<a href="/san-pham/uhc-126-u/">UHC-126-U</a>
+<a href="/san-pham/pos-123/">POS-123</a>
+<a href="/san-pham/mdr-133/">MDR-133</a>
+<a href="/san-pham/csc-151/">CSC-151</a>
+<a href="/san-pham/csc-152/">CSC-152</a>
+  </div>
+</section>
+  <section class="blog-related-panel">
+  <div class="blog-related-kicker">Đọc tiếp</div>
+  <h2>Bài viết liên quan</h2>
+  <div class="blog-related-grid">
+    <a class="blog-related-card" href="/blog/module-dieu-khien-thuy-luc-la-gi/">
+  <span>Kỹ thuật</span>
+  <strong>Module điều khiển thủy lực là gì? Vai trò &amp; phân loại trong hệ thống điện–thủy lực</strong>
+</a><a class="blog-related-card" href="/blog/servo-valve-controller-vs-proportional-amplifier/">
+  <span>Kỹ thuật</span>
+  <strong>Servo valve controller vs proportional valve amplifier: khác nhau ở đâu và khi nào dùng loại nào?</strong>
+</a><a class="blog-related-card" href="/blog/bo-dieu-khien-vi-tri-thuy-luc/">
+  <span>Kỹ thuật</span>
+  <strong>Bộ điều khiển vị trí thủy lực (position controller) hoạt động thế nào?</strong>
+</a>
+  </div>
+</section>
+  <section class="blog-cta-panel">
+    <div>
+      <span class="blog-related-kicker">Tư vấn kỹ thuật</span>
+      <h2>Cần chọn module W.E.St. cho hệ thống thủy lực?</h2>
+      <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. tại Việt Nam, hỗ trợ chọn model, kiểm tra datasheet và tư vấn giải pháp thay thế cho dự án công nghiệp.</p>
+    </div>
+    <a href="/lien-he/">Nhận tư vấn</a>
+  </section>
+</article>
+<footer class="wf">
+  <div class="wf-colorbar" aria-hidden="true"><span></span><span></span></div>
+  <div class="wf-inner">
+    <div class="wf-top">
+      <div class="wf-brand-lockup">
+        <span class="west-logo-mark wf-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wf-logo-name">W.E.St. Vietnam</span>
+          <span class="wf-tagline">Hydraulics meets electronics</span>
+          <span class="wf-origin">Hydraulics meets electronics — W.E.St. Elektronik GmbH, Germany</span>
+        </span>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+        <span class="wf-auth-text">Authorized Distributor — Vietnam</span>
+        <div class="wf-since">Est. 1999</div>
+      </div>
+    </div>
+    <div class="wf-grid">
+      <div>
+        <h4>Về chúng tôi</h4>
+        <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. Elektronik GmbH tại Việt Nam — chuyên cung cấp module điều khiển van tỷ lệ thủy lực cho ngành dầu khí, công nghiệp nặng và tự động hóa.</p>
+        <p style="margin-top:10px;font-size:12.5px;font-weight:650;color:#8b97a8">MST: 0315555189</p>
+        <div class="cert-row">
+          <span class="cert-badge">ATEX / EX Zone</span>
+          <span class="cert-badge">ISO Certified</span>
+          <span class="cert-badge">Oil &amp; Gas</span>
+        </div>
+      </div>
+      <div>
+        <h4>Sản phẩm</h4>
+        <ul>
+          <li><a href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a></li>
+          <li><a href="/nhom-san-pham/position-controls/">Bộ điều khiển vị trí</a></li>
+          <li><a href="/nhom-san-pham/synchronization/">Bộ điều khiển đồng bộ</a></li>
+          <li><a href="/nhom-san-pham/pid-/-pressure-controls/">Bộ điều khiển áp suất</a></li>
+          <li><a href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hỗ trợ kỹ thuật</h4>
+        <ul>
+          <li><a href="/tai-lieu-ky-thuat/">Tài liệu &amp; Datasheet</a></li>
+          <li><a href="/blog/">Blog kỹ thuật</a></li>
+          <li><a href="/ung-dung-dau-khi/">Ứng dụng</a></li>
+          <li><a href="/ve-chung-toi/">Về chúng tôi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-text"><span class="contact-label">Văn phòng TP.HCM</span>150/41 Nguyễn Cư Trinh, P. Cầu Ông Lãnh, Q.1, TP. Hồ Chí Minh</div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-text"><span class="contact-label">Văn phòng Vũng Tàu</span>51 Lê Văn Lộc, TP. Vũng Tàu, Việt Nam</div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.62a16 16 0 006.29 6.29l1.14-1.14a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          <div class="contact-text"><span class="contact-label">Hotline</span><a href="tel:+84938888958">+84 938 888 958</a></div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <div class="contact-text"><span class="contact-label">Email</span><a href="mailto:sales@w-e-st.com.vn">sales@w-e-st.com.vn</a></div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path></svg>
+          <div class="contact-text"><span class="contact-label">Zalo</span><a href="https://zalo.me/0938888958">0938 888 958</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wf-bar-wrap">
+    <div class="wf-bar">
+      <div class="wf-bar-left">
+        <div class="wf-dist-label">Distributed by</div>
+        <div class="wf-dist-name">Fast Group Company Limited</div>
+      </div>
+      <div class="wf-bar-copy">&copy; 2026 W.E.St. Vietnam. All rights reserved.</div>
+      <div class="wf-bar-links">
+        <a href="/chinh-sach-bao-mat/">Chính sách bảo mật</a>
+        <a href="/dieu-khoan/">Điều khoản</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

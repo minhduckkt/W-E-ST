@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Servo valve controller vs proportional valve amplifier — Phân biệt &amp; khi nào dùng | W.E.St. Vietnam</title>
+<meta name="description" content="Phân biệt servo valve controller và proportional valve amplifier: nguyên lý, độ chính xác, ứng dụng, cách chọn. Ví dụ W.E.St SV-300 &amp; PAM-198-P/PAM-199-P.">
+<meta name="keywords" content="servo valve controller, proportional valve amplifier, servo valve amplifier WEST, bộ khuếch đại van tỷ lệ, SV-300, điều khiển van servo, amplifier thủy lực W.E.St, Fast Group Engineering, W.E.St. Vietnam">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://w-e-st.com.vn/blog/servo-valve-controller-vs-proportional-amplifier/">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Servo valve controller vs proportional valve amplifier — Phân biệt &amp; khi nào dùng | W.E.St. Vietnam">
+<meta property="og:description" content="Phân biệt servo valve controller và proportional valve amplifier: nguyên lý, độ chính xác, ứng dụng, cách chọn. Ví dụ W.E.St SV-300 &amp; PAM-198-P/PAM-199-P.">
+<meta property="og:url" content="https://w-e-st.com.vn/blog/servo-valve-controller-vs-proportional-amplifier/">
+<meta property="og:site_name" content="W.E.St. Vietnam">
+<meta property="og:image" content="https://w-e-st.com.vn/wp-content/uploads/2026/04/PAM-199.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Servo valve controller vs proportional valve amplifier — Phân biệt &amp; khi nào dùng | W.E.St. Vietnam">
+<meta name="twitter:description" content="Phân biệt servo valve controller và proportional valve amplifier: nguyên lý, độ chính xác, ứng dụng, cách chọn. Ví dụ W.E.St SV-300 &amp; PAM-198-P/PAM-199-P.">
+<meta name="twitter:image" content="https://w-e-st.com.vn/wp-content/uploads/2026/04/PAM-199.png">
+<link rel="icon" href="/wp-content/uploads/2026/04/cropped-West-32x32.png" sizes="32x32">
+<link rel="stylesheet" href="/css/style.css?v=20260708-balanced2">
+<link rel="stylesheet" href="/css/template-standard.css?v=20260708-template10">
+<script src="/js/site.js?v=20260708-template10" defer></script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://w-e-st.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Blog kỹ thuật", "item": "https://w-e-st.com.vn/blog/"}, {"@type": "ListItem", "position": 3, "name": "Servo valve controller vs proportional valve amplifier: khác nhau ở đâu và khi nào dùng loại nào?", "item": "https://w-e-st.com.vn/blog/servo-valve-controller-vs-proportional-amplifier/"}]}, {"@type": "BlogPosting", "headline": "Servo valve controller vs proportional valve amplifier: khác nhau ở đâu và khi nào dùng loại nào?", "description": "Phân biệt servo valve controller và proportional valve amplifier: nguyên lý, độ chính xác, ứng dụng, cách chọn. Ví dụ W.E.St SV-300 & PAM-198-P/PAM-199-P.", "image": "https://w-e-st.com.vn/wp-content/uploads/2026/04/PAM-199.png", "datePublished": "2026-06-08", "dateModified": "2026-07-08", "inLanguage": "vi-VN", "author": {"@type": "Organization", "name": "Fast Group Engineering"}, "publisher": {"@type": "Organization", "name": "W.E.St. Vietnam", "url": "https://w-e-st.com.vn"}, "mainEntityOfPage": "https://w-e-st.com.vn/blog/servo-valve-controller-vs-proportional-amplifier/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "1. Van servo có bắt buộc dùng SV-300 không?", "acceptedAnswer": {"@type": "Answer", "text": "SV-300 là giải pháp WEST cho van servo; cần đối chiếu dải dòng và yêu cầu động học của van cụ thể."}}, {"@type": "Question", "name": "2. PAM-199-P có điều khiển van servo được không?", "acceptedAnswer": {"@type": "Answer", "text": "PAM-199-P thiết kế cho van tỷ lệ. Van servo nên dùng servo amplifier chuyên biệt như SV-300."}}, {"@type": "Question", "name": "3. Làm sao biết van của tôi có spool feedback?", "acceptedAnswer": {"@type": "Answer", "text": "Xem datasheet van hoặc số chân kết nối; van có feedback thường có tín hiệu vị trí con trượt. Fast Group có thể hỗ trợ xác định."}}, {"@type": "Question", "name": "4. Dither là gì và vì sao quan trọng?", "acceptedAnswer": {"@type": "Answer", "text": "Dither là dao động nhỏ chồng lên dòng van, giảm ma sát tĩnh/trễ, giúp van đáp ứng mượt hơn."}}]}]}
+</script>
+</head>
+<body>
+<div class="wh-wrap">
+  <div class="wh-topbar">
+    <div class="wh-topbar-inner">
+      <div class="wh-topbar-left">
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.62a16 16 0 006.29 6.29l1.14-1.14a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          <a href="tel:+84938888958">+84 938 888 958</a>
+        </div>
+        <div class="wh-tb-divider"></div>
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <a href="mailto:sales@w-e-st.com.vn">sales@w-e-st.com.vn</a>
+        </div>
+        <div class="wh-tb-divider"></div>
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Vũng Tàu, Việt Nam</span>
+        </div>
+      </div>
+      <div class="wh-topbar-right">
+        <div class="wh-dot"></div>
+        <span class="wh-auth-tag">Authorized Distributor</span>
+      </div>
+    </div>
+  </div>
+  <div class="wh-main">
+    <div class="wh-main-inner">
+      <a href="/" class="wh-logo-group west-brand-lockup" aria-label="W.E.St. Vietnam - Hydraulics meets electronics">
+        <span class="west-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="" class="wh-logo">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wh-logo-text">W.E.St. Vietnam</span>
+          <span class="wh-logo-sub">Hydraulics meets electronics</span>
+        </span>
+      </a>
+      <nav class="wh-nav">
+        <a class="wh-nav-link" href="/">Trang chủ</a>
+        <div class="wh-nav-item">
+          <a class="wh-nav-link" href="/san-pham/">Sản phẩm</a>
+          <div class="wh-dropdown">
+            <a class="wh-dd-item" href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/position-controls/">Điều khiển vị trí</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/pid-/-pressure-controls/">Điều khiển PID / áp suất</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/synchronization/">Đồng bộ hóa</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/pump-control-modules/">Mô-đun Điều Khiển Bơm</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/universal-function-modules/">Mô-đun đa năng</a>
+          </div>
+        </div>
+        <a class="wh-nav-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
+        <a class="wh-nav-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
+        <a class="wh-nav-link" href="/blog/">Blog</a>
+        <a class="wh-nav-link" href="/ve-chung-toi/">Về chúng tôi</a>
+      </nav>
+      <a class="wh-cta" href="/#request-quote-form">Báo giá ngay</a>
+      <button class="wh-hamburger" type="button" aria-label="Menu" aria-controls="wh-mobile-menu" aria-expanded="false"><span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="wh-mobile-menu" id="wh-mobile-menu">
+    <a class="wh-mob-link" href="/">Trang chủ</a>
+    <div class="wh-mob-toggle" role="button" tabindex="0" aria-expanded="false">
+      Sản phẩm
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </div>
+    <div class="wh-mob-submenu">
+      <a class="wh-mob-sublink" href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/position-controls/">Điều khiển vị trí</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/pid-/-pressure-controls/">Điều khiển PID / áp suất</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/synchronization/">Đồng bộ hóa</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/pump-control-modules/">Mô-đun Điều Khiển Bơm</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+    </div>
+    <a class="wh-mob-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
+    <a class="wh-mob-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
+    <a class="wh-mob-link" href="/blog/">Blog</a>
+    <a class="wh-mob-link" href="/ve-chung-toi/">Về chúng tôi</a>
+    <a class="wh-mob-cta" href="/#request-quote-form">Báo giá ngay</a>
+  </div>
+</div>
+<div class="blog-breadcrumb">
+  <a href="/">Trang chủ</a><span>›</span><a href="/blog/">Blog kỹ thuật</a><span>›</span><span>Servo valve controller vs proportional valve amplifier: khác nhau ở đâu và khi nào dùng loại nào?</span>
+</div>
+<article class="blog-article blog-article-clean">
+  <header class="blog-post-hero">
+    <div class="blog-post-hero-copy">
+      <div class="blog-meta">
+        <span>Fast Group Engineering</span>
+        <span>08/06/2026</span>
+        <span>Kỹ thuật</span>
+      </div>
+      <h1>Servo valve controller vs proportional valve amplifier: khác nhau ở đâu và khi nào dùng loại nào?</h1>
+      <p class="blog-post-lead">Phân biệt servo valve controller và proportional valve amplifier: nguyên lý, độ chính xác, ứng dụng, cách chọn. Ví dụ W.E.St SV-300 &amp; PAM-198-P/PAM-199-P.</p>
+    </div>
+    <figure class="blog-featured-img">
+      <img src="/wp-content/uploads/2026/04/PAM-199.png" alt="Servo valve controller vs proportional valve amplifier: khác nhau ở đâu và khi nào dùng loại nào? - W.E.St. Vietnam" loading="lazy">
+    </figure>
+  </header>
+  <div class="blog-post-body">
+    <p>"Van servo hay van tỷ lệ?" và "dùng bộ điều khiển nào?" là câu hỏi thường gặp khi thiết kế hoặc nâng cấp một trục thủy lực. Hai họ thiết bị — <strong>servo valve controller</strong> và <strong>proportional valve amplifier</strong> — đều điều khiển dòng cấp cho van, nhưng khác nhau về đối tượng van, độ chính xác, dải dòng và ứng dụng. Bài viết phân biệt rõ hai loại, minh họa bằng dòng <strong>W.E.St. Elektronik (WEST)</strong>: <strong>SV-300</strong> cho van servo và <strong>PAM-198-P / PAM-199-P</strong> cho van tỷ lệ.</p>
+<h2>Bản chất khác nhau: van servo vs van tỷ lệ</h2>
+<ul><li><strong>Van servo</strong> (servo valve): độ chính xác và động học rất cao, thường có tầng thủy lực dẫn (pilot), dòng điều khiển nhỏ (miliampe), yêu cầu bộ khuếch đại chuyên biệt với dither và offset tinh.</li><li><strong>Van tỷ lệ</strong> (proportional valve): phổ biến trong công nghiệp, dòng điều khiển lớn hơn (tới vài ampe), điều khiển bằng amplifier PWM có scaling, ramp, tuyến tính hóa.</li></ul>
+<p>Do đó, thiết bị điều khiển tương ứng cũng khác nhau về dải dòng ra và cách tinh chỉnh.</p>
+<h2>So sánh kỹ thuật (theo dòng WEST)</h2>
+<div class="blog-table-wrap"><table><thead><tr><th>Tiêu chí</th><th>Servo controller (SV-300)</th><th>Proportional amplifier (PAM-198-P / PAM-199-P)</th></tr></thead><tbody><tr><td><strong>Đối tượng van</strong></td><td>Van servo</td><td>Van tỷ lệ (mọi hãng)</td></tr><tr><td><strong>Dòng ra</strong></td><td>+/- 10…300 mA (đặt qua DIL switch)</td><td>Tới ~2,6 A (PWM)</td></tr><tr><td><strong>Tín hiệu lệnh</strong></td><td>±10 V</td><td>0…10V / ±10V / 4…20mA (freely scalable)</td></tr><tr><td><strong>Đặc trưng tinh chỉnh</strong></td><td>Dither (100/250 Hz, biên 0…15%), offset</td><td>Ramp, MIN/MAX, dither, tuyến tính hóa 10 điểm XY (PAM-198-P)</td></tr><tr><td><strong>Điều khiển vòng kín vị trí van</strong></td><td>Không (điều khiển dòng cho servo)</td><td>PAM-198-P: có (van có spool feedback)</td></tr><tr><td><strong>Nguồn cấp</strong></td><td>18…30 VDC</td><td>12…30 VDC</td></tr></tbody></table></div>
+<p>*(Thông số trích datasheet W.E.St; luôn đối chiếu đúng mã hàng cho ứng dụng cụ thể.)*</p>
+<h2>Ba tình huống điển hình</h2>
+<p><strong>1. Van servo, cần đáp ứng động học cao (ví dụ điều khiển turbine, thử nghiệm động lực học):</strong> → Dùng <strong>servo amplifier SV-300</strong>. Cho phép đặt dòng ra theo bước 10 mA, cung cấp điện áp tham chiếu ±10 V, chỉnh dither và offset để tối ưu độ mượt quanh điểm 0.</p>
+<p><strong>2. Van tỷ lệ có phản hồi vị trí con trượt (spool position feedback):</strong> → Dùng <strong>PAM-198-P</strong>. Đây là amplifier có bộ điều khiển PID vòng kín cho vị trí con trượt van, chu kỳ vòng dòng 0,125 ms, tuyến tính hóa đặc tính qua 10 điểm XY mỗi chiều — cho độ chính xác cao với van directional có feedback.</p>
+<p><strong>3. Van tỷ lệ thông thường, cần một amplifier vạn năng cho nhiều loại van:</strong> → Dùng <strong>PAM-199-P</strong>. Vạn năng, dùng được với hầu hết van của mọi hãng, cấu hình single/dual channel, giám sát đứt dây/ngắn mạch, cấu hình qua WPC-300.</p>
+<h2>"Servo valve controller" và "proportional valve amplifier" có thay cho nhau được không?</h2>
+<p>Không nên. Van servo cần dòng nhỏ và tinh chỉnh dither chuyên biệt; dùng amplifier van tỷ lệ dòng lớn có thể không phù hợp về dải điều khiển. Ngược lại, dùng servo controller cho van tỷ lệ dòng lớn sẽ không đủ dòng. Chọn thiết bị theo <strong>loại van</strong> là nguyên tắc cốt lõi.</p>
+<h2>Đi sâu: vì sao van servo cần dòng nhỏ mà van tỷ lệ cần dòng lớn?</h2>
+<p>Van servo thường có <strong>tầng dẫn thủy lực (pilot stage)</strong> — một dòng điều khiển nhỏ (miliampe) tác động lên tầng dẫn, tầng dẫn khuếch đại thủy lực để dịch chuyển con trượt chính. Vì vậy dòng điện cần thiết nhỏ nhưng đòi hỏi <strong>độ tinh và độ sạch tín hiệu cao</strong> — đây là lý do SV-300 tập trung vào dither tinh chỉnh (100/250 Hz) và điện áp tham chiếu ±10 V ổn định.</p>
+<p>Van tỷ lệ thường tác động <strong>trực tiếp</strong> lên con trượt bằng lực từ của cuộn solenoid lớn, nên cần <strong>dòng lớn</strong> (tới ~2,6 A). Ở đây, bài toán là điều khiển dòng lớn ổn định qua PWM, với scaling và tuyến tính hóa đặc tính — đúng thế mạnh của PAM-198-P/PAM-199-P.</p>
+<h2>Độ trễ (hysteresis) và độ phân giải</h2>
+<p>Van servo cho độ trễ rất thấp và băng thông cao (đáp ứng nhanh) — phù hợp điều khiển động học như governor turbine. Van tỷ lệ + amplifier tốt cũng đạt độ lặp lại cao nhờ dither và điều khiển dòng vòng kín, nhưng thường ở dải động học thấp hơn servo. Chọn loại nào là <strong>cân bằng giữa yêu cầu động học và chi phí</strong>: servo cho hiệu năng đỉnh cao, van tỷ lệ cho giải pháp kinh tế và phổ biến.</p>
+<h2>Cách chọn nhanh</h2>
+<ol><li>Xác định van là <strong>servo</strong> hay <strong>tỷ lệ</strong>.</li><li>Nếu van tỷ lệ: có <strong>spool feedback</strong> không? Có → PAM-198-P; không/vạn năng → PAM-199-P.</li><li>Nếu van servo: → SV-300, kiểm tra dải dòng cần thiết (10…300 mA).</li><li>Đối chiếu tín hiệu lệnh và nguồn cấp với datasheet.</li></ol>
+<h2>Câu hỏi thường gặp (FAQ)</h2>
+<p><strong>1. Van servo có bắt buộc dùng SV-300 không?</strong> SV-300 là giải pháp WEST cho van servo; cần đối chiếu dải dòng và yêu cầu động học của van cụ thể.</p>
+<p><strong>2. PAM-199-P có điều khiển van servo được không?</strong> PAM-199-P thiết kế cho van tỷ lệ. Van servo nên dùng servo amplifier chuyên biệt như SV-300.</p>
+<p><strong>3. Làm sao biết van của tôi có spool feedback?</strong> Xem datasheet van hoặc số chân kết nối; van có feedback thường có tín hiệu vị trí con trượt. Fast Group có thể hỗ trợ xác định.</p>
+<p><strong>4. Dither là gì và vì sao quan trọng?</strong> Dither là dao động nhỏ chồng lên dòng van, giảm ma sát tĩnh/trễ, giúp van đáp ứng mượt hơn.</p>
+<h2>Liên hệ tư vấn &amp; báo giá</h2>
+<p>Fast Group Engineering hỗ trợ chọn đúng <strong>servo controller / proportional amplifier WEST</strong> cho van của bạn, kèm báo giá chính hãng và cấu hình WPC-300.</p>
+<blockquote><strong>Khi cần mua module thủy lực W.E.St / WEST chính hãng tại Việt Nam, khách hàng có thể liên hệ Fast Group Engineering để được hỗ trợ kiểm tra mã hàng, tài liệu kỹ thuật, báo giá và nhập khẩu chính hãng từ Đức.</strong></blockquote>
+<p>📞 0938 888 958 · ✉️ sales@w-e-st.com.vn</p>
+<p><strong>Xem thêm:</strong> <a href="/blog/west-pam-198-p/">WEST PAM-198-P</a> · <a href="/blog/west-pam-190/">WEST PAM-190</a> · <a href="/blog/module-dieu-khien-thuy-luc-la-gi/">Module điều khiển thủy lực là gì?</a></p>
+  </div>
+  <section class="blog-product-links">
+  <div class="blog-related-kicker">Sản phẩm được nhắc đến</div>
+  <div class="blog-product-link-list">
+    <a href="/san-pham/pam-199-p/">PAM-199-P</a>
+<a href="/san-pham/pam-198-p/">PAM-198-P</a>
+<a href="/san-pham/pam-140-p-/-pam-190-p/">PAM-190</a>
+<a href="/san-pham/sv-300/">SV-300</a>
+  </div>
+</section>
+  <section class="blog-related-panel">
+  <div class="blog-related-kicker">Đọc tiếp</div>
+  <h2>Bài viết liên quan</h2>
+  <div class="blog-related-grid">
+    <a class="blog-related-card" href="/blog/module-dieu-khien-thuy-luc-la-gi/">
+  <span>Kỹ thuật</span>
+  <strong>Module điều khiển thủy lực là gì? Vai trò &amp; phân loại trong hệ thống điện–thủy lực</strong>
+</a><a class="blog-related-card" href="/blog/bo-dieu-khien-vi-tri-thuy-luc/">
+  <span>Kỹ thuật</span>
+  <strong>Bộ điều khiển vị trí thủy lực (position controller) hoạt động thế nào?</strong>
+</a><a class="blog-related-card" href="/blog/dieu-khien-vong-kin-thuy-luc/">
+  <span>Kỹ thuật</span>
+  <strong>Điều khiển vòng kín (closed-loop) trong thủy lực: nền tảng của vị trí, áp suất và đồng bộ chính xác</strong>
+</a>
+  </div>
+</section>
+  <section class="blog-cta-panel">
+    <div>
+      <span class="blog-related-kicker">Tư vấn kỹ thuật</span>
+      <h2>Cần chọn module W.E.St. cho hệ thống thủy lực?</h2>
+      <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. tại Việt Nam, hỗ trợ chọn model, kiểm tra datasheet và tư vấn giải pháp thay thế cho dự án công nghiệp.</p>
+    </div>
+    <a href="/lien-he/">Nhận tư vấn</a>
+  </section>
+</article>
+<footer class="wf">
+  <div class="wf-colorbar" aria-hidden="true"><span></span><span></span></div>
+  <div class="wf-inner">
+    <div class="wf-top">
+      <div class="wf-brand-lockup">
+        <span class="west-logo-mark wf-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wf-logo-name">W.E.St. Vietnam</span>
+          <span class="wf-tagline">Hydraulics meets electronics</span>
+          <span class="wf-origin">Hydraulics meets electronics — W.E.St. Elektronik GmbH, Germany</span>
+        </span>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+        <span class="wf-auth-text">Authorized Distributor — Vietnam</span>
+        <div class="wf-since">Est. 1999</div>
+      </div>
+    </div>
+    <div class="wf-grid">
+      <div>
+        <h4>Về chúng tôi</h4>
+        <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. Elektronik GmbH tại Việt Nam — chuyên cung cấp module điều khiển van tỷ lệ thủy lực cho ngành dầu khí, công nghiệp nặng và tự động hóa.</p>
+        <p style="margin-top:10px;font-size:12.5px;font-weight:650;color:#8b97a8">MST: 0315555189</p>
+        <div class="cert-row">
+          <span class="cert-badge">ATEX / EX Zone</span>
+          <span class="cert-badge">ISO Certified</span>
+          <span class="cert-badge">Oil &amp; Gas</span>
+        </div>
+      </div>
+      <div>
+        <h4>Sản phẩm</h4>
+        <ul>
+          <li><a href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a></li>
+          <li><a href="/nhom-san-pham/position-controls/">Bộ điều khiển vị trí</a></li>
+          <li><a href="/nhom-san-pham/synchronization/">Bộ điều khiển đồng bộ</a></li>
+          <li><a href="/nhom-san-pham/pid-/-pressure-controls/">Bộ điều khiển áp suất</a></li>
+          <li><a href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hỗ trợ kỹ thuật</h4>
+        <ul>
+          <li><a href="/tai-lieu-ky-thuat/">Tài liệu &amp; Datasheet</a></li>
+          <li><a href="/blog/">Blog kỹ thuật</a></li>
+          <li><a href="/ung-dung-dau-khi/">Ứng dụng</a></li>
+          <li><a href="/ve-chung-toi/">Về chúng tôi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-text"><span class="contact-label">Văn phòng TP.HCM</span>150/41 Nguyễn Cư Trinh, P. Cầu Ông Lãnh, Q.1, TP. Hồ Chí Minh</div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-text"><span class="contact-label">Văn phòng Vũng Tàu</span>51 Lê Văn Lộc, TP. Vũng Tàu, Việt Nam</div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.62a16 16 0 006.29 6.29l1.14-1.14a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          <div class="contact-text"><span class="contact-label">Hotline</span><a href="tel:+84938888958">+84 938 888 958</a></div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <div class="contact-text"><span class="contact-label">Email</span><a href="mailto:sales@w-e-st.com.vn">sales@w-e-st.com.vn</a></div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path></svg>
+          <div class="contact-text"><span class="contact-label">Zalo</span><a href="https://zalo.me/0938888958">0938 888 958</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wf-bar-wrap">
+    <div class="wf-bar">
+      <div class="wf-bar-left">
+        <div class="wf-dist-label">Distributed by</div>
+        <div class="wf-dist-name">Fast Group Company Limited</div>
+      </div>
+      <div class="wf-bar-copy">&copy; 2026 W.E.St. Vietnam. All rights reserved.</div>
+      <div class="wf-bar-links">
+        <a href="/chinh-sach-bao-mat/">Chính sách bảo mật</a>
+        <a href="/dieu-khoan/">Điều khoản</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
