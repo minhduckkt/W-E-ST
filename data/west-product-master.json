@@ -1,0 +1,2414 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-17",
+  "source_policy": "Official w-e-st.de product pages and documents only for approved images/specifications; unresolved images remain pending or blocked.",
+  "price_policy": "No official price file or amount found; use request_quote until W.E.St. provides a price source.",
+  "status_definitions": {
+    "approved_official": "Image copied from an official W.E.St. page and optimized without changing product content.",
+    "approved_official_multi_product": "Official images are shown as a labelled gallery because the page covers multiple official variants/products.",
+    "pending_official_confirmation": "Existing model-specific image retained, but not promoted to SEO image until W.E.St. confirms the exact variant.",
+    "blocked_no_official_image": "No suitable official image was found; a neutral non-product placeholder is used instead of a wrong model."
+  },
+  "summary": {
+    "pending_official_confirmation": 6,
+    "approved_official": 41,
+    "blocked_no_official_image": 6,
+    "approved_official_multi_product": 1
+  },
+  "redirects": {
+    "/san-pham/control-module-dsg-112-fleximod/": "/san-pham/dsg-112/",
+    "/san-pham/csc-158-u-ssic-pck-308-c-pfn/": "/san-pham/csc-158-u-ssic-+-pck-308-c-pfn/",
+    "/san-pham/flow-pressure-controller-pq-132-u/": "/san-pham/pq-132-u/",
+    "/san-pham/mobile-amplifier-pam-140-p/": "/san-pham/pam-140-p-/-pam-190-p/",
+    "/san-pham/pam-140-p-pam-190-p/": "/san-pham/pam-140-p-/-pam-190-p/",
+    "/san-pham/pam-199-p-etc-pam-199-p-pfn-pam-199-p-pdp/": "/san-pham/pam-199-p-etc-/-pam-199-p-pfn-/-pam-199-p-pdp/",
+    "/san-pham/pid-controller-pid-131-u/": "/san-pham/pid-131-u/",
+    "/san-pham/position-controller-pos-321-p/": "/san-pham/pos-321-p/",
+    "/san-pham/position-controller-pos-323-p/": "/san-pham/pos-323/",
+    "/san-pham/power-amplifier-pam-190-p-io/": "/san-pham/pam-190-p-io/",
+    "/san-pham/power-amplifier-pam-195-p-s3/": "/san-pham/pam-195-p-s3/",
+    "/san-pham/power-amplifier-pam-198-p/": "/san-pham/pam-198-p/",
+    "/san-pham/power-amplifier-pam-199-p/": "/san-pham/pam-199-p/",
+    "/san-pham/power-amplifier-pam-199-p-4/": "/san-pham/pam-199-p/",
+    "/san-pham/power-amplifier-pam-199-p-io/": "/san-pham/pam-190-p-io/",
+    "/san-pham/pressure-controller-mdr-137-p/": "/san-pham/mdr-137-p/",
+    "/san-pham/pressure-controller-mdr-337-p/": "/san-pham/mdr-337-p/",
+    "/san-pham/pressure-controller-mdr-339-p-io/": "/san-pham/mdr-339-p-io/",
+    "/san-pham/pump-controller-pqp-171-p/": "/san-pham/pqp-171-p/",
+    "/san-pham/pump-controller-pqp-176-p/": "/san-pham/pqp-176-p/",
+    "/san-pham/pump-controller-pqp-179-p/": "/san-pham/pqp-179-p/",
+    "/san-pham/servo-amplifier-sv-300/": "/san-pham/sv-300/",
+    "/san-pham/signal-conversion-module-dsg-111/": "/san-pham/dsg-111/",
+    "/san-pham/synchronous-controller-csc-158-u-ssic/": "/san-pham/csc-158-u-ssic-+-pck-308-c-pfn/"
+  },
+  "products": [
+    {
+      "route": "/san-pham/communication-module-pck-306-c-pdp/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/communication-module-pck-306-c-pdp/",
+      "display_name": "Communication Module PCK-306-C-PDP",
+      "model_codes": [
+        "PCK-306-C-PDP"
+      ],
+      "official_product_ids": [
+        "WEST-029"
+      ],
+      "official_product_names": [
+        "CSC-156-U-SSIC + PCK-306"
+      ],
+      "official_order_numbers": [
+        "CSC-156-U-SSIC",
+        "PCK-306-C-PDP"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-156-U-SSIC_PCK-306-C-PDP-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/CSC-156-U-SSIC_PCK-306-C-PDP-EN.pdf",
+          "sha256": "8dcdc9aeb7332baac42245b91d10345b4e0ba7d486077c3aa3065c5c61d7107d"
+        }
+      ],
+      "image_status": "pending_official_confirmation",
+      "main_image": "/wp-content/uploads/2026/04/PKC-306-C-PDP.png",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/2026/04/PKC-306-C-PDP.png",
+          "official_url": "",
+          "caption": "Đang chờ W.E.St. xác nhận"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/communication-module-pck-308-c-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/communication-module-pck-308-c-pfn/",
+      "display_name": "Communication Module PCK-308-C-PFN",
+      "model_codes": [
+        "PCK-308-C-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-025"
+      ],
+      "official_product_names": [
+        "CSC-158-U-SSIC"
+      ],
+      "official_order_numbers": [
+        "CSC-158-U-SSIC",
+        "PCK-308-C-PFN"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-158-U-SSIC-PCK-308-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/CSC-158-U-SSIC-PCK-308-EN.pdf",
+          "sha256": "267a1b873d0cf1388b2a29fff020f05fe4fe03914522999a534a74b5d076bdfd"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-025-uhc-126-pfn.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-025-uhc-126-pfn.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2017/01/uhc-126-pfn.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-158-U-SSIC/uhc-126-pfn.png",
+          "official_sha256": "0c6389709cf48c1d5965226c9590bfdee10a50fa0ca43b98dfec5617af68e948",
+          "optimized_bytes": 97322,
+          "caption": "CSC-158-U-SSIC"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/csc-151/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/csc-151/",
+      "display_name": "CSC-151",
+      "model_codes": [
+        "CSC-151"
+      ],
+      "official_product_ids": [
+        "WEST-027"
+      ],
+      "official_product_names": [
+        "CSC-151"
+      ],
+      "official_order_numbers": [
+        "CSC-151-U",
+        "CSC-151-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-151-U-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/CSC-151-U-P-EN.pdf",
+          "sha256": "63e4a1539626e7f047789105d39242cede44e2a8f6719f2a5d71df0e7f61ced8"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-027-csc-152-p.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-027-csc-152-p.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2020/06/CSC-152-P.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-151/CSC-152-P.png",
+          "official_sha256": "55e1554a9dcc1566c3d0e1b1df32b0e3e5d92bc90829482ba3249e8473c41641",
+          "optimized_bytes": 10566,
+          "caption": "CSC-151"
+        },
+        {
+          "local_url": "/wp-content/uploads/west-official/west-027-csc-152-u.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2020/06/CSC-152-U.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-151/CSC-152-U.png",
+          "official_sha256": "7d8a18fd387ec9cf81ed715cf1215c23c9937eb87bf8957658ce467c7808c30c",
+          "optimized_bytes": 8264,
+          "caption": "CSC-151"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/csc-152/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/csc-152/",
+      "display_name": "CSC-152",
+      "model_codes": [
+        "CSC-152"
+      ],
+      "official_product_ids": [
+        "WEST-028"
+      ],
+      "official_product_names": [
+        "CSC-152"
+      ],
+      "official_order_numbers": [
+        "CSC-152-U",
+        "CSC-152-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-152-U-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/CSC-152-U-P-EN.pdf",
+          "sha256": "54872631a535465e76460327670f77abade53673795fd1c0113e438c9a0d8069"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-028-csc-152-p.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-028-csc-152-p.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2020/06/CSC-152-P.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-152/CSC-152-P.png",
+          "official_sha256": "55e1554a9dcc1566c3d0e1b1df32b0e3e5d92bc90829482ba3249e8473c41641",
+          "optimized_bytes": 10566,
+          "caption": "CSC-152"
+        },
+        {
+          "local_url": "/wp-content/uploads/west-official/west-028-csc-152-u.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2020/06/CSC-152-U.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-152/CSC-152-U.png",
+          "official_sha256": "7d8a18fd387ec9cf81ed715cf1215c23c9937eb87bf8957658ce467c7808c30c",
+          "optimized_bytes": 8264,
+          "caption": "CSC-152"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/csc-158-u-ssic-+-pck-308-c-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/csc-158-u-ssic-+-pck-308-c-pfn/",
+      "display_name": "CSC-158-U-SSIC + PCK-308-C-PFN",
+      "model_codes": [
+        "CSC-158-U-SSIC",
+        "PCK-308-C-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-025"
+      ],
+      "official_product_names": [
+        "CSC-158-U-SSIC"
+      ],
+      "official_order_numbers": [
+        "CSC-158-U-SSIC",
+        "PCK-308-C-PFN"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-158-U-SSIC-PCK-308-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/CSC-158-U-SSIC-PCK-308-EN.pdf",
+          "sha256": "267a1b873d0cf1388b2a29fff020f05fe4fe03914522999a534a74b5d076bdfd"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-025-csc-156-u-ssic.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-025-csc-156-u-ssic.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2017/01/CSC-156-U-SSIC.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-158-U-SSIC/CSC-156-U-SSIC.png",
+          "official_sha256": "a9752c807ec247ac9a22b3bf703e69af36da7e3d52c8f56ee9689363378baafc",
+          "optimized_bytes": 68946,
+          "caption": "CSC-158-U-SSIC"
+        },
+        {
+          "local_url": "/wp-content/uploads/west-official/west-025-uhc-126-pfn.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2017/01/uhc-126-pfn.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-158-U-SSIC/uhc-126-pfn.png",
+          "official_sha256": "0c6389709cf48c1d5965226c9590bfdee10a50fa0ca43b98dfec5617af68e948",
+          "optimized_bytes": 97322,
+          "caption": "CSC-158-U-SSIC"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/dsg-111/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/dsg-111/",
+      "display_name": "DSG-111",
+      "model_codes": [
+        "DSG-111"
+      ],
+      "official_product_ids": [
+        "WEST-001"
+      ],
+      "official_product_names": [
+        "DSG-111"
+      ],
+      "official_order_numbers": [
+        "DSG-111-U1",
+        "DSG-111-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/allgemeine-regelmodule/"
+      ],
+      "documents": [
+        {
+          "filename": "DSG-111-U-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/DSG-111-U-P-EN.pdf",
+          "sha256": "1f0f95ffcc907c464b9597778a92066cd9bda3c9cc0f0ceee38a436a3b2ac0b5"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-001-7-s686-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-001-7-s686-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/universal-command-signal-modules/DSG-111/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "d13396859e01c5b58632665175abed9a273d57ead4ffe0c0c05be8176257ec29",
+          "optimized_bytes": 95810,
+          "caption": "DSG-111"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/dsg-112/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/dsg-112/",
+      "display_name": "DSG-112",
+      "model_codes": [
+        "DSG-112"
+      ],
+      "official_product_ids": [
+        "WEST-002"
+      ],
+      "official_product_names": [
+        "DSG-112"
+      ],
+      "official_order_numbers": [
+        "DSG-112-U",
+        "DSG-112-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/allgemeine-regelmodule/"
+      ],
+      "documents": [
+        {
+          "filename": "DSG-112-U-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/DSG-112-U-P-EN.pdf",
+          "sha256": "61ed5d49ecccc8f6e5147fe604061b2f486d1eb0bb8a75ef9a6ecbfaaca465bf"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-002-3-s51-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-002-3-s51-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/3_S51_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/universal-command-signal-modules/DSG-112/3_S51_Perspective-2048x2048.png",
+          "official_sha256": "b157b9595f4f8a509d75a7ecf3c8ec48df206ce55eb95e0cd30e291a7c972a73",
+          "optimized_bytes": 73488,
+          "caption": "DSG-112"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/dsg-164/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/dsg-164/",
+      "display_name": "DSG-164",
+      "model_codes": [
+        "DSG-164"
+      ],
+      "official_product_ids": [
+        "WEST-003"
+      ],
+      "official_product_names": [
+        "DSG-164"
+      ],
+      "official_order_numbers": [
+        "DSG-164"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/allgemeine-regelmodule/"
+      ],
+      "documents": [
+        {
+          "filename": "DSG-164-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/DSG-164-EN.pdf",
+          "sha256": "2544bd1c0a949331b4ab4acea5daba8e018d21bde89ba4d041f40ecb9ff0e933"
+        }
+      ],
+      "image_status": "blocked_no_official_image",
+      "main_image": "/wp-content/uploads/west-official/image-pending.svg",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/image-pending.svg",
+          "official_url": "",
+          "caption": "Chưa có ảnh chính thức phù hợp"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/io-link-adapter-ioa-312/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/io-link-adapter-ioa-312/",
+      "display_name": "IO-Link Adapter IOA-312",
+      "model_codes": [
+        "IOA-312"
+      ],
+      "official_product_ids": [],
+      "official_product_names": [],
+      "official_order_numbers": [],
+      "official_source_pages": [],
+      "documents": [],
+      "image_status": "pending_official_confirmation",
+      "main_image": "/wp-content/uploads/2026/04/IOA-312.png",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/2026/04/IOA-312.png",
+          "official_url": "",
+          "caption": "Đang chờ W.E.St. xác nhận"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/mdr-133/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/mdr-133/",
+      "display_name": "MDR-133",
+      "model_codes": [
+        "MDR-133"
+      ],
+      "official_product_ids": [
+        "WEST-034"
+      ],
+      "official_product_names": [
+        "MDR-133"
+      ],
+      "official_order_numbers": [
+        "MDR-133-U1",
+        "MDR-133-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "MDR-133-U-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/MDR-133-U-P-EN.pdf",
+          "sha256": "f2898bc5c94eb2f1f8a4f940533a364a218d52b2ab9286dcd22603269d4323d8"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-034-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-034-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pid-pressure-control-modules/MDR-133/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "MDR-133"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/mdr-137-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/mdr-137-p/",
+      "display_name": "MDR-137-P",
+      "model_codes": [
+        "MDR-137-P"
+      ],
+      "official_product_ids": [
+        "WEST-035"
+      ],
+      "official_product_names": [
+        "MDR-137-P"
+      ],
+      "official_order_numbers": [
+        "MDR-137-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "MDR-137-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/MDR-137-P-EN.pdf",
+          "sha256": "c06f8d25229b3f523f93986a1c582129bb1e13f28361ac79951bfdc502cc0fcc"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-035-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-035-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pid-pressure-control-modules/MDR-137-P/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "MDR-137-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/mdr-337-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/mdr-337-p/",
+      "display_name": "MDR-337-P",
+      "model_codes": [
+        "MDR-337-P"
+      ],
+      "official_product_ids": [
+        "WEST-031"
+      ],
+      "official_product_names": [
+        "MDR-337-P"
+      ],
+      "official_order_numbers": [
+        "MDR-337-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "MDR-337-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/MDR-337-P-EN.pdf",
+          "sha256": "fc3eaecb695daf950da6009e2a0c586c99babd29f1bb17a0c34a774cf24670d7"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-031-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-031-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pid-pressure-control-modules/MDR-337-P/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "MDR-337-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/mdr-339-p-io/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/mdr-339-p-io/",
+      "display_name": "MDR-339-P-IO",
+      "model_codes": [
+        "MDR-339-P-IO"
+      ],
+      "official_product_ids": [
+        "WEST-030"
+      ],
+      "official_product_names": [
+        "MDR-339-P-IO"
+      ],
+      "official_order_numbers": [
+        "MDR-339-P-IO"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "MDR-339-P-IO-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/MDR-339-P-IO-EN.pdf",
+          "sha256": "08f92893222ce9e9c0343037d7ea9b031a372dd72e518ccce24bdd5c8b7b1ff1"
+        }
+      ],
+      "image_status": "blocked_no_official_image",
+      "main_image": "/wp-content/uploads/west-official/image-pending.svg",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/image-pending.svg",
+          "official_url": "",
+          "caption": "Chưa có ảnh chính thức phù hợp"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/mot-114-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/mot-114-p/",
+      "display_name": "MOT-114-P",
+      "model_codes": [
+        "MOT-114-P"
+      ],
+      "official_product_ids": [
+        "WEST-015"
+      ],
+      "official_product_names": [
+        "MOT-114-P"
+      ],
+      "official_order_numbers": [
+        "MOT-114-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "MOT-114-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/MOT-114-P-EN.pdf",
+          "sha256": "3c6dff1e380c4746c82bd4a2530955c1b11571187f2b5bc549dd6dcbfcb55155"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-015-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-015-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/MOT-114-P/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "MOT-114-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-140-p-/-pam-190-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-140-p-/-pam-190-p/",
+      "display_name": "PAM-140-P / PAM-190-P",
+      "model_codes": [
+        "PAM-140-P",
+        "PAM-190-P"
+      ],
+      "official_product_ids": [
+        "WEST-013"
+      ],
+      "official_product_names": [
+        "PAM-140-P / PAM-190-P"
+      ],
+      "official_order_numbers": [
+        "PAM-140-P-A",
+        "PAM-140-P-I",
+        "PAM-190-P-A",
+        "PAM-190-P-A-S9",
+        "PAM-190-P-I",
+        "PAM-190-P-I-S9"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-140-P-A-I-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-140-P-A-I-EN.pdf",
+          "sha256": "41df37294558c7d87d3fde0bc32ad94dd0125f392cb0427839d0d8eea70ede67"
+        },
+        {
+          "filename": "PAM-190-P-A-I-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-190-P-A-I-EN.pdf",
+          "sha256": "ac627cacb669a627e26a8f5ed0316b86b0291ff2f9647e8e6d6158258083c461"
+        },
+        {
+          "filename": "ULA-310-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/ULA-310-EN.pdf",
+          "sha256": "d7650a000b2f4e40532f588152691848324275345c735864d66f02da13e2b30e"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-012-pam-140-p-480x300.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-012-pam-140-p-480x300.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2017/03/PAM-140-P-480x300.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-198/PAM-140-P-480x300.png",
+          "official_sha256": "9208592c92640dda3d83c99747e966b99de120974cb1daa1390f388ee9223cb9",
+          "optimized_bytes": 23812,
+          "caption": "PAM-198"
+        },
+        {
+          "local_url": "/wp-content/uploads/west-official/west-012-pam-190.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2017/03/PAM-190.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-198/PAM-190.png",
+          "official_sha256": "a8e64d0af8f89bf486395eca1dae097ea3af9e8a2408c17190e39e6a5c6272f6",
+          "optimized_bytes": 32170,
+          "caption": "PAM-198"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-190-p-io/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-190-p-io/",
+      "display_name": "PAM-190-P-IO",
+      "model_codes": [
+        "PAM-190-P-IO"
+      ],
+      "official_product_ids": [
+        "WEST-007"
+      ],
+      "official_product_names": [
+        "PAM-190-P-IO"
+      ],
+      "official_order_numbers": [
+        "PAM-190-P-IO",
+        "PAM-190-P-IO-S9"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-190-P-IO-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-190-P-IO-EN.pdf",
+          "sha256": "5fdc4a9c93bc8fb32285818948e78c7bda2f7b4c2fcddbd8aa311eda089edd8b"
+        },
+        {
+          "filename": "IO-Link EN Einzelseiten.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/IO-Link EN Einzelseiten.pdf",
+          "sha256": "da2bb42ee3a603bb8c27814daab300a34ef086ed2437a0940c8cf16437e0edfe"
+        },
+        {
+          "filename": "AN-108-EN-IO-LINK-IOA312.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/AN-108-EN-IO-LINK-IOA312.pdf",
+          "sha256": "2e8bd498ed2f6c5f6aa8285789d7a94da5cfbca8fd0a05e06e24f9a1400a775b"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-007-pam-190-p-ioa-1.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-007-pam-190-p-ioa-1.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2019/03/PAM-190-P-IOa-1.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-190-P-IO/PAM-190-P-IOa-1.png",
+          "official_sha256": "e84a810de3205f7dec07301b97195433889955e4aa5201019855ca0833a087ca",
+          "optimized_bytes": 99714,
+          "caption": "PAM-190-P-IO"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-193-h/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-193-h/",
+      "display_name": "PAM-193-H",
+      "model_codes": [
+        "PAM-193-H"
+      ],
+      "official_product_ids": [
+        "WEST-004"
+      ],
+      "official_product_names": [
+        "PAM-193-H"
+      ],
+      "official_order_numbers": [
+        "PAM-193-H"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-193-H-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-193-H-EN.pdf",
+          "sha256": "f1516478544928ff15d49a5d75ab6181292dd82bfc785715be477d15260c0cf5"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-004-17-s51-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-004-17-s51-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2026/07/17_S51_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-193-H/17_S51_Perspective-2048x2048.png",
+          "official_sha256": "c2b04e00f8ae7493e68d6031e125a64d1f29e9137052859b683d5e68e3bc8568",
+          "optimized_bytes": 75930,
+          "caption": "PAM-193-H"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-193/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-193/",
+      "display_name": "PAM-193",
+      "model_codes": [
+        "PAM-193"
+      ],
+      "official_product_ids": [
+        "WEST-011"
+      ],
+      "official_product_names": [
+        "PAM-193"
+      ],
+      "official_order_numbers": [
+        "PAM-193-P",
+        "PAM-193-L"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-193-P-L-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-193-P-L-EN.pdf",
+          "sha256": "3f1343c03f7bdd8c5ae402eb3f4b5eab7a6eabe0e6b306baaa3da3e5143483c5"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-011-2-s51-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-011-2-s51-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/2_S51_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-193/2_S51_Perspective-2048x2048.png",
+          "official_sha256": "4d69e6c7abd9bea6bfeb4b1263abfb5216e7d5e26fef28a0d41551133351bb56",
+          "optimized_bytes": 75998,
+          "caption": "PAM-193"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-195-p-s3/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-195-p-s3/",
+      "display_name": "PAM-195-P-S3",
+      "model_codes": [
+        "PAM-195-P-S3"
+      ],
+      "official_product_ids": [
+        "WEST-016"
+      ],
+      "official_product_names": [
+        "PAM-195-P-S3"
+      ],
+      "official_order_numbers": [
+        "PAM-195-P-S3"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-195-P-S3-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-195-P-S3-EN.pdf",
+          "sha256": "4543f515f74bb5ce7f323736954c7bdefa8a8ff0e6d7d46ef11ee5838ed39d63"
+        }
+      ],
+      "image_status": "blocked_no_official_image",
+      "main_image": "/wp-content/uploads/west-official/image-pending.svg",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/image-pending.svg",
+          "official_url": "",
+          "caption": "Chưa có ảnh chính thức phù hợp"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-198-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-198-p/",
+      "display_name": "PAM-198-P",
+      "model_codes": [
+        "PAM-198-P"
+      ],
+      "official_product_ids": [
+        "WEST-012"
+      ],
+      "official_product_names": [
+        "PAM-198"
+      ],
+      "official_order_numbers": [
+        "PAM-198-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-198-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-198-P-EN.pdf",
+          "sha256": "f3404770457ea652c321dd29b37d36c944db1f7f2f66a241757aef82c120a469"
+        },
+        {
+          "filename": "AN-109-EN-PAM-198-P.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/AN-109-EN-PAM-198-P.pdf",
+          "sha256": "00dfe15abd40bf5cb2b51fc1b10c368dad1b2867a96b2bacb168d3d9a874c020"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-012-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-012-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-198/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "PAM-198"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-199-p-etc-/-pam-199-p-pfn-/-pam-199-p-pdp/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-199-p-etc-/-pam-199-p-pfn-/-pam-199-p-pdp/",
+      "display_name": "PAM-199-P-ETC / PAM-199-P-PFN / PAM-199-P-PDP",
+      "model_codes": [
+        "PAM-199-P-ETC",
+        "PAM-199-P-PFN",
+        "PAM-199-P-PDP"
+      ],
+      "official_product_ids": [
+        "WEST-009",
+        "WEST-010"
+      ],
+      "official_product_names": [
+        "PAM-199-P-ETC",
+        "PAM-199-P-PDP / PAM-199-P-PFN"
+      ],
+      "official_order_numbers": [
+        "PAM-199-P-ETC",
+        "PAM-199-P-PDP",
+        "PAM-199-P-PDP-S1",
+        "PAM-199-P-PFN"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-199-P-ETC-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-199-P-ETC-EN.pdf",
+          "sha256": "3c36e219d6fdad9b22d3aee3aa3fa8a6a693439954f8783b2b0544f82f027cb1"
+        },
+        {
+          "filename": "PAM-199-P-PDP-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-199-P-PDP-EN.pdf",
+          "sha256": "11fd73d0036ed9f85fc744d7f829cc75ed0a6e6fc9d615051102d132a91ff8df"
+        },
+        {
+          "filename": "PAM-199-P-PFN-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-199-P-PFN-EN.pdf",
+          "sha256": "467c8f09a5c2425ffb190f9b84ed57d1c4f0e1806f70684f45a4aa58e404476d"
+        }
+      ],
+      "image_status": "approved_official_multi_product",
+      "main_image": "/wp-content/uploads/west-official/west-009-4-set-lwl-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-009-4-set-lwl-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/4_SET-LWL_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-199-P-ETC/4_SET-LWL_Perspective-2048x2048.png",
+          "official_sha256": "25010106df662c5c482b32513f982c92b433af5266e44266419c89ce8d5e0a4d",
+          "optimized_bytes": 65734,
+          "caption": "PAM-199-P-ETC"
+        },
+        {
+          "local_url": "/wp-content/uploads/west-official/west-010-6-s686-s84-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/6_S686_S84_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-199-P-PDP-PAM-199-P-PFN/6_S686_S84_Perspective-2048x2048.png",
+          "official_sha256": "94a5f97a862b5bffd313a48fc55b95c4d6a5c4a51b20bbeaba612d5ca868853c",
+          "optimized_bytes": 101732,
+          "caption": "PAM-199-P-PDP / PAM-199-P-PFN"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-199-p-io/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-199-p-io/",
+      "display_name": "PAM-199-P-IO",
+      "model_codes": [
+        "PAM-199-P-IO"
+      ],
+      "official_product_ids": [
+        "WEST-006"
+      ],
+      "official_product_names": [
+        "PAM-199-P-IO"
+      ],
+      "official_order_numbers": [
+        "PAM-199-P-IO"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-199-P-IO-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-199-P-IO-EN.pdf",
+          "sha256": "f9fb90d220dd339c65080f862eae1dfc28238d03369842a61cec06b296ec3560"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-006-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-006-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-199-P-IO/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "PAM-199-P-IO"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-199-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-199-p/",
+      "display_name": "PAM-199-P",
+      "model_codes": [
+        "PAM-199-P"
+      ],
+      "official_product_ids": [
+        "WEST-008"
+      ],
+      "official_product_names": [
+        "PAM-199-P"
+      ],
+      "official_order_numbers": [
+        "PAM-199-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-199-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-199-P-EN.pdf",
+          "sha256": "3b7a14f7f974f370c2cdf7b246728e4139515f112ca3c220321698db03902e94"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-008-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-008-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-199-P/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "PAM-199-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pam-392-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pam-392-p/",
+      "display_name": "PAM-392-P",
+      "model_codes": [
+        "PAM-392-P"
+      ],
+      "official_product_ids": [
+        "WEST-005"
+      ],
+      "official_product_names": [
+        "PAM-392-P"
+      ],
+      "official_order_numbers": [
+        "PAM-392-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-392-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-392-P-EN.pdf",
+          "sha256": "2bdbc35338a91246b78859fbbf06202d2bfee51e3a073ad05418cc2472e06586"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-005-pam-392-p-auf-ventil-freigestellt.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-005-pam-392-p-auf-ventil-freigestellt.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2025/04/PAM-392-P-auf-Ventil-freigestellt.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-392-P/PAM-392-P-auf-Ventil-freigestellt.png",
+          "official_sha256": "d8f48267a53dbc09b5e2fc8bbfa8e17f673bdd7c74cb1d7643c3343725e80221",
+          "optimized_bytes": 94804,
+          "caption": "PAM-392-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pid-131-u/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pid-131-u/",
+      "display_name": "PID-131-U",
+      "model_codes": [
+        "PID-131-U"
+      ],
+      "official_product_ids": [
+        "WEST-032"
+      ],
+      "official_product_names": [
+        "PID-131-U"
+      ],
+      "official_order_numbers": [
+        "PID-131-U"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "PID-131-U-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/PID-131-U-EN.pdf",
+          "sha256": "512528479e14b989652af31a65bf351997bad994dd34865e886e51b5ad8d5908"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-032-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-032-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pid-pressure-control-modules/PID-131-U/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "PID-131-U"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pos-123/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pos-123/",
+      "display_name": "POS-123",
+      "model_codes": [
+        "POS-123"
+      ],
+      "official_product_ids": [
+        "WEST-019"
+      ],
+      "official_product_names": [
+        "POS-123"
+      ],
+      "official_order_numbers": [
+        "POS-123-U",
+        "POS-123-P",
+        "POS-123-U-SSI"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-123-U-P-SSI-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-123-U-P-SSI-EN.pdf",
+          "sha256": "5dee37d108f3d40866f5280b98b56d8fc4c8d928680c84ebbd6a75c5c8a414a8"
+        },
+        {
+          "filename": "POS-123-P-PFN-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-123-P-PFN-EN.pdf",
+          "sha256": "3830179f9bf28850ad7cef1d602efdc0adde17d41c74c4c5a2503613c14a0ce2"
+        },
+        {
+          "filename": "POS-123-P-PFN-PARA-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-123-P-PFN-PARA-EN.pdf",
+          "sha256": "eb450e3c405d1d3d82c3b330b7b329f6ce19ff471e6ca0f1c4e15dda3d595822"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-019-7-s686-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-019-7-s686-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/POS-123/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "d13396859e01c5b58632665175abed9a273d57ead4ffe0c0c05be8176257ec29",
+          "optimized_bytes": 95810,
+          "caption": "POS-123"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pos-124-u/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pos-124-u/",
+      "display_name": "POS-124-U",
+      "model_codes": [
+        "POS-124-U"
+      ],
+      "official_product_ids": [
+        "WEST-022"
+      ],
+      "official_product_names": [
+        "POS-124-U"
+      ],
+      "official_order_numbers": [
+        "POS-124-U-PFN",
+        "POS-124-U-ETC",
+        "POS-124-U-PDP"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/",
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-124-U-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-124-U-EN.pdf",
+          "sha256": "b9f62660cc83e823e484668b6f7b657b5f246402865d9aec0ba5c7172302f35d"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-022-pos-124-u-pdp.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-022-pos-124-u-pdp.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2017/01/POS-124-U-PDP.png",
+          "official_local_source": "assets/images/position-control-modules/POS-124-U/POS-124-U-PDP.png",
+          "official_sha256": "a1dabecd5ff2be6b4e7b8d261f37dc59ae8957d1cb34dc19e43df990ba205eb7",
+          "optimized_bytes": 101480,
+          "caption": "POS-124-U"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pos-321-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pos-321-p/",
+      "display_name": "POS-321-P",
+      "model_codes": [
+        "POS-321-P"
+      ],
+      "official_product_ids": [
+        "WEST-020"
+      ],
+      "official_product_names": [
+        "POS-321-P"
+      ],
+      "official_order_numbers": [
+        "POS-321-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-321-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-321-P-EN.pdf",
+          "sha256": "7f7f64d223a73ff204046c7aab7c8a93aabb4e729c2ee5baccbcbdb04321a8c3"
+        },
+        {
+          "filename": "WestScript_EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/WestScript_EN.pdf",
+          "sha256": "91a88cd84ba0d7f6372712fb5289ad9854e70b0816af48310cd28964f8733791"
+        },
+        {
+          "filename": "WEST-SIMULATION-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/WEST-SIMULATION-EN.pdf",
+          "sha256": "341019545a3d1c7f3f7f6617819d6232b5821e896030de7f43d8b6617e222046"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-020-7-s686-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-020-7-s686-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/POS-321-P/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "d13396859e01c5b58632665175abed9a273d57ead4ffe0c0c05be8176257ec29",
+          "optimized_bytes": 95810,
+          "caption": "POS-321-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pos-323/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pos-323/",
+      "display_name": "POS-323",
+      "model_codes": [
+        "POS-323"
+      ],
+      "official_product_ids": [
+        "WEST-021"
+      ],
+      "official_product_names": [
+        "POS-323-P"
+      ],
+      "official_order_numbers": [
+        "POS-323-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-323-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-323-P-EN.pdf",
+          "sha256": "c0191671721ea347eddbbedcf04667ab76f430d508c28b5be04c939ca615b757"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-021-7-s686-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-021-7-s686-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/POS-323-P/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "d13396859e01c5b58632665175abed9a273d57ead4ffe0c0c05be8176257ec29",
+          "optimized_bytes": 95810,
+          "caption": "POS-323-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/position-controller-pos-123-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/position-controller-pos-123-p/",
+      "display_name": "Position Controller POS-123-P",
+      "model_codes": [
+        "POS-123-P"
+      ],
+      "official_product_ids": [
+        "WEST-019"
+      ],
+      "official_product_names": [
+        "POS-123"
+      ],
+      "official_order_numbers": [
+        "POS-123-U",
+        "POS-123-P",
+        "POS-123-U-SSI"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-123-U-P-SSI-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-123-U-P-SSI-EN.pdf",
+          "sha256": "5dee37d108f3d40866f5280b98b56d8fc4c8d928680c84ebbd6a75c5c8a414a8"
+        },
+        {
+          "filename": "POS-123-P-PFN-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-123-P-PFN-EN.pdf",
+          "sha256": "3830179f9bf28850ad7cef1d602efdc0adde17d41c74c4c5a2503613c14a0ce2"
+        },
+        {
+          "filename": "POS-123-P-PFN-PARA-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-123-P-PFN-PARA-EN.pdf",
+          "sha256": "eb450e3c405d1d3d82c3b330b7b329f6ce19ff471e6ca0f1c4e15dda3d595822"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-019-7-s686-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-019-7-s686-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/POS-123/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "d13396859e01c5b58632665175abed9a273d57ead4ffe0c0c05be8176257ec29",
+          "optimized_bytes": 95810,
+          "caption": "POS-123"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/position-controller-pos-124-u-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/position-controller-pos-124-u-pfn/",
+      "display_name": "Position Controller POS-124-U-PFN",
+      "model_codes": [
+        "POS-124-U-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-022"
+      ],
+      "official_product_names": [
+        "POS-124-U"
+      ],
+      "official_order_numbers": [
+        "POS-124-U-PFN",
+        "POS-124-U-ETC",
+        "POS-124-U-PDP"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/",
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-124-U-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-124-U-EN.pdf",
+          "sha256": "b9f62660cc83e823e484668b6f7b657b5f246402865d9aec0ba5c7172302f35d"
+        }
+      ],
+      "image_status": "pending_official_confirmation",
+      "main_image": "/wp-content/uploads/2026/04/POS-124-U-PFN.png",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/2026/04/POS-124-U-PFN.png",
+          "official_url": "",
+          "caption": "Đang chờ W.E.St. xác nhận"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/position-controller-pos-324-u-etc/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/position-controller-pos-324-u-etc/",
+      "display_name": "Position Controller POS-324-U-ETC",
+      "model_codes": [
+        "POS-324-U-ETC"
+      ],
+      "official_product_ids": [
+        "WEST-018"
+      ],
+      "official_product_names": [
+        "POS-324-U"
+      ],
+      "official_order_numbers": [
+        "POS-324-U-PFN",
+        "POS-324-U-ETC"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-324-U-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-324-U-EN.pdf",
+          "sha256": "b99017052825de0d055ddd0eb8d289266d8869602e418d234ec535263eb1b4ef"
+        },
+        {
+          "filename": "WestScript_EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/WestScript_EN.pdf",
+          "sha256": "91a88cd84ba0d7f6372712fb5289ad9854e70b0816af48310cd28964f8733791"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-018-11-s686-s958-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-018-11-s686-s958-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/11_S686_S958_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/POS-324-U/11_S686_S958_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "abccda2b633b448ee8baa4883f7dd5819624937d54d583e0757081198858e8de",
+          "optimized_bytes": 124032,
+          "caption": "POS-324-U"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/position-controller-pos-324-u-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/position-controller-pos-324-u-pfn/",
+      "display_name": "Position Controller POS-324-U-PFN",
+      "model_codes": [
+        "POS-324-U-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-018"
+      ],
+      "official_product_names": [
+        "POS-324-U"
+      ],
+      "official_order_numbers": [
+        "POS-324-U-PFN",
+        "POS-324-U-ETC"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "POS-324-U-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/POS-324-U-EN.pdf",
+          "sha256": "b99017052825de0d055ddd0eb8d289266d8869602e418d234ec535263eb1b4ef"
+        },
+        {
+          "filename": "WestScript_EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/WestScript_EN.pdf",
+          "sha256": "91a88cd84ba0d7f6372712fb5289ad9854e70b0816af48310cd28964f8733791"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-018-11-s686-s958-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-018-11-s686-s958-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/11_S686_S958_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/POS-324-U/11_S686_S958_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "abccda2b633b448ee8baa4883f7dd5819624937d54d583e0757081198858e8de",
+          "optimized_bytes": 124032,
+          "caption": "POS-324-U"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/power-amplifier-pam-190-x-s9/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/power-amplifier-pam-190-x-s9/",
+      "display_name": "Power Amplifier PAM-190-X-S9",
+      "model_codes": [
+        "PAM-190-X-S9"
+      ],
+      "official_product_ids": [
+        "WEST-007"
+      ],
+      "official_product_names": [
+        "PAM-190-P-IO"
+      ],
+      "official_order_numbers": [
+        "PAM-190-P-IO",
+        "PAM-190-P-IO-S9"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-190-P-IO-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-190-P-IO-EN.pdf",
+          "sha256": "5fdc4a9c93bc8fb32285818948e78c7bda2f7b4c2fcddbd8aa311eda089edd8b"
+        },
+        {
+          "filename": "IO-Link EN Einzelseiten.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/IO-Link EN Einzelseiten.pdf",
+          "sha256": "da2bb42ee3a603bb8c27814daab300a34ef086ed2437a0940c8cf16437e0edfe"
+        },
+        {
+          "filename": "AN-108-EN-IO-LINK-IOA312.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/AN-108-EN-IO-LINK-IOA312.pdf",
+          "sha256": "2e8bd498ed2f6c5f6aa8285789d7a94da5cfbca8fd0a05e06e24f9a1400a775b"
+        }
+      ],
+      "image_status": "pending_official_confirmation",
+      "main_image": "/wp-content/uploads/brand-products/h13-hirschmann-perspective.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/brand-products/h13-hirschmann-perspective.webp",
+          "official_url": "",
+          "caption": "Đang chờ W.E.St. xác nhận"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/power-amplifier-pam-193-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/power-amplifier-pam-193-p/",
+      "display_name": "Power Amplifier PAM-193-P",
+      "model_codes": [
+        "PAM-193-P"
+      ],
+      "official_product_ids": [
+        "WEST-011"
+      ],
+      "official_product_names": [
+        "PAM-193"
+      ],
+      "official_order_numbers": [
+        "PAM-193-P",
+        "PAM-193-L"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "PAM-193-P-L-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PAM-193-P-L-EN.pdf",
+          "sha256": "3f1343c03f7bdd8c5ae402eb3f4b5eab7a6eabe0e6b306baaa3da3e5143483c5"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-011-2-s51-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-011-2-s51-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/2_S51_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/PAM-193/2_S51_Perspective-2048x2048.png",
+          "official_sha256": "4d69e6c7abd9bea6bfeb4b1263abfb5216e7d5e26fef28a0d41551133351bb56",
+          "optimized_bytes": 75998,
+          "caption": "PAM-193"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/ppc-125-u-pdp/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/ppc-125-u-pdp/",
+      "display_name": "PPC-125-U-PDP",
+      "model_codes": [
+        "PPC-125-U-PDP"
+      ],
+      "official_product_ids": [
+        "WEST-024"
+      ],
+      "official_product_names": [
+        "PPC-125-U-PDP"
+      ],
+      "official_order_numbers": [
+        "PPC-125-U-PDP"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "PPC-125-U-PDP-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PPC-125-U-PDP-EN.pdf",
+          "sha256": "58a9983248a453753abd07858e686450bc8751027d392024795829562da0bacb"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-024-6-s686-s84-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-024-6-s686-s84-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/6_S686_S84_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/PPC-125-U-PDP/6_S686_S84_Perspective-2048x2048.png",
+          "official_sha256": "94a5f97a862b5bffd313a48fc55b95c4d6a5c4a51b20bbeaba612d5ca868853c",
+          "optimized_bytes": 101732,
+          "caption": "PPC-125-U-PDP"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pq-132-u/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pq-132-u/",
+      "display_name": "PQ-132-U",
+      "model_codes": [
+        "PQ-132-U"
+      ],
+      "official_product_ids": [
+        "WEST-033"
+      ],
+      "official_product_names": [
+        "PQ-132-U"
+      ],
+      "official_order_numbers": [
+        "PQ-132-U1"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "PQ-132-U-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/PQ-132-U-EN.pdf",
+          "sha256": "a129f1a5bfa93054f72350ff855f767d884f4e3f3fdd46a8ce2d1352c36edf7f"
+        }
+      ],
+      "image_status": "pending_official_confirmation",
+      "main_image": "/wp-content/uploads/2026/04/controller-pressure-limiting-controller-for-hydraulic-ax-PQ-132-U.png",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/2026/04/controller-pressure-limiting-controller-for-hydraulic-ax-PQ-132-U.png",
+          "official_url": "",
+          "caption": "Đang chờ W.E.St. xác nhận"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pqp-171-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pqp-171-p/",
+      "display_name": "PQP-171-P",
+      "model_codes": [
+        "PQP-171-P"
+      ],
+      "official_product_ids": [
+        "WEST-037"
+      ],
+      "official_product_names": [
+        "PQP-171-P"
+      ],
+      "official_order_numbers": [
+        "PQP-171-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/pumpenregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "PQP-171-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PQP-171-P-EN.pdf",
+          "sha256": "8fd62e7352b4d00ae14dff320437fde8a71f8eb7a9b2ba7038ce8fd832eca23b"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-037-7-s686-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-037-7-s686-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pump-control-modules/PQP-171-P/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "d13396859e01c5b58632665175abed9a273d57ead4ffe0c0c05be8176257ec29",
+          "optimized_bytes": 95810,
+          "caption": "PQP-171-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pqp-176-p-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pqp-176-p-pfn/",
+      "display_name": "PQP-176-P-PFN",
+      "model_codes": [
+        "PQP-176-P-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-038"
+      ],
+      "official_product_names": [
+        "PQP-176-P"
+      ],
+      "official_order_numbers": [
+        "PQP-176-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/pumpenregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "PQP-176-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PQP-176-P-EN.pdf",
+          "sha256": "6b831f7fabf10603a60e1e8fd7ea8e2fe681bb67a31a651ee45c2d59474c8c9f"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-038-5-s686-set-lwl-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-038-5-s686-set-lwl-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/5_S686_SET-LWL_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pump-control-modules/PQP-176-P/5_S686_SET-LWL_Perspective-2048x2048.png",
+          "official_sha256": "6339c7bfe4666a3d4a9459ce1c9972c276eabe2c8b9750c0dd330fbf55880cf9",
+          "optimized_bytes": 94912,
+          "caption": "PQP-176-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pqp-176-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pqp-176-p/",
+      "display_name": "PQP-176-P",
+      "model_codes": [
+        "PQP-176-P"
+      ],
+      "official_product_ids": [
+        "WEST-038"
+      ],
+      "official_product_names": [
+        "PQP-176-P"
+      ],
+      "official_order_numbers": [
+        "PQP-176-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/pumpenregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "PQP-176-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PQP-176-P-EN.pdf",
+          "sha256": "6b831f7fabf10603a60e1e8fd7ea8e2fe681bb67a31a651ee45c2d59474c8c9f"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-038-5-s686-set-lwl-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-038-5-s686-set-lwl-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/5_S686_SET-LWL_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pump-control-modules/PQP-176-P/5_S686_SET-LWL_Perspective-2048x2048.png",
+          "official_sha256": "6339c7bfe4666a3d4a9459ce1c9972c276eabe2c8b9750c0dd330fbf55880cf9",
+          "optimized_bytes": 94912,
+          "caption": "PQP-176-P"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pqp-179-p-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pqp-179-p-pfn/",
+      "display_name": "PQP-179-P-PFN",
+      "model_codes": [
+        "PQP-179-P-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-039"
+      ],
+      "official_product_names": [
+        "PQP-179-P-PFN"
+      ],
+      "official_order_numbers": [
+        "PQP-179-P-PFN"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/pumpenregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "PQP-179-P-PFN-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PQP-179-P-PFN-EN.pdf",
+          "sha256": "58215f1ea0851da31f3a1bbff85be2b9403752ccb1e13186dae087166ca8934d"
+        },
+        {
+          "filename": "PQP-179-P-PARA-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PQP-179-P-PARA-EN.pdf",
+          "sha256": "a1870871987565407a17803093be2be873ff0ce84d67be1941aa31bc325f74cf"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-039-7-s686-blanko-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-039-7-s686-blanko-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pump-control-modules/PQP-179-P-PFN/7_S686_Blanko_Perspective-2048x2048.png",
+          "official_sha256": "d13396859e01c5b58632665175abed9a273d57ead4ffe0c0c05be8176257ec29",
+          "optimized_bytes": 95810,
+          "caption": "PQP-179-P-PFN"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pqp-179-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pqp-179-p/",
+      "display_name": "PQP-179-P",
+      "model_codes": [
+        "PQP-179-P"
+      ],
+      "official_product_ids": [
+        "WEST-040"
+      ],
+      "official_product_names": [
+        "PQP-179-P"
+      ],
+      "official_order_numbers": [
+        "PQP-179-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/pumpenregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "PQP-179-P-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/PQP-179-P-EN.pdf",
+          "sha256": "33db19ab54b000060815e2ee85004b537c19f7001b5eb776e5f1d8b98e355488"
+        },
+        {
+          "filename": "WestScript_EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/WestScript_EN.pdf",
+          "sha256": "91a88cd84ba0d7f6372712fb5289ad9854e70b0816af48310cd28964f8733791"
+        },
+        {
+          "filename": "LDT-401-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/LDT-401-EN.pdf",
+          "sha256": "8632060e486b2890bd6566eaf628aa8997de16e2bbfb3bc80a0092b235e4567b"
+        }
+      ],
+      "image_status": "blocked_no_official_image",
+      "main_image": "/wp-content/uploads/west-official/image-pending.svg",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/image-pending.svg",
+          "official_url": "",
+          "caption": "Chưa có ảnh chính thức phù hợp"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/pressure-controller-mdr-133-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/pressure-controller-mdr-133-p/",
+      "display_name": "Pressure Controller MDR-133-P",
+      "model_codes": [
+        "MDR-133-P"
+      ],
+      "official_product_ids": [
+        "WEST-034"
+      ],
+      "official_product_names": [
+        "MDR-133"
+      ],
+      "official_order_numbers": [
+        "MDR-133-U1",
+        "MDR-133-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "MDR-133-U-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/MDR-133-U-P-EN.pdf",
+          "sha256": "f2898bc5c94eb2f1f8a4f940533a364a218d52b2ab9286dcd22603269d4323d8"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-034-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-034-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/pid-pressure-control-modules/MDR-133/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "MDR-133"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/scu-138-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/scu-138-p/",
+      "display_name": "SCU-138-P",
+      "model_codes": [
+        "SCU-138-P"
+      ],
+      "official_product_ids": [
+        "WEST-036"
+      ],
+      "official_product_names": [
+        "SCU-138-P"
+      ],
+      "official_order_numbers": [
+        "SCU-138-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/druckregelbaugruppen/"
+      ],
+      "documents": [
+        {
+          "filename": "SCU-138-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/SCU-138-P-EN.pdf",
+          "sha256": "f49dac63833273714fe40cbabd387387ce6fcc8f2f0de5c3cc28c4637f5fd4dd"
+        }
+      ],
+      "image_status": "blocked_no_official_image",
+      "main_image": "/wp-content/uploads/west-official/image-pending.svg",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/image-pending.svg",
+          "official_url": "",
+          "caption": "Chưa có ảnh chính thức phù hợp"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/sv-300/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/sv-300/",
+      "display_name": "SV-300",
+      "model_codes": [
+        "SV-300"
+      ],
+      "official_product_ids": [
+        "WEST-014"
+      ],
+      "official_product_names": [
+        "SV-300"
+      ],
+      "official_order_numbers": [
+        "SV-300"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/"
+      ],
+      "documents": [
+        {
+          "filename": "SV-300-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/SV-300-EN.pdf",
+          "sha256": "c6726d254b3b1009c634cd361ac522745bca7a681eef5c3bd1b76a4e2021fb76"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-014-1-s686-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-014-1-s686-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/1_S686_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/power-amplifiers/SV-300/1_S686_Perspective-2048x2048.png",
+          "official_sha256": "d4c87f4c4dd37dd3675534add1f824dce0997c206f40467d0d336d2f49e72cbe",
+          "optimized_bytes": 72912,
+          "caption": "SV-300"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/synchronous-controller-csc-151-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/synchronous-controller-csc-151-p/",
+      "display_name": "Synchronous Controller CSC-151-P",
+      "model_codes": [
+        "CSC-151-P"
+      ],
+      "official_product_ids": [
+        "WEST-027"
+      ],
+      "official_product_names": [
+        "CSC-151"
+      ],
+      "official_order_numbers": [
+        "CSC-151-U",
+        "CSC-151-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-151-U-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/CSC-151-U-P-EN.pdf",
+          "sha256": "63e4a1539626e7f047789105d39242cede44e2a8f6719f2a5d71df0e7f61ced8"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-027-csc-152-p.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-027-csc-152-p.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2020/06/CSC-152-P.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-151/CSC-152-P.png",
+          "official_sha256": "55e1554a9dcc1566c3d0e1b1df32b0e3e5d92bc90829482ba3249e8473c41641",
+          "optimized_bytes": 10566,
+          "caption": "CSC-151"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/synchronous-controller-csc-151-u/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/synchronous-controller-csc-151-u/",
+      "display_name": "Synchronous Controller CSC-151-U",
+      "model_codes": [
+        "CSC-151-U"
+      ],
+      "official_product_ids": [
+        "WEST-027"
+      ],
+      "official_product_names": [
+        "CSC-151"
+      ],
+      "official_order_numbers": [
+        "CSC-151-U",
+        "CSC-151-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-151-U-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/CSC-151-U-P-EN.pdf",
+          "sha256": "63e4a1539626e7f047789105d39242cede44e2a8f6719f2a5d71df0e7f61ced8"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-027-csc-152-u.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-027-csc-152-u.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2020/06/CSC-152-U.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-151/CSC-152-U.png",
+          "official_sha256": "7d8a18fd387ec9cf81ed715cf1215c23c9937eb87bf8957658ce467c7808c30c",
+          "optimized_bytes": 8264,
+          "caption": "CSC-151"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/synchronous-controller-csc-152-p/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/synchronous-controller-csc-152-p/",
+      "display_name": "Synchronous Controller CSC-152-P",
+      "model_codes": [
+        "CSC-152-P"
+      ],
+      "official_product_ids": [
+        "WEST-028"
+      ],
+      "official_product_names": [
+        "CSC-152"
+      ],
+      "official_order_numbers": [
+        "CSC-152-U",
+        "CSC-152-P"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-152-U-P-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/CSC-152-U-P-EN.pdf",
+          "sha256": "54872631a535465e76460327670f77abade53673795fd1c0113e438c9a0d8069"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-028-csc-152-p.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-028-csc-152-p.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2020/06/CSC-152-P.png",
+          "official_local_source": "assets/images/synchronization-control-modules/CSC-152/CSC-152-P.png",
+          "official_sha256": "55e1554a9dcc1566c3d0e1b1df32b0e3e5d92bc90829482ba3249e8473c41641",
+          "optimized_bytes": 10566,
+          "caption": "CSC-152"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/synchronous-controller-csc-156-u-ssic/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/synchronous-controller-csc-156-u-ssic/",
+      "display_name": "Synchronous Controller CSC-156-U-SSIC",
+      "model_codes": [
+        "CSC-156-U-SSIC"
+      ],
+      "official_product_ids": [
+        "WEST-029"
+      ],
+      "official_product_names": [
+        "CSC-156-U-SSIC + PCK-306"
+      ],
+      "official_order_numbers": [
+        "CSC-156-U-SSIC",
+        "PCK-306-C-PDP"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "CSC-156-U-SSIC_PCK-306-C-PDP-EN.pdf",
+          "url": "http://www.w-e-st.de/files/pdf/CSC-156-U-SSIC_PCK-306-C-PDP-EN.pdf",
+          "sha256": "8dcdc9aeb7332baac42245b91d10345b4e0ba7d486077c3aa3065c5c61d7107d"
+        }
+      ],
+      "image_status": "pending_official_confirmation",
+      "main_image": "/wp-content/uploads/2026/04/CSC-156-U-SSIC.png",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/2026/04/CSC-156-U-SSIC.png",
+          "official_url": "",
+          "caption": "Đang chờ W.E.St. xác nhận"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/uhc-126-u-s2/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/uhc-126-u-s2/",
+      "display_name": "UHC-126-U-S2",
+      "model_codes": [
+        "UHC-126-U-S2"
+      ],
+      "official_product_ids": [
+        "WEST-026"
+      ],
+      "official_product_names": [
+        "UHC-126-U-S2"
+      ],
+      "official_order_numbers": [
+        "UHC-126-U-PFN-S2",
+        "UHC-126-U-ETC-S2",
+        "UHC-126-U-PDP-S2"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/gleichlaufregelungen/"
+      ],
+      "documents": [
+        {
+          "filename": "UHC-126-U-S2-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/UHC-126-U-S2-EN.pdf",
+          "sha256": "24a190ca668f24d83cbab42ebdca75f9be5446d405e31f21904ef2d84f13acd1"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-026-uhc-126-pfn.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-026-uhc-126-pfn.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2017/01/uhc-126-pfn.png",
+          "official_local_source": "assets/images/synchronization-control-modules/UHC-126-U-S2/uhc-126-pfn.png",
+          "official_sha256": "0c6389709cf48c1d5965226c9590bfdee10a50fa0ca43b98dfec5617af68e948",
+          "optimized_bytes": 97322,
+          "caption": "UHC-126-U-S2"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/uhc-126-u/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/uhc-126-u/",
+      "display_name": "UHC-126-U",
+      "model_codes": [
+        "UHC-126-U"
+      ],
+      "official_product_ids": [
+        "WEST-023"
+      ],
+      "official_product_names": [
+        "UHC-126-U"
+      ],
+      "official_order_numbers": [
+        "UHC-126-U-PFN",
+        "UHC-126-U-ETC",
+        "UHC-126-U-PDP"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "UHC-126-U-PFN-ETC-PDP-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/UHC-126-U-PFN-ETC-PDP-EN.pdf",
+          "sha256": "406d9723064747819af4c0801390da1d36d531136e07e42e0bd2be960d4bbe09"
+        },
+        {
+          "filename": "UHC-126-U-S2-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/UHC-126-U-S2-EN.pdf",
+          "sha256": "24a190ca668f24d83cbab42ebdca75f9be5446d405e31f21904ef2d84f13acd1"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-023-9-s686-s958-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-023-9-s686-s958-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/9_S686_S958_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/UHC-126-U/9_S686_S958_Perspective-2048x2048.png",
+          "official_sha256": "583476f753cb73aece8ea7ccf088da32e0876c753b3c7fcd2955c99c0aa6a90c",
+          "optimized_bytes": 100868,
+          "caption": "UHC-126-U"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/universal-hydraulic-controller-uhc-126-u-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/universal-hydraulic-controller-uhc-126-u-pfn/",
+      "display_name": "Universal Hydraulic Controller UHC-126-U-PFN",
+      "model_codes": [
+        "UHC-126-U-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-023"
+      ],
+      "official_product_names": [
+        "UHC-126-U"
+      ],
+      "official_order_numbers": [
+        "UHC-126-U-PFN",
+        "UHC-126-U-ETC",
+        "UHC-126-U-PDP"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "UHC-126-U-PFN-ETC-PDP-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/UHC-126-U-PFN-ETC-PDP-EN.pdf",
+          "sha256": "406d9723064747819af4c0801390da1d36d531136e07e42e0bd2be960d4bbe09"
+        },
+        {
+          "filename": "UHC-126-U-S2-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/UHC-126-U-S2-EN.pdf",
+          "sha256": "24a190ca668f24d83cbab42ebdca75f9be5446d405e31f21904ef2d84f13acd1"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-023-9-s686-s958-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-023-9-s686-s958-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/9_S686_S958_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/UHC-126-U/9_S686_S958_Perspective-2048x2048.png",
+          "official_sha256": "583476f753cb73aece8ea7ccf088da32e0876c753b3c7fcd2955c99c0aa6a90c",
+          "optimized_bytes": 100868,
+          "caption": "UHC-126-U"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/universal-hydraulic-controller-uhc-326-u-pfn/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/universal-hydraulic-controller-uhc-326-u-pfn/",
+      "display_name": "Universal Hydraulic Controller UHC-326-U-PFN",
+      "model_codes": [
+        "UHC-326-U-PFN"
+      ],
+      "official_product_ids": [
+        "WEST-017"
+      ],
+      "official_product_names": [
+        "UHC-326-U-PFN"
+      ],
+      "official_order_numbers": [
+        "UHC-326-U-PFN"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/positioniersteuerungen/"
+      ],
+      "documents": [
+        {
+          "filename": "UHC-326-U-PFN-EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/UHC-326-U-PFN-EN.pdf",
+          "sha256": "133b08cfb47da517f1558c036c5488677a99e61b265454fccfa3a517f1cbdf9d"
+        },
+        {
+          "filename": "WestScript_EN.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/WestScript_EN.pdf",
+          "sha256": "91a88cd84ba0d7f6372712fb5289ad9854e70b0816af48310cd28964f8733791"
+        }
+      ],
+      "image_status": "approved_official",
+      "main_image": "/wp-content/uploads/west-official/west-017-9-s686-s958-perspective-2048x2048.webp",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/west-017-9-s686-s958-perspective-2048x2048.webp",
+          "official_url": "https://www.w-e-st.de/wp/wp-content/uploads/2024/10/9_S686_S958_Perspective-2048x2048.png",
+          "official_local_source": "assets/images/position-control-modules/UHC-326-U-PFN/9_S686_S958_Perspective-2048x2048.png",
+          "official_sha256": "583476f753cb73aece8ea7ccf088da32e0876c753b3c7fcd2955c99c0aa6a90c",
+          "optimized_bytes": 100868,
+          "caption": "UHC-326-U-PFN"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    },
+    {
+      "route": "/san-pham/wpc-300-4-0/",
+      "canonical_url": "https://w-e-st.com.vn/san-pham/wpc-300-4-0/",
+      "display_name": "WPC-300 4.0",
+      "model_codes": [
+        "WPC-300"
+      ],
+      "official_product_ids": [
+        "WEST-041"
+      ],
+      "official_product_names": [
+        "WPC-300 4.0"
+      ],
+      "official_order_numbers": [
+        "WPC-300"
+      ],
+      "official_source_pages": [
+        "https://www.w-e-st.de/wp/en/produkt-portfolio/software/"
+      ],
+      "documents": [
+        {
+          "filename": "Quick_Start-WPC-300-V4-EN-0720.pdf",
+          "url": "https://www.w-e-st.de/files/pdf/Quick_Start-WPC-300-V4-EN-0720.pdf",
+          "sha256": "85eb53e98b9f9a6aa8dd859e6c65b9b63aa7b36123f24bb53a0d751da3374d67"
+        }
+      ],
+      "image_status": "blocked_no_official_image",
+      "main_image": "/wp-content/uploads/west-official/image-pending.svg",
+      "images": [
+        {
+          "local_url": "/wp-content/uploads/west-official/image-pending.svg",
+          "official_url": "",
+          "caption": "Chưa có ảnh chính thức phù hợp"
+        }
+      ],
+      "last_verified_at": "2026-07-17",
+      "price_status": "request_quote_no_official_price_found"
+    }
+  ]
+}

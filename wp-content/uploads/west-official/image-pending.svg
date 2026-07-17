@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Hình ảnh sản phẩm đang được W.E.St. xác nhận</title>
+  <desc id="desc">Khung trung tính dùng khi chưa có hình ảnh chính thức đúng model hoặc đúng biến thể.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f8fb"/>
+      <stop offset="1" stop-color="#e8eef4"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" rx="34" fill="url(#bg)"/>
+  <rect x="36" y="36" width="828" height="628" rx="26" fill="none" stroke="#cbd5df" stroke-width="4" stroke-dasharray="14 12"/>
+  <g transform="translate(330 165)">
+    <path d="M0 32 78 0l55 43 67-28 50 42-76 39-51-41-66 30z" fill="#1d3f62" opacity=".95"/>
+    <path d="m67 94 57-26 50 41 75-39v37l-78 41-49-41-55 25z" fill="#ed2e61"/>
+  </g>
+  <text x="450" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#163b60">W.E.St. Vietnam</text>
+  <text x="450" y="445" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#465a6d">Hình ảnh chính thức đang được xác nhận</text>
+  <text x="450" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#6a7b8b">Không sử dụng ảnh của model khác để minh họa</text>
+</svg>

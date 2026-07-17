@@ -2306,3 +2306,76 @@ img {
     height: 360px !important;
   }
 }
+
+/* Product image provenance and QA status */
+.sp-img-box[data-image-status] {
+  position: relative;
+}
+
+.sp-img-box[data-image-status="blocked_no_official_image"] {
+  background: #f6f8fb;
+}
+
+.sp-img-gallery-secondary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.sp-img-gallery-secondary figure {
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #dce4eb;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.sp-img-gallery-secondary img {
+  width: 100%;
+  height: 130px;
+  object-fit: contain;
+}
+
+.sp-img-gallery-secondary figcaption {
+  margin-top: 6px;
+  color: #5a6a79;
+  font-size: 11px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.sp-image-source-note,
+.sp-verification-note {
+  margin: 10px 0 18px;
+  padding: 9px 11px;
+  border-left: 3px solid #1b6a8f;
+  border-radius: 0 8px 8px 0;
+  background: #eef6fa;
+  color: #395162;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.sp-official-source-panel {
+  margin: 0 0 18px;
+  padding: 14px;
+  border: 1px solid #dce4eb;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.sp-image-source-note[data-status="pending_official_confirmation"],
+.sp-image-source-note[data-status="blocked_no_official_image"],
+.sp-verification-note {
+  border-left-color: #d49b00;
+  background: #fff7dc;
+  color: #6c550d;
+}
+
+@media (max-width: 640px) {
+  .sp-img-gallery-secondary {
+    grid-template-columns: 1fr;
+  }
+}
