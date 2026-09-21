@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thay card Rexroth VT-VSPA1-1, VT-VSPA2-1 bằng W.E.St PAM-199-P: hướng dẫn từng bước | W.E.St. Vietnam</title>
+<meta name="description" content="Hướng dẫn thay card Eurocard Rexroth VT-VSPA1-1, VT-VSPA2-1 bằng module ray DIN W.E.St PAM-199-P: đối chiếu chức năng, đo trước khi tháo, đi dây, cài WPC-300 và chạy thử.">
+<meta name="keywords" content="thay thế VT-VSPA1, thay thế VT-VSPA2, VT-VSPA1-1 thay thế, VT-VSPA2-1 thay thế, card Rexroth thay thế, PAM-199-P, cài đặt PAM-199-P, WPC-300, W.E.St Vietnam">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://w-e-st.com.vn/blog/thay-vt-vspa-bang-pam-199-p/">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Thay card Rexroth VT-VSPA1-1, VT-VSPA2-1 bằng W.E.St PAM-199-P: hướng dẫn từng bước | W.E.St. Vietnam">
+<meta property="og:description" content="Hướng dẫn thay card Eurocard Rexroth VT-VSPA1-1, VT-VSPA2-1 bằng module ray DIN W.E.St PAM-199-P: đối chiếu chức năng, đo trước khi tháo, đi dây, cài WPC-300 và chạy thử.">
+<meta property="og:url" content="https://w-e-st.com.vn/blog/thay-vt-vspa-bang-pam-199-p/">
+<meta property="og:site_name" content="W.E.St. Vietnam">
+<meta property="og:image" content="https://w-e-st.com.vn/wp-content/uploads/west-official/west-008-1-s686-perspective-2048x2048.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Thay card Rexroth VT-VSPA1-1, VT-VSPA2-1 bằng W.E.St PAM-199-P: hướng dẫn từng bước | W.E.St. Vietnam">
+<meta name="twitter:description" content="Hướng dẫn thay card Eurocard Rexroth VT-VSPA1-1, VT-VSPA2-1 bằng module ray DIN W.E.St PAM-199-P: đối chiếu chức năng, đo trước khi tháo, đi dây, cài WPC-300 và chạy thử.">
+<meta name="twitter:image" content="https://w-e-st.com.vn/wp-content/uploads/west-official/west-008-1-s686-perspective-2048x2048.webp">
+<link rel="icon" href="/wp-content/uploads/2026/04/cropped-West-32x32.png" sizes="32x32">
+<link rel="stylesheet" href="/css/style.css?v=20260708-balanced2">
+<link rel="stylesheet" href="/css/template-standard.css?v=20260717-dataqa1">
+<script src="/js/site.js?v=20260708-template10" defer></script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://w-e-st.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Blog kỹ thuật", "item": "https://w-e-st.com.vn/blog/"}, {"@type": "ListItem", "position": 3, "name": "Thay card Rexroth VT-VSPA1-1 và VT-VSPA2-1 bằng W.E.St PAM-199-P — hướng dẫn từng bước", "item": "https://w-e-st.com.vn/blog/thay-vt-vspa-bang-pam-199-p/"}]}, {"@type": "BlogPosting", "headline": "Thay card Rexroth VT-VSPA1-1 và VT-VSPA2-1 bằng W.E.St PAM-199-P — hướng dẫn từng bước", "description": "Hướng dẫn thay card Eurocard Rexroth VT-VSPA1-1, VT-VSPA2-1 bằng module ray DIN W.E.St PAM-199-P: đối chiếu chức năng, đo trước khi tháo, đi dây, cài WPC-300 và chạy thử.", "image": "https://w-e-st.com.vn/wp-content/uploads/west-official/west-008-1-s686-perspective-2048x2048.webp", "datePublished": "2026-09-22", "dateModified": "2026-09-22", "inLanguage": "vi-VN", "author": {"@type": "Organization", "name": "Fast Group Engineering"}, "publisher": {"@type": "Organization", "name": "W.E.St. Vietnam", "url": "https://w-e-st.com.vn"}, "mainEntityOfPage": "https://w-e-st.com.vn/blog/thay-vt-vspa-bang-pam-199-p/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Một PAM-199-P thay được mấy card VT-VSPA1-1?", "acceptedAnswer": {"@type": "Answer", "text": "Ở chế độ 196, PAM-199-P điều khiển độc lập một hoặc hai van 1 cuộn. Vì vậy một module có thể thay một hoặc hai card VT-VSPA1-1, tùy cách bố trí tín hiệu lệnh."}}, {"@type": "Question", "name": "VT-VSPA2-1 có 4 lệnh gọi sẵn, PAM-199-P có làm được không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Chế độ 197 của PAM-199-P cho phép chọn tối đa 8 giá trị lệnh và ramp cài sẵn bằng 3 ngõ vào số. Khi đó cần đổi cách gọi lệnh từ 4 ngõ vào riêng sang mã nhị phân 3 bit, thường chỉnh ở PLC hoặc bằng rơ-le."}}, {"@type": "Question", "name": "Có dùng lại được giá card và đầu cắm cũ không?", "acceptedAnswer": {"@type": "Answer", "text": "Không cắm trực tiếp được vì PAM-199-P lắp ray DIN. Có thể giữ lại cầu đấu phía sau giá card làm điểm nối trung gian để giảm việc kéo dây mới."}}, {"@type": "Question", "name": "Nếu PLC dùng Profinet thì chọn mã nào?", "acceptedAnswer": {"@type": "Answer", "text": "Chọn PAM-199-P-PFN. Lệnh và chẩn đoán đi qua Profinet, bỏ được dây analog."}}, {"@type": "Question", "name": "Sau khi thay, van kêu hoặc xi-lanh rung thì chỉnh gì trước?", "acceptedAnswer": {"@type": "Answer", "text": "Kiểm tra tần số và biên độ dither, sau đó đến tần số PWM. Giá trị phù hợp nằm trong datasheet van; bắt đầu từ khuyến nghị của hãng van rồi chỉnh từng bước nhỏ."}}]}]}
+</script>
+</head>
+<body>
+<div class="wh-wrap">
+  <div class="wh-topbar">
+    <div class="wh-topbar-inner">
+      <div class="wh-topbar-left">
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.62a16 16 0 006.29 6.29l1.14-1.14a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          <a href="tel:+84938888958">+84 938 888 958</a>
+        </div>
+        <div class="wh-tb-divider"></div>
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <a href="mailto:sales@w-e-st.com.vn">sales@w-e-st.com.vn</a>
+        </div>
+        <div class="wh-tb-divider"></div>
+        <div class="wh-topbar-item">
+          <svg width="12" height="12" viewBox="0 0 24 24" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Vũng Tàu, Việt Nam</span>
+        </div>
+      </div>
+      <div class="wh-topbar-right">
+        <div class="wh-dot"></div>
+        <span class="wh-auth-tag">Authorized Distributor</span>
+      </div>
+    </div>
+  </div>
+  <div class="wh-main">
+    <div class="wh-main-inner">
+      <a href="/" class="wh-logo-group west-brand-lockup" aria-label="W.E.St. Vietnam - Hydraulics meets electronics">
+        <span class="west-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="" class="wh-logo">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wh-logo-text">W.E.St. Vietnam</span>
+          <span class="wh-logo-sub">Hydraulics meets electronics</span>
+        </span>
+      </a>
+      <nav class="wh-nav">
+        <a class="wh-nav-link" href="/">Trang chủ</a>
+        <div class="wh-nav-item">
+          <a class="wh-nav-link" href="/san-pham/">Sản phẩm</a>
+          <div class="wh-dropdown">
+            <a class="wh-dd-item" href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/position-controls/">Điều khiển vị trí</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/pid-/-pressure-controls/">Điều khiển PID / áp suất</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/synchronization/">Đồng bộ hóa</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/pump-control-modules/">Mô-đun Điều Khiển Bơm</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+            <a class="wh-dd-item" href="/nhom-san-pham/universal-function-modules/">Mô-đun đa năng</a>
+          </div>
+        </div>
+        <a class="wh-nav-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
+        <a class="wh-nav-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
+        <a class="wh-nav-link" href="/blog/">Blog</a>
+        <a class="wh-nav-link" href="/ve-chung-toi/">Về chúng tôi</a>
+      </nav>
+      <a class="wh-cta" href="/#request-quote-form">Báo giá ngay</a>
+      <button class="wh-hamburger" type="button" aria-label="Menu" aria-controls="wh-mobile-menu" aria-expanded="false"><span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="wh-mobile-menu" id="wh-mobile-menu">
+    <a class="wh-mob-link" href="/">Trang chủ</a>
+    <div class="wh-mob-toggle" role="button" tabindex="0" aria-expanded="false">
+      Sản phẩm
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </div>
+    <div class="wh-mob-submenu">
+      <a class="wh-mob-sublink" href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/position-controls/">Điều khiển vị trí</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/pid-/-pressure-controls/">Điều khiển PID / áp suất</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/synchronization/">Đồng bộ hóa</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/pump-control-modules/">Mô-đun Điều Khiển Bơm</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/bo-dieu-khien-dong-bo/">Bộ điều khiển đồng bộ</a>
+      <a class="wh-mob-sublink" href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a>
+    </div>
+    <a class="wh-mob-link" href="/ung-dung-dau-khi/">Ứng dụng</a>
+    <a class="wh-mob-link" href="/tai-lieu-ky-thuat/">Tài liệu</a>
+    <a class="wh-mob-link" href="/blog/">Blog</a>
+    <a class="wh-mob-link" href="/ve-chung-toi/">Về chúng tôi</a>
+    <a class="wh-mob-cta" href="/#request-quote-form">Báo giá ngay</a>
+  </div>
+</div>
+<div class="blog-breadcrumb">
+  <a href="/">Trang chủ</a><span>›</span><a href="/blog/">Blog kỹ thuật</a><span>›</span><span>Thay card Rexroth VT-VSPA1-1 và VT-VSPA2-1 bằng W.E.St PAM-199-P — hướng dẫn từng bước</span>
+</div>
+<article class="blog-article blog-article-clean">
+  <header class="blog-post-hero">
+    <div class="blog-post-hero-copy">
+      <div class="blog-meta">
+        <span>Fast Group Engineering</span>
+        <span>22/09/2026</span>
+        <span>Thay thế</span>
+      </div>
+      <h1>Thay card Rexroth VT-VSPA1-1 và VT-VSPA2-1 bằng W.E.St PAM-199-P — hướng dẫn từng bước</h1>
+      <p class="blog-post-lead">VT-VSPA1-1 và VT-VSPA2-1 là hai card Eurocard phổ biến nhất cho van tỷ lệ không phản hồi của Rexroth. Bài này hướng dẫn chuyển sang PAM-199-P theo từng bước, kèm bảng đối chiếu chức năng và biểu mẫu đo để máy chạy lại đúng như trước.</p>
+    </div>
+    <figure class="blog-featured-img">
+      <img src="/wp-content/uploads/west-official/west-008-1-s686-perspective-2048x2048.webp" alt="Thay card Rexroth VT-VSPA1-1 và VT-VSPA2-1 bằng W.E.St PAM-199-P — hướng dẫn từng bước - W.E.St. Vietnam" loading="lazy">
+    </figure>
+  </header>
+  <div class="blog-post-body">
+<p>Card <strong>VT-VSPA1-1</strong> của Bosch Rexroth dùng cho van áp suất tỷ lệ 1 cuộn không có phản hồi vị trí điện, như DBE, DBEM, DRE, DREM, DBEP 6 và ZDRE 10. Card <strong>VT-VSPA2-1</strong> dùng cho van hướng tỷ lệ 4WRA, 4WRZ và van 3DREP 6 (<a href="https://hyquip.co.uk/analog-and-digital-euro-card-format/4483-valves-amplifiers-for-proportional-pressure-valves-vt-vspa1k-1-1x.html" rel="nofollow">VT-VSPA1-1</a>, <a href="https://hyquip.co.uk/analog-and-digital-euro-card-format/4484-valve-amplifiers-for-proportional-directional-valves-and-proportional-pressure-valves-vt-vspa2-1-2x.html" rel="nofollow">VT-VSPA2-1</a>). Cả hai đều là card analog dạng Eurocard, chỉnh bằng biến trở và jumper.</p>
+<p><a href="/san-pham/pam-199-p/">W.E.St PAM-199-P</a> là bộ khuếch đại số lắp ray DIN, điều khiển được van tỷ lệ của Rexroth, Bucher, Duplomatic, Parker và các hãng khác theo công bố của W.E.St (<a href="https://www.w-e-st.de/wp/en/produkt-portfolio/leistungsverstaerker/" rel="nofollow">nguồn</a>). Một mã PAM-199-P thay được cả hai loại card nhờ 3 chế độ làm việc.</p>
+
+<h2>Đối chiếu chức năng</h2>
+<div class="blog-table-wrap"><table>
+<thead><tr><th>Chức năng trên card Rexroth</th><th>Trên PAM-199-P</th><th>Ghi chú khi chuyển đổi</th></tr></thead>
+<tbody>
+<tr><td>Van 1 cuộn (VT-VSPA1-1)</td><td>Chế độ 196: một hoặc hai van 1 cuộn, điều khiển độc lập</td><td>Một module có thể thay 2 card nếu cùng tủ</td></tr>
+<tr><td>Van 2 cuộn (VT-VSPA2-1)</td><td>Chế độ 195: một van hướng 2 cuộn</td><td>Lệnh ±10 V giữ nguyên</td></tr>
+<tr><td>Ngõ vào vi sai, chuyển được sang 4…20 mA</td><td>Lệnh ±10 V / 0…10 V hoặc 4…20 mA có giám sát đứt dây</td><td>Chọn đúng dạng tín hiệu trong WPC-300</td></tr>
+<tr><td>4 lệnh gọi sẵn (VT-VSPA2-1)</td><td>Chế độ 197: tối đa 8 lệnh và ramp cài sẵn qua 3 ngõ vào số</td><td>Đổi cách gọi từ 4 ngõ riêng sang mã 3 bit</td></tr>
+<tr><td>Ramp lên / xuống chỉnh riêng</td><td>RAMP cài bằng số</td><td>Nhập thời gian đo được trên máy cũ</td></tr>
+<tr><td>Chỉnh bước nhảy và giá trị tối đa đặc tính</td><td>MIN (bù vùng chết), MAX, tuyến tính hóa 10 điểm XY</td><td>Tuyến tính hóa là tính năng mới, card cũ không có</td></tr>
+<tr><td>Tầng công suất xung, bảo vệ ngắn mạch, phát hiện đứt dây cuộn</td><td>Dòng điều khiển vòng kín 0,125 ms; giám sát đứt dây, chống ngắn mạch, tự ngắt khi lỗi</td><td>Tương đương hoặc tốt hơn</td></tr>
+<tr><td>Ngõ vào enable, ngõ ra “Ready”</td><td>Ngõ vào enable và ngõ ra trạng thái (READY)</td><td>Đối chiếu số chân và mức tín hiệu với datasheet PAM-199-P</td></tr>
+<tr><td>Biến trở, jumper</td><td>Tham số số, lưu và nạp lại bằng file</td><td>Thay dự phòng nhanh hơn nhiều</td></tr>
+</tbody></table></div>
+
+<h2>Sơ đồ đi dây theo chức năng</h2>
+<figure class="blog-figure" style="margin:28px 0">
+<svg viewBox="0 0 760 330" role="img" aria-label="Sơ đồ đi dây chức năng từ PLC qua PAM-199-P tới van tỷ lệ" style="width:100%;height:auto;font-family:inherit">
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5b6b82"/></marker></defs>
+<style>.bx{fill:#fff;stroke:#0f2a44;stroke-width:1.6}.hd{fill:#0f2a44;font-size:14px;font-weight:700}.it{fill:#33475e;font-size:12.5px}.wr{stroke:#5b6b82;stroke-width:1.6;fill:none}.md{fill:#fdecef;stroke:#d7264f;stroke-width:1.8}.mh{fill:#8a1233;font-size:15px;font-weight:700}</style>
+<rect class="bx" x="20" y="30" width="200" height="270" rx="8"/><text class="hd" x="120" y="58" text-anchor="middle">PLC / bộ điều khiển máy</text>
+<text class="it" x="36" y="100">Lệnh analog ±10 V / 4…20 mA</text>
+<text class="it" x="36" y="150">Enable (24 V)</text>
+<text class="it" x="36" y="200">Ready / báo lỗi</text>
+<text class="it" x="36" y="250">(Chế độ 197: 3 ngõ chọn lệnh)</text>
+<rect class="md" x="290" y="30" width="200" height="270" rx="8"/><text class="mh" x="390" y="58" text-anchor="middle">PAM-199-P</text>
+<text class="it" x="306" y="100">Ngõ vào lệnh vi sai</text><text class="it" x="306" y="150">Ngõ vào enable</text><text class="it" x="306" y="200">Ngõ ra trạng thái</text>
+<text class="it" x="306" y="250">Nguồn 24 VDC + cầu chì</text><text class="it" x="306" y="280">USB → WPC-300</text>
+<path class="wr" d="M220 96 H288" marker-end="url(#a3)"/><path class="wr" d="M220 146 H288" marker-end="url(#a3)"/><path class="wr" d="M288 196 H222" marker-end="url(#a3)"/>
+<rect class="bx" x="560" y="30" width="180" height="270" rx="8"/><text class="hd" x="650" y="58" text-anchor="middle">Van tỷ lệ</text>
+<text class="it" x="576" y="110">Cuộn A</text><text class="it" x="576" y="190">Cuộn B (van 2 cuộn)</text>
+<text class="it" x="576" y="250">Cáp có vỏ chống nhiễu</text>
+<path class="wr" d="M490 106 H558" marker-end="url(#a3)"/><path class="wr" d="M490 186 H558" marker-end="url(#a3)"/>
+</svg>
+<figcaption style="font-size:13px;color:#5b6b82;margin-top:6px">Hình 1. Sơ đồ đi dây theo chức năng. Số chân cầu đấu lấy theo datasheet PAM-199-P và sơ đồ điện của máy — không suy từ sơ đồ card cũ.</figcaption>
+</figure>
+
+<h2>Bước 1 — Đo và ghi lại trước khi tháo card cũ</h2>
+<p>Card VT-VSPA được chỉnh bằng biến trở nên không có “file tham số” để sao chép. Mọi thông tin cần giữ lại phải đo khi máy còn chạy:</p>
+<ol>
+<li>Ghi mã card đầy đủ (kể cả hậu tố như /V0/T1, /V0/T5) và mã van.</li>
+<li>Chụp ảnh vị trí tất cả jumper và biến trở.</li>
+<li>Ở chế độ chạy tay, đặt lệnh 0%, 25%, 50%, 75%, 100% và đo dòng cuộn van bằng ampe kìm DC. Với van 2 cuộn, đo cả chiều A và B.</li>
+<li>Ghi áp suất hoặc tốc độ xi-lanh tương ứng nếu có đồng hồ.</li>
+<li>Bấm giờ thời gian tăng và giảm (ramp) khi đổi lệnh đột ngột.</li>
+</ol>
+<p>Bảng số liệu này là “bản sao” của card cũ. Không có nó, người chạy thử sẽ phải chỉnh theo cảm giác.</p>
+
+<h2>Bước 2 — Chọn chế độ và phiên bản</h2>
+<ul>
+<li>VT-VSPA1-1 → PAM-199-P, <strong>chế độ 196</strong>.</li>
+<li>VT-VSPA2-1 dùng lệnh analog → <strong>chế độ 195</strong>.</li>
+<li>VT-VSPA2-1 dùng 4 lệnh gọi sẵn → <strong>chế độ 197</strong> và đổi logic gọi lệnh.</li>
+<li>PLC có Profinet, EtherCAT, Profibus hoặc IO-Link → chọn PAM-199-P-PFN / -ETC / -PDP / -IO.</li>
+</ul>
+
+<h2>Bước 3 — Lắp đặt và đi dây</h2>
+<ul>
+<li>Lắp module trên ray DIN trong tủ, cách xa biến tần và contactor.</li>
+<li>Nguồn 24 VDC có cầu chì riêng cho module.</li>
+<li>Cáp lệnh analog dùng cáp xoắn có vỏ chống nhiễu, nối đất vỏ một đầu phía tủ.</li>
+<li>Cáp cuộn van đi riêng, không chung máng với cáp động lực.</li>
+<li>Có thể giữ lại cầu đấu phía sau giá card cũ làm điểm nối trung gian.</li>
+</ul>
+
+<h2>Bước 4 — Cài đặt bằng WPC-300</h2>
+<p>Kết nối module với máy tính qua USB và mở <a href="/blog/phan-mem-wpc-300-west/">WPC-300</a>. Cài theo thứ tự:</p>
+<div class="blog-table-wrap"><table>
+<thead><tr><th>Thứ tự</th><th>Tham số</th><th>Lấy giá trị từ đâu</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Chế độ (195 / 196 / 197)</td><td>Bước 2</td></tr>
+<tr><td>2</td><td>Dạng tín hiệu lệnh</td><td>Sơ đồ điện máy / card cũ</td></tr>
+<tr><td>3</td><td>Dòng tối đa của cuộn</td><td>Nhãn cuộn hoặc datasheet van</td></tr>
+<tr><td>4</td><td>MIN (bù vùng chết) và MAX</td><td>Dòng đo tại lệnh nhỏ nhất và 100% ở bước 1</td></tr>
+<tr><td>5</td><td>RAMP</td><td>Thời gian bấm giờ ở bước 1</td></tr>
+<tr><td>6</td><td>DITHER (tần số, biên độ), tần số PWM</td><td>Khuyến nghị trong datasheet van</td></tr>
+<tr><td>7</td><td>Tuyến tính hóa 10 điểm (tùy chọn)</td><td>Bảng lệnh – áp suất đo được</td></tr>
+</tbody></table></div>
+
+<h2>Bước 5 — Chạy thử có đo</h2>
+<ol>
+<li>Chạy không tải, lặp lại 5 mức lệnh như bước 1 và so dòng với số liệu cũ. Chênh lệch nên nằm trong vài phần trăm.</li>
+<li>Chạy có tải, quan sát áp suất, tốc độ và tiếng van.</li>
+<li>Thử ngắt enable và rút dây cuộn van để xác nhận module báo lỗi về PLC đúng như thiết kế.</li>
+</ol>
+
+<h2>Bước 6 — Lưu và bàn giao</h2>
+<p>Lưu file tham số với tên theo máy và vị trí (ví dụ <code>MAY-EP-03_VAN-AP.par</code>), lưu thêm một bản trên máy tính bảo trì và dán nhãn lên tủ. Lần sau thay module dự phòng chỉ cần nạp lại file, không phải chỉnh lại từ đầu.</p>
+
+<h2>Lỗi thường gặp khi chuyển đổi</h2>
+<ul>
+<li><strong>Đảo chiều van 2 cuộn:</strong> đấu ngược cuộn A và B. Kiểm tra chiều chạy xi-lanh ở lệnh nhỏ trước khi tăng tốc.</li>
+<li><strong>Van không phản ứng ở lệnh nhỏ:</strong> MIN cài thấp hơn vùng chết của van.</li>
+<li><strong>Báo lỗi đứt dây ngay khi bật:</strong> chọn 4…20 mA trong khi PLC xuất 0…10 V, hoặc dây lệnh chưa nối.</li>
+<li><strong>Van kêu, nóng:</strong> dither hoặc tần số PWM chưa phù hợp với van.</li>
+</ul>
+<h2>Câu hỏi thường gặp (FAQ)</h2>
+<p><strong>1. Một PAM-199-P thay được mấy card VT-VSPA1-1?</strong> Ở chế độ 196, PAM-199-P điều khiển độc lập một hoặc hai van 1 cuộn. Vì vậy một module có thể thay một hoặc hai card VT-VSPA1-1, tùy cách bố trí tín hiệu lệnh.</p>
+<p><strong>2. VT-VSPA2-1 có 4 lệnh gọi sẵn, PAM-199-P có làm được không?</strong> Có. Chế độ 197 của PAM-199-P cho phép chọn tối đa 8 giá trị lệnh và ramp cài sẵn bằng 3 ngõ vào số. Khi đó cần đổi cách gọi lệnh từ 4 ngõ vào riêng sang mã nhị phân 3 bit, thường chỉnh ở PLC hoặc bằng rơ-le.</p>
+<p><strong>3. Có dùng lại được giá card và đầu cắm cũ không?</strong> Không cắm trực tiếp được vì PAM-199-P lắp ray DIN. Có thể giữ lại cầu đấu phía sau giá card làm điểm nối trung gian để giảm việc kéo dây mới.</p>
+<p><strong>4. Nếu PLC dùng Profinet thì chọn mã nào?</strong> Chọn PAM-199-P-PFN. Lệnh và chẩn đoán đi qua Profinet, bỏ được dây analog.</p>
+<p><strong>5. Sau khi thay, van kêu hoặc xi-lanh rung thì chỉnh gì trước?</strong> Kiểm tra tần số và biên độ dither, sau đó đến tần số PWM. Giá trị phù hợp nằm trong datasheet van; bắt đầu từ khuyến nghị của hãng van rồi chỉnh từng bước nhỏ.</p>
+<h2>Liên hệ báo giá &amp; tư vấn thay thế</h2>
+<p>Fast Group Engineering — nhà phân phối chính thức W.E.St. Elektronik tại Việt Nam. Gửi ảnh nhãn card cũ và nhãn van, chúng tôi phản hồi mã thay thế và sơ đồ đấu nối đề xuất.</p>
+<p>📞 0938 888 958 (Zalo) · ✉️ sales@w-e-st.com.vn</p>
+  </div>
+  <section class="blog-product-links">
+  <div class="blog-related-kicker">Sản phẩm được nhắc đến</div>
+  <div class="blog-product-link-list">
+    <a href="/san-pham/pam-199-p/">PAM-199-P</a>
+<a href="/san-pham/pam-199-p-etc-/-pam-199-p-pfn-/-pam-199-p-pdp/">PAM-199-P-PFN / ETC / PDP</a>
+<a href="/san-pham/pam-199-p-io/">PAM-199-P-IO</a>
+<a href="/san-pham/wpc-300-4-0/">WPC-300</a>
+  </div>
+</section>
+  <section class="blog-related-panel">
+  <div class="blog-related-kicker">Đọc tiếp</div>
+  <h2>Bài viết liên quan</h2>
+  <div class="blog-related-grid">
+    <a class="blog-related-card" href="/blog/bang-thay-the-card-van-ty-le/">
+  <span>Thay thế</span>
+  <strong>Bảng thay thế tương đương: card van tỷ lệ Rexroth, Atos, Parker, Moog → W.E.St</strong>
+</a><a class="blog-related-card" href="/blog/phan-mem-wpc-300-west/">
+  <span>Kỹ thuật</span>
+  <strong>Cấu hình &amp; hiệu chỉnh module W.E.St bằng phần mềm WPC-300</strong>
+</a><a class="blog-related-card" href="/blog/sua-loi-bo-khuech-dai-van-ty-le-west/">
+  <span>Kỹ thuật</span>
+  <strong>Sửa lỗi bộ khuếch đại van tỷ lệ W.E.St: cable break, short circuit &amp; mất tín hiệu</strong>
+</a>
+  </div>
+</section>
+  <section class="blog-cta-panel">
+    <div>
+      <span class="blog-related-kicker">Tư vấn kỹ thuật</span>
+      <h2>Cần chọn module W.E.St. cho hệ thống thủy lực?</h2>
+      <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. tại Việt Nam, hỗ trợ chọn model, kiểm tra datasheet và tư vấn giải pháp thay thế cho dự án công nghiệp.</p>
+    </div>
+    <a href="/lien-he/">Nhận tư vấn</a>
+  </section>
+</article>
+<footer class="wf">
+  <div class="wf-colorbar" aria-hidden="true"><span></span><span></span></div>
+  <div class="wf-inner">
+    <div class="wf-top">
+      <div class="wf-brand-lockup">
+        <span class="west-logo-mark wf-logo-mark" aria-hidden="true">
+          <img src="/wp-content/uploads/2026/04/west-transparent.png" alt="">
+        </span>
+        <span class="west-logo-copy">
+          <span class="wf-logo-name">W.E.St. Vietnam</span>
+          <span class="wf-tagline">Hydraulics meets electronics</span>
+          <span class="wf-origin">Hydraulics meets electronics — W.E.St. Elektronik GmbH, Germany</span>
+        </span>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+        <span class="wf-auth-text">Authorized Distributor — Vietnam</span>
+        <div class="wf-since">Est. 1999</div>
+      </div>
+    </div>
+    <div class="wf-grid">
+      <div>
+        <h4>Về chúng tôi</h4>
+        <p>Fast Group Engineering là nhà phân phối chính thức của W.E.St. Elektronik GmbH tại Việt Nam — chuyên cung cấp module điều khiển van tỷ lệ thủy lực cho ngành dầu khí, công nghiệp nặng và tự động hóa.</p>
+        <p style="margin-top:10px;font-size:12.5px;font-weight:650;color:#8b97a8">MST: 0315555189</p>
+        <div class="cert-row">
+          <span class="cert-badge">ATEX / EX Zone</span>
+          <span class="cert-badge">ISO Certified</span>
+          <span class="cert-badge">Oil &amp; Gas</span>
+        </div>
+      </div>
+      <div>
+        <h4>Sản phẩm</h4>
+        <ul>
+          <li><a href="/nhom-san-pham/power-amplifiers/">Bộ khuếch đại công suất</a></li>
+          <li><a href="/nhom-san-pham/position-controls/">Bộ điều khiển vị trí</a></li>
+          <li><a href="/nhom-san-pham/synchronization/">Bộ điều khiển đồng bộ</a></li>
+          <li><a href="/nhom-san-pham/pid-/-pressure-controls/">Bộ điều khiển áp suất</a></li>
+          <li><a href="/nhom-san-pham/nhom-module-giao-tiep-chuyen-doi-mang/">Module giao tiếp mạng</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hỗ trợ kỹ thuật</h4>
+        <ul>
+          <li><a href="/tai-lieu-ky-thuat/">Tài liệu &amp; Datasheet</a></li>
+          <li><a href="/blog/">Blog kỹ thuật</a></li>
+          <li><a href="/ung-dung-dau-khi/">Ứng dụng</a></li>
+          <li><a href="/ve-chung-toi/">Về chúng tôi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-text"><span class="contact-label">Văn phòng TP.HCM</span>150/41 Nguyễn Cư Trinh, P. Cầu Ông Lãnh, Q.1, TP. Hồ Chí Minh</div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="contact-text"><span class="contact-label">Văn phòng Vũng Tàu</span>51 Lê Văn Lộc, TP. Vũng Tàu, Việt Nam</div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.62a16 16 0 006.29 6.29l1.14-1.14a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          <div class="contact-text"><span class="contact-label">Hotline</span><a href="tel:+84938888958">+84 938 888 958</a></div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <div class="contact-text"><span class="contact-label">Email</span><a href="mailto:sales@w-e-st.com.vn">sales@w-e-st.com.vn</a></div>
+        </div>
+        <div class="contact-item">
+          <svg class="contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path></svg>
+          <div class="contact-text"><span class="contact-label">Zalo</span><a href="https://zalo.me/0938888958">0938 888 958</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wf-bar-wrap">
+    <div class="wf-bar">
+      <div class="wf-bar-left">
+        <div class="wf-dist-label">Distributed by</div>
+        <div class="wf-dist-name">Fast Group Company Limited</div>
+      </div>
+      <div class="wf-bar-copy">&copy; 2026 W.E.St. Vietnam. All rights reserved.</div>
+      <div class="wf-bar-links">
+        <a href="/chinh-sach-bao-mat/">Chính sách bảo mật</a>
+        <a href="/dieu-khoan/">Điều khoản</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
